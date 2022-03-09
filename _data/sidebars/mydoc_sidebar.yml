@@ -2,8 +2,8 @@
 
 entries:
 - title: sidebar
-  product: Jekyll Doc Theme
-  version: 6.0
+  product: SatComms Threats
+  version: 1.0
   folders:
 
   - title:
@@ -23,21 +23,17 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Get started
-      url: /index.html
+    - title: Overview
+      url: /en/overview
       output: web, pdf
       type: homepage
 
-    - title: Introduction
-      url: /mydoc_introduction.html
-      output: web, pdf
-
-    - title: Supported features
-      url: /mydoc_supported_features.html
+    - title: Scope
+      url: /satcomm_scope
       output: web, pdf
 
     - title: About the theme author
-      url: /mydoc_about.html
+      url: /satcomm_mitigations
       output: web, pdf
 
     - title: Support
