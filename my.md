@@ -1,7 +1,13 @@
 ---
-title: About
-permalink: /about/
-layout: home
+layout: single
+permalink: /my/
+locale: "MY"
+
+title: "Satellite Communication Threats"
+excerpt: "Burmese"
+last_modified_at: 2021-05-11T10:23:16-04:00
+toc: true
+toc_sticky: true
 
 header:
   overlay_color: "#000"
@@ -12,4 +18,5 @@ excerpt: "This is an adversary-neutral review of known risks when using Satellit
 
 ---
 
-What is this?
+
+Coming soon!

@@ -1,0 +1,14 @@
+main:
+  - title: "EN"
+    url: /en/
+  - title: "UA"
+    url: /ua/
+  - title: "MY"
+    url: /my/
+  - title: "About"
+    url: /about/
+  - title: "Credits"
+    url: /credits/
+
+  - title: "Updates"
+    url: /updates/

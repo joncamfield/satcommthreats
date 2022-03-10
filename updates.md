@@ -1,15 +1,14 @@
 ---
-title: About
-permalink: /about/
+title: "Updates"
+permalink: /updates/
 layout: home
+author_profile: false
 
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/spacex-VBNb52J8Trk-unsplash.jpg
-  caption: "Photo by [SpaceX](https://unsplash.com/@spacex)"
+  overlay_image: /assets/images/ivan-zhuldybin-dBzptpVKNFw-unsplash.jpg
+  caption: "Photo by [Ivan Zhuldybin](https://unsplash.com/photos/dBzptpVKNFw)"
 excerpt: "This is an adversary-neutral review of known risks when using Satellite communication tools such as satphones, BGANs, and even LEO-orbit (e.g. StarLink) terminals."
 
 ---
-
-What is this?
