@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Satellite Communiction Threats"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Jon Camfield / Internews"
+name                     : "Jon Camfield"
 description              : "This is an adversary-neutral review of known risks when using Satellite communication tools such as satphones, BGANs, and even StarLink terminals."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -105,12 +105,12 @@ author:
   name             : "Jon Camfield"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
-  location         : "Internews"
+  location         : "The Internet"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:jcamfield@internews.org"
+      url: "mailto:jon@openinternetproject.org"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://joncamfield.com"
@@ -132,7 +132,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/internews"
+      # url: "https://twitter.com/internews"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
