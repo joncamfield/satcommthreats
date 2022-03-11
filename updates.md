@@ -2,13 +2,13 @@
 title: "Updates"
 permalink: /updates/
 layout: home
-author_profile: false
+author_profile: true
 
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/ivan-zhuldybin-dBzptpVKNFw-unsplash.jpg
   caption: "Photo by [Ivan Zhuldybin](https://unsplash.com/photos/dBzptpVKNFw)"
-excerpt: "This is an adversary-neutral review of known risks when using Satellite communication tools such as satphones, BGANs, and even LEO-orbit (e.g. StarLink) terminals."
+excerpt: "Significant document updates and new translations will be posted here. <br/>"
 
 ---

@@ -12,63 +12,44 @@ header:
   actions:
     - label: "English"
       url: "/en/"
-    - label: "Ukrainian"
-      url: "/ua/"
-    - label: "Burmese"
-      url: "/mm/"
+#    - label: "Burmese"
+#      url: "/my/"
+#    - label: "Spanish"
+#      url: "/es/"
+#    - label: "Ukrainian"
+#      url: "/ua/"
   caption: "Photo by [SpaceX](https://unsplash.com/@spacex)"
 excerpt: "This is an adversary-neutral review of known risks when using Satellite communication tools such as satphones, BGANs, and even LEO-orbit (e.g. StarLink) terminals."
 intro:
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: ''
 feature_row:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row3:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
----
+  - image_path: assets/images/pawel-czerwinski-xq2EsbMRPe4-unsplash.jpg
+    image_caption: "[Pawel Czerwinski](https://unsplash.com/photos/xq2EsbMRPe4)"
+    alt: "Photo of satellite dishes on an apartment complex"
+    title: "Updates"
+    excerpt: "Significant document updates and new translations will be posted as blog posts"
+    url: "updates"
+    btn_label: "Updates"
+    btn_class: "btn--info"
+  - image_path: /assets/images/nasa-yZygONrUBe8-unsplash.jpg
+    image_caption: "[NASA](https://unsplash.com/photos/yZygONrUBe8)"
+    alt: "Photo of Earth from space, with a satellite in view"
+    title: "Translations"
+    excerpt: "Translation of this document into Ukrainian, Burmese, Spanish and more coming soon"
+    url: "contact"
+    btn_label: "Help"
+    btn_class: "btn--success"
+  - image_path: /assets/images/donald-giannatti-Wj1D-qiOseE-unsplash.jpg
+    image_caption: "[Donald Giannatti](https://unsplash.com/photos/Wj1D-qiOseE)"
+    alt: "Photo of a Satellite Earth Station"
+    title: "Mitigations"
+    excerpt: "Take me straight to the mitigations"
+    url: "en/#summary-of-mitigations-to-consider"
+    btn_label: "Mitigations"
+    btn_class: "btn--warning"
 
-{% include feature_row id="intro" type="center" %}
+---
 
 {% include feature_row %}
 
-{% include feature_row id="feature_row2" type="left" %}
-
-{% include feature_row id="feature_row3" type="right" %}
-
-{% include feature_row id="feature_row4" type="center" %}
 ---

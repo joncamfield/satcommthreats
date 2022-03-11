@@ -1,13 +1,13 @@
 ---
-title: References and Credits
-permalink: /credits/
+title: Contact
+permalink: /contact/
 layout: splash
 
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/anqi-lu-ycrX020cRcU-unsplash.jpg
-  caption: "Photo by [Anqi Lu](https://unsplash.com/photos/dBzptpVKNFw)"
+  overlay_image: /assets/images/pawel-czerwinski-xq2EsbMRPe4-unsplash.jpg
+  caption: "Photo by [Pawel Czerwinski](https://unsplash.com/photos/xq2EsbMRPe4)"
 excerpt: "<br/><br/><br />"
 
 toc: false
