@@ -8,13 +8,15 @@ toc: true
 toc_sticky: true
 
 header:
-  overlay_color: "#000"
+  overlay_color: "#005"
   overlay_filter: "0.5"
   overlay_image: /assets/images/spacex-VBNb52J8Trk-unsplash.jpg
   caption: "Photo by [SpaceX](https://unsplash.com/@spacex)"
 excerpt: "This is an adversary-neutral review of known risks when using Satellite communication tools such as satphones, BGANs, and even LEO-orbit (e.g. StarLink) terminals."
 ---
 
+This document is a **public draft** and is still under review. <br /><br />**Please offer [feedback](/contact) if you have any**. While the author has focused primarily on summarizing existing, known, historical risks of satellite communications, the mitigations suggested may be incomplete. Consider your specific needs, vulnerabilties, and your adversary in applying this document to your situation.
+{: .notice--danger}
 
 # Overview
 
@@ -96,46 +98,17 @@ would be welcomed.*
 
 # Glossary of terms
 
-
--   **Uplink** - the communication from the satellite device up to the
-    satellite in orbit. Directional antennas (dishes) limit the area one
-    must be to intercept this, but most sat phones do not have
-    directional antennas.
-
--   **Downlink** - the broadcast from the satellite in orbit back down.
-    Generally the "footprint" of these cover wide areas (hundreds of
-    miles) each.
-
--   **Groundstation** (<https://en.wikipedia.org/wiki/Ground_station>)
-    (Also referred to as a "teleport", Earth Stations, and Satellite
-    Earth Stations (SES)) - Satellites relay the comms to dedicated
-    ground stations where the data/call rejoins the "normal" terrestrial
-    internet. Groundstations are strategically located for satellite
-    visibility, but may be in countries without strong human rights or
-    data privacy track records. ***Ground Stations can also refer to any
-    two-way satellite communications terminal on the ground.***
-
--   **"Bent Pipe"** - a term used to discuss "how" satellites deal with
-    communication -- for the most part, the satellite simply relays the
-    signals it receives directly between the device and the
-    groundstation.
-
--   **BGAN** - Broadband Global Area Network - Inmarsat's satellite
-    internet and related hardware
-
--   **GEO/HEO**
-
--   **LEO** Starlink is a good example of a LEO communications satellite
-    system
-
--   **VSAT** - "Very-small-aperture terminal" - a two-way groundstation
-    with a dish antenna smaller than 3.8 meters (so most satellite
-    internet antenna like for starlink). These tend to require some
-    "aiming" to make a connection.
-    <https://en.wikipedia.org/wiki/Very-small-aperture_terminal>
-
--   **satphone** / **handset** -- a device in the form factor of a large
-    cell phone with a non-directional antenna.
+-   **"Bent Pipe"** - a term used to discuss "how" satellites deal with communication -- for the most part, the satellite simply relays the signals it receives directly between the device and the groundstation.
+-   **BGAN** - Broadband Global Area Network - Inmarsat's satellite internet and related hardware
+-   **Downlink** - the broadcast from the satellite in orbit back down. Generally the "footprint" of these cover wide areas (hundreds of miles) each.
+-   **ELINT** - A subset of SIGINT ("SIGnals INTelligence"), [ELINT ("ELectronic INTelligence")](https://en.wikipedia.org/wiki/Signals_intelligence#ELINT_and_ESM) focuses on only the radio frequency and related electronic components of communication, to support geolocation, signal jamming, and interception needs. A common term in researching satellite communication security.
+-   **GEO** - [Geostationary orbit](https://en.wikipedia.org/wiki/Geostationary_orbit) ("Geosynchronous Earth Orbit") - a satellite, often for communications, which is in an orbit such that it is always in the same location in the sky above a fixed point on the Earth's equator. These are high orbits, so there is additional latency in communications.
+-   **Groundstation** Also referred to as a "teleport", Earth Stations, and [Satellite Earth Stations ("SES")](https://en.wikipedia.org/wiki/Ground_station)) - Satellites relay the comms to dedicated ground stations where the data/call rejoins the "normal" terrestrial internet. Groundstations are strategically located for satellite visibility, but may be in countries without strong human rights or data privacy track records. ***Ground Stations can also refer to any two-way satellite communications terminal on the ground.***
+-   **LEO** - [Low Earth Orbit](https://en.wikipedia.org/wiki/Low_Earth_orbit) - Due to their lower orbit, satellites in LEO offer higher bandwidth and lower latency, but require more satellites to cover a communication area.  Iridium and Starlink are examples of LEO communications satellite systems.
+-   **Satphone** / **handset** -- a device in the form factor of a large cell phone with a non-directional antenna.
+-   **Uplink** - the communication from the satellite device up to the satellite in orbit. Directional antennas (dishes) limit the area one must be to intercept this, but most sat phones do not have directional antennas.
+-   **VSAT** - "[Very-small-aperture terminal](https://en.wikipedia.org/wiki/Very-small-aperture_terminal)" - a two-way groundstation with a dish antenna smaller than 3.8 meters (so most satellite internet antenna like for starlink). These tend to require some "aiming" to make a connection.
+{: .notice}
 
 # Commonly overlooked challenges
 
@@ -187,10 +160,11 @@ process supporting account maintenance is valuable.
     over-compliance/confusion around sanctions). This can protect
     against loss of access leading to an inability to regain access.
 
+<!--
 # Summary of Mitigations to consider
 
     -   *(To be summarized from below at final doc stage)*
-
+-->
 
 # Risks and Mitigations
 
