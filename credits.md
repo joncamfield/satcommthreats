@@ -26,13 +26,15 @@ toc: false
 
 # References
 -   Aikins, Matthieu (May 18 2012) [Jamming Tripoli](https://www.wired.com/2012/05/ff-libya/) Wired.
--   Constantin, Lucian (April 18 2014)[Satellite communication systems rife with security flaws, vulnerable to remote hacks](https://www.computerworld.com/article/2698346/satellite-communication-systems-rife-with-security-flaws--vulnerable-to-remote-hacks.html) ComputerWorld.
+-   Berger, Brian (February 28 2022) [SpaceX heeds Ukraine’s Starlink SOS](https://spacenews.com/spacex-heeds-ukraines-starlink-sos/) SpaceNews.
+-   Chrisafis Angelique (September 7 2018) ['Act of espionage': France accuses Russia of trying to spy on satellite data](https://www.theguardian.com/world/2018/sep/07/france-accuses-russia-spying-satellite-communications-espionage) The Guardian.
+-   Constantin, Lucian (April 18 2014) [Satellite communication systems rife with security flaws, vulnerable to remote hacks](https://www.computerworld.com/article/2698346/satellite-communication-systems-rife-with-security-flaws--vulnerable-to-remote-hacks.html) ComputerWorld.
 -   Garino, Brian (Maj. USAF), and Gibson, Jane (Maj ,USAF) (2009) [Space System Threats](https://aerospace.csis.org/wp-content/uploads/2018/09/Space-System-Threats.pdf)  Maxwell Air Force Base: Air University Press.
 -   Gordon, Michael R. (April 25 1996) [Chechen Rebels Say Leader Died in Russian Air Attack](https://www.nytimes.com/1996/04/25/world/chechen-rebels-say-leader-died-in-russian-air-attack.html), New York Times.
 -   Green, Matthew  (February 5 2012) [Satellite phone encryption is terrible. Anyone surprised?](https://blog.cryptographyengineering.com/2012/02/05/sattelite-phone-encryption-is-terrible/) Cryptography Engineering.
 -  Knight, Will (March 31 2003) [GPS phones confiscated from reporters in Iraq](https://www.newscientist.com/article/dn3567-gps-phones-confiscated-from-reporters-in-iraq/) New Scientist.
 -  Langbroek, Marco (Octover 31 2016) [A NEMESIS in the sky](https://www.thespacereview.com/article/3095/1) The Space Review.
--  Musk, Elon (March 3 2022)[Elon Musk Twitter Thread](https://twitter.com/elonmusk/status/1499472139333746691) Twitter.
+-  Musk, Elon (March 3 2022) [Elon Musk Twitter Thread](https://twitter.com/elonmusk/status/1499472139333746691) Twitter.
 -   OSAC Cybersecurity Team (July 2 2021) [Guide for Overseas Satellite Phone Usage](https://www.osac.gov/Content/Report/9db45731-1eec-477a-a7af-1bf950cb4013) OSAC.gov.
 -   Pelton, Robert Young (March 3 2012) [Kill The Messenger](https://foreignpolicy.com/2012/03/03/kill-the-messenger/), Foreign Policy.
 -   RFE/RL Staff (February 24 2012) [Marie Colvin\'s Death Raises Concerns About Use Of Satellite Phones](https://www.rferl.org/a/marie_colvin_death_concerns_about_safe_use_satelite_phones/24495230.html), RFE/RL.
@@ -43,3 +45,5 @@ toc: false
 -   SMALL WORLD NEWS (March 2012) [GUIDE TO SAFELY USING SAT PHONES](https://gisf.ngo/wp-content/uploads/2020/02/2173-Small-Worls-News-2012-Guide-to-safely-using-satphones.pdf) The Global Interagency Security Forum.
 -   Velkovsky, Pavel; Mohan, Janani; and Simon, Maxwell (April 03 2021) [Satellite Jamming](https://ontheradar.csis.org/issue-briefs/satellite-jamming/) On the radar / CSIS.
 -   Whittaker, Zack  (July 6 2017) [New attack can now decrypt satellite phone calls in "real time"](https://www.zdnet.com/article/encryption-satellite-phones-unscramble-attack-research/) ZDNet.
+-   York, Jillian and Timm, Trevor (February 2012) [Satphones, Syria, and Surveillance](https://www.eff.org/deeplinks/2012/02/satphones-syria-and-surveillance) EFF.
+-
