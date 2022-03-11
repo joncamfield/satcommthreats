@@ -19,7 +19,7 @@ header:
 #    - label: "Ukrainian"
 #      url: "/ua/"
   caption: "Photo by [SpaceX](https://unsplash.com/@spacex)"
-excerpt: "This is an adversary-neutral review of known risks when using Satellite communication tools such as satphones, BGANs, and even LEO-orbit (e.g. StarLink) terminals."
+excerpt: "A review of known risks with satellite communications (satphones, BGANs, and LEO-orbit (StarLink) terminals)."
 intro:
   - excerpt: ''
 feature_row:
