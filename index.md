@@ -58,7 +58,7 @@ feature_row:
 
 ---
 
-This document is a **public draft** and is still under review. <br /><br />**Please offer [feedback](/contact) if you have any**. While the author has focused primarily on summarizing existing, known, historical risks of satellite communications, the mitigations suggested may be incomplete. Consider your specific needs, vulnerabilties, and your adversary in applying this document to your situation.
+This document is a **public draft** and is still under review. <br /><br />**Please offer [feedback](contact) if you have any**. While the author has focused primarily on summarizing existing, known, historical risks of satellite communications, the mitigations suggested may be incomplete. Consider your specific needs, vulnerabilties, and your adversary in applying this document to your situation.
 {: .notice--danger}
 
 <!--{% include feature_row id="intro" type="center" %}-->

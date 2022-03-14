@@ -13,4 +13,4 @@ excerpt: "<br/><br/><br />"
 toc: false
 ---
 
-We welcome public <a href="https://github.com/joncamfield/satcommthreats/issues/new/choose">issues on github</a>, as well as private comments to <a href="mailto:satcomms@openinternetproject.org">satcomms@openinternetproject.org</a>
+We welcome public <a href="https://github.com/joncamfield/satcommthreats/issues/">issues on github</a>, as well as private comments to <a href="mailto:satcomms@openinternetproject.org">satcomms@openinternetproject.org</a>
