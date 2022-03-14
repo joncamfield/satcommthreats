@@ -164,6 +164,15 @@ process supporting account maintenance is valuable.
 
 When selecting devices, ensure that they have coverage in the areas they will be (or could potentially be) used. This is relevant both at a country level as well as a more specific daily usage level.  Satphones will not likely work inside, and will need to be outside to get a connection. IN addition, not all services work in all locations. This [at phone reseller provides a [good collection of coverage maps](https://www.satphonestore.com/coveragemaps), but check before purchase.
 
+## Prepatation
+
+Voice calls via satphone can have bad audio, background noises, signficant delays/latency and overall poor call quality. Particularly if calls will be happen (possibly in emergency situations) between people communicating who aren't native speakers of the same language, preparation and training on how to communicate effectively in these situations is critical.
+
+### Mitigations
+
+*  Much like with communicating via radio, it is handy to have staff briefed before on things like the [NATO alphabet](https://en.wikipedia.org/wiki/NATO_phonetic_alphabet) or other simple, pre-arranged codewords.
+*  Use 2-way good radio etiquette to help with latency problems: https://www.csudh.edu/Assets/csudh-sites/dhpd/emergency-preparedness/two%20way%20radio%20protocol.pdf
+
 <!--
 # Summary of Mitigations to consider
 
@@ -406,19 +415,25 @@ Interference from Radio Stations.
 
 ### Mitigation
 
--   Downlink jamming must be within line of sight,
+-   Downlink jamming in range dependent and must be within line of sight,
     moving to a different area could get outside of the area of effect.
-    Consider if your adversary is trying to force you to move.
+    *Consider if your adversary is trying to force you to move.*
 
 ### Details
+
+“It is true that the Starlink ground terminals will be broadcasting, and thus potentially targetable using RF signal detection equipment. But I doubt they’d be that high of a priority for Russian targeting, so I think the odds of them being targeted is probably low,” Weeden said Monday by email. “A much bigger challenge would be Russian ground-based mobile jamming, which is sophisticated and can already deal with existing satellite signals such as GPS and satellite communications.”<br /> -- *Berger, Brian (February 28 2022) [SpaceX heeds Ukraine’s Starlink SOS](https://spacenews.com/spacex-heeds-ukraines-starlink-sos/) SpaceNews.*
+{: .notice}
 
 "There are two main types of satellite jamming. The first, uplink jamming, interferes with the signal going from a ground station or user terminal to the satellite. An RF signal of the same frequency as the targeted uplink signal is transmitted to the satellite, aiming to limit the satellite transponder from differentiating between the jamming signal and the actual signal. The second type, downlink jamming, disrupts transmissions sent from the satellite to ground-based or airborne receivers using RF signals that mimic the frequency of the downlink signal. It aims to inhibit ground users from receiving transmissions from the satellite and only needs to be as strong as the signal being received on the ground. Uplink jamming is considered more difficult because greater transmitter power is required to reach a given satellite’s transponders. It could be more impactful, however, due to its ability to degrade the satellite’s signal for all its users. Because downlink jammers must be within the field of view of the receiving terminal’s antenna, however, the effects of downlink jamming are more localized."<br /> -- *Velkovsky, Pavel; Mohan, Janani; and Simon, Maxwell (April 03 2021) [Satellite Jamming](https://ontheradar.csis.org/issue-briefs/satellite-jamming/) On the radar / CSIS.*
 {: .notice}
 
-"Jamming technology tends to be commercially available and relatively inexpensive. Satellite jamming systems are easy for states and non-state actors to develop given the relative low cost of their procurement and operation. There is a low threshold of technological competency required to perform jamming, and the technology is available to a plethora of actors across the globe. For example, interference with satellite signals has emanated from Indonesia, Cuba, Ethiopia, Libya, and Syria, among others."<br /> -- *Velkovsky, Pavel; Mohan, Janani; and Simon, Maxwell (April 03 2021) [Satellite Jamming](https://ontheradar.csis.org/issue-briefs/satellite-jamming/) On the radar / CSIS.*
+"Terrestrial jamming takes place in a specific location and involves equipment that is easy to purchase, use and conceal. Rather than targeting the satellite itself, as is the case in orbital jamming, terrestrial jamming involves transmitting rogue frequencies in the direction of local consumer-level satellite dishes. The contradictory frequencies are area-specific, interfering only with the frequency emanating from the satellite in a specific location. **Small, portable terrestrial jammers have a range of 3-5 kilometres in urban, built-up areas. In rural areas, their range can increase to up to 20 kilometres**"<br /> --  *Small Media (November 2012) [Satellite Jamming in Iran: A War Over Airwaves](https://smallmedia.org.uk/work/satellite-jamming-in-iran-a-war-over-airwaves), Small Media.*
 {: .notice}
 
-“It is true that the Starlink ground terminals will be broadcasting, and thus potentially targetable using RF signal detection equipment. But I doubt they’d be that high of a priority for Russian targeting, so I think the odds of them being targeted is probably low,” Weeden said Monday by email. “A much bigger challenge would be Russian ground-based mobile jamming, which is sophisticated and can already deal with existing satellite signals such as GPS and satellite communications.”<br /> -- *Berger, Brian (February 28 2022) [SpaceX heeds Ukraine’s Starlink SOS](https://spacenews.com/spacex-heeds-ukraines-starlink-sos/) SpaceNews.*
+"The jamming of Persian-language satellite channels has been ongoing since 2003. Infrequent bouts of pressure from the international community have achieved limited success. Alongside international organisations like the International Union (ITU), the governments of the UK, US, France and the European Union have condemned the Iranian government for not acting on the issue of satellite jamming. Despite these condemnations, the jamming of satellite TV channels has continued. At the time of publishing, the sudden devaluation of the Iranian Rial in October 2012 had spurred another intense period of jamming, with the broadcasts of both BBC and the VOA being disrupted … **It is important to note here that Iran is not the only country engaged in or experiencing satellite jamming. There are reports of jamming from countries such as Bahrain, Libya, Syria, Ethiopia, North Korea, and China.**"<br /> --  *Small Media (November 2012) [Satellite Jamming in Iran: A War Over Airwaves](https://smallmedia.org.uk/work/satellite-jamming-in-iran-a-war-over-airwaves), Small Media.*
+{: .notice}
+
+"Jamming technology tends to be commercially available and relatively inexpensive. Satellite jamming systems are easy for states and non-state actors to develop given the relative low cost of their procurement and operation. There is a low threshold of technological competency required to perform jamming, and the technology is available to a plethora of actors across the globe. For example, interference with satellite signals has emanated from Indonesia, Cuba, Ethiopia, Libya, and Syria, among others."<br /> -- *Velkovsky, Pavel; Mohan, Janani; and Simon, Maxwell (April 03 2021) [Satellite Jamming](https://ontheradar.csis.org/issue-briefs/satellite-jamming/) On the radar / CSIS.*
 {: .notice}
 
 “Over the weekend of February 19, transmissions from two television satellites that served a wide range of news programming to Libya and the region were disrupted by jamming, according to the Lebanese Telecommunications Regulatory Authority. And on February 21, Al Jazeera accused Libya of jamming its satellite transmissions in the region, and stated that it had conclusively identified the jamming as emanating from an LAJ intelligence services building south of Tripoli. <br />Satellite telecommunications were not immune to LAJ disruption and denial efforts, which were likely targeted against the use of satellite telephones like the Thuraya handset, which were widely used in Libya. On February 25, Thuraya accused Libya of having engaged in a week’s worth of jamming of the Thuraya-2 satellite that provided satellite phone and data connectivity to Thuraya devices within Libya. Shortly thereafter, Thuraya announced that its technical efforts had restored voice services to much of Libya. Nevertheless, users of Thuraya phones continued to experience substantial difficulty connecting throughout the revolution.”<br /> -- *Scott-Railton, John (January 2013) [Revolutionary Risks: Cyber Technology and Threats in the 2011 Libyan Revolution](https://digital-commons.usnwc.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1012&context=ciwag-case-studies) U.S. Naval War College Digital Commons / CIWAG Case Studies.*
@@ -434,10 +449,14 @@ Device Firmware and Software Security
 
 -   To the extent possible, leverage satellite communications devices as
     untrusted network connections and layer on independent security.
+-   Check the manufacturer website for your device to ensure you have the latest possible firmware.
 
 #### Details
 
 "Between October and December last year, researchers from IOActive analyzed the firmware of popular satellite communications (SATCOM) devices that are used in the military, aerospace, maritime, critical infrastructure and other sectors. The research covered products manufactured or marketed by Harris, Hughes Network Systems, Cobham, Thuraya Telecommunications, Japan Radio Company (JRC) and Iridium Communications. The analysis focused on SATCOM terminals that are used on ground, in the air and at sea, not satellite communications equipment in space. "IOActive found that all devices within the scope of this research could be abused by a malicious actor," the IOActive researchers said in a report published Thursday. "We uncovered what would appear to be multiple backdoors, hardcoded credentials, undocumented and/or insecure protocols, and weak encryption algorithms."<br /> -- *Constantin, Lucian (April 18 2014) [Satellite communication systems rife with security flaws, vulnerable to remote hacks](https://www.computerworld.com/article/2698346/satellite-communication-systems-rife-with-security-flaws--vulnerable-to-remote-hacks.html) ComputerWorld.*
+{: .notice}
+
+The consequences are still being investigated but satellite modems belonging to tens of thousands of customers in Europe were knocked offline, according to an official of U.S. telecommunications firm Viasat, which owns the affected network. The hackers disabled modems that communicate with Viasat Inc's KA-SAT satellite, which supplies internet access to some customers in Europe, including Ukraine. More than two weeks later some remain offline, resellers told Reuters. … The Viasat official said a misconfiguration in the "management section" of the satellite network had allowed the hackers remote access into the modems, knocking them offline. He said most of the affected devices would need to be reprogrammed either by a technician on site or at a repair depot and that some would have to be swapped out.<br /> --  *Pearson, James, et al (March 11 2022) [Exclusive: U.S. spy agency probes sabotage of satellite internet during Russian invasion, sources say](https://www.reuters.com/world/europe/exclusive-us-spy-agency-probes-sabotage-satellite-internet-during-russian-2022-03-11/) Reuters.*
 {: .notice}
 
 "Unfortunately, except for Iridium, the vendors did not engage in addressing this situation," the researchers said. "They did not respond to a series of requests sent by the CERT Coordination Center and/or its partners."<br /> -- *Santamarta, Ruben  (2014) [A Wake-up Call for SATCOM Security](https://ioactive.com/pdfs/IOActive_SATCOM_Security_WhitePaper.pdf) IOActive.*

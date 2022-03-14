@@ -25,7 +25,7 @@ toc: false
 
 # Additional Thanks to Reviewers
 
--   Thom Kaye <!-- (sha1 321a8bce77e7b5bd90ca6f9de8d7f408cb9b2336) -->
+-   Thom Kaye <!-- (sha1 e316600e38882ca0bfbb9e5ad375271284db3894) -->
 
 
 # References
@@ -40,15 +40,16 @@ toc: false
 -  Langbroek, Marco (Octover 31 2016) [A NEMESIS in the sky](https://www.thespacereview.com/article/3095/1) The Space Review.
 -  Musk, Elon (March 3 2022) [Elon Musk Twitter Thread](https://twitter.com/elonmusk/status/1499472139333746691) Twitter.
 -   OSAC Cybersecurity Team (July 2 2021) [Guide for Overseas Satellite Phone Usage](https://www.osac.gov/Content/Report/9db45731-1eec-477a-a7af-1bf950cb4013) OSAC.gov.
+-   Pearson, James, et al (March 11 2022) [Exclusive: U.S. spy agency probes sabotage of satellite internet during Russian invasion, sources say](https://www.reuters.com/world/europe/exclusive-us-spy-agency-probes-sabotage-satellite-internet-during-russian-2022-03-11/) Reuters.
 -   Pelton, Robert Young (March 3 2012) [Kill The Messenger](https://foreignpolicy.com/2012/03/03/kill-the-messenger/), Foreign Policy.
 -   RFE/RL Staff (February 24 2012) [Marie Colvin\'s Death Raises Concerns About Use Of Satellite Phones](https://www.rferl.org/a/marie_colvin_death_concerns_about_safe_use_satelite_phones/24495230.html), RFE/RL.
 -  SaferMobile Anonymous Contributors (February 23 2012) [Be Afraid, Be Very Afraid of Satellite Phones in Insecure Locations](https://web.archive.org/web/20120327070537/https://safermobile.org/be-afraid-be-very-afraid-of-satellite-phones-in-insecure-locations/) SaferMobile.
 -   Santamarta, Ruben  (2014) [A Wake-up Call for SATCOM Security](https://ioactive.com/pdfs/IOActive_SATCOM_Security_WhitePaper.pdf) IOActive.
--   Santamarta, Ruben  (2019) [Last Call for SATCOM Security](https://i.blackhat.com/us-18/Thu-August-9/us-18-Santamarta-Last-Call-For-Satcom-Security-wp.pdf) IOActive / Blackhat.
+-   Santamarta, Ruben  (August 2018) [Last Call for SATCOM Security](https://i.blackhat.com/us-18/Thu-August-9/us-18-Santamarta-Last-Call-For-Satcom-Security-wp.pdf) Blackhat.
 -  Scott-Railton, John (February 26 2022) [Twitter thread](https://twitter.com/jsrailton/status/1497745011932286979), Twitter.
 -  Scott-Railton, John (January 2013) [Revolutionary Risks: Cyber Technology and Threats in the 2011 Libyan Revolution](https://digital-commons.usnwc.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1012&context=ciwag-case-studies) U.S. Naval War College Digital Commons / CIWAG Case Studies.
+-  Small Media (November 2012) [Satellite Jamming in Iran: A War Over Airwaves](https://smallmedia.org.uk/work/satellite-jamming-in-iran-a-war-over-airwaves), Small Media.
 -   SMALL WORLD NEWS (March 2012) [GUIDE TO SAFELY USING SAT PHONES](https://gisf.ngo/wp-content/uploads/2020/02/2173-Small-Worls-News-2012-Guide-to-safely-using-satphones.pdf) The Global Interagency Security Forum.
 -   Velkovsky, Pavel; Mohan, Janani; and Simon, Maxwell (April 03 2021) [Satellite Jamming](https://ontheradar.csis.org/issue-briefs/satellite-jamming/) On the radar / CSIS.
 -   Whittaker, Zack  (July 6 2017) [New attack can now decrypt satellite phone calls in "real time"](https://www.zdnet.com/article/encryption-satellite-phones-unscramble-attack-research/) ZDNet.
 -   York, Jillian and Timm, Trevor (February 2012) [Satphones, Syria, and Surveillance](https://www.eff.org/deeplinks/2012/02/satphones-syria-and-surveillance) EFF.
--
