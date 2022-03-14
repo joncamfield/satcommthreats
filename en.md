@@ -160,6 +160,10 @@ process supporting account maintenance is valuable.
     over-compliance/confusion around sanctions). This can protect
     against loss of access leading to an inability to regain access.
 
+## Coverage and connectivity
+
+When selecting devices, ensure that they have coverage in the areas they will be (or could potentially be) used. This is relevant both at a country level as well as a more specific daily usage level.  Satphones will not likely work inside, and will need to be outside to get a connection. IN addition, not all services work in all locations. This [at phone reseller provides a [good collection of coverage maps](https://www.satphonestore.com/coveragemaps), but check before purchase.
+
 <!--
 # Summary of Mitigations to consider
 
@@ -423,7 +427,7 @@ Interference from Radio Stations.
 "Jamming can also occur accidentally: in 2015, U.S. military officials noted they were unintentionally jamming satellite communications an average of 23 times per month. Purposeful jamming can be difficult to differentiate from accidental interference, making attribution more challenging."<br /> -- *Velkovsky, Pavel; Mohan, Janani; and Simon, Maxwell (April 03 2021) [Satellite Jamming](https://ontheradar.csis.org/issue-briefs/satellite-jamming/) On the radar / CSIS.*
 {: .notice}
 
-Device Software Security
+Device Firmware and Software Security
 ------------------------
 
 #### Mitigation
