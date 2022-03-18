@@ -37,7 +37,8 @@ toc: false
 -   Gordon, Michael R. (April 25 1996) [Chechen Rebels Say Leader Died in Russian Air Attack](https://www.nytimes.com/1996/04/25/world/chechen-rebels-say-leader-died-in-russian-air-attack.html), New York Times.
 -   Green, Matthew  (February 5 2012) [Satellite phone encryption is terrible. Anyone surprised?](https://blog.cryptographyengineering.com/2012/02/05/sattelite-phone-encryption-is-terrible/) Cryptography Engineering.
 -  Knight, Will (March 31 2003) [GPS phones confiscated from reporters in Iraq](https://www.newscientist.com/article/dn3567-gps-phones-confiscated-from-reporters-in-iraq/) New Scientist.
--  Langbroek, Marco (Octover 31 2016) [A NEMESIS in the sky](https://www.thespacereview.com/article/3095/1) The Space Review.
+-  Kovacs, Eduard (March 18 2022)[SATCOM Cybersecurity Alert Issued as Authorities Probe Possible Russian Attack](https://www.securityweek.com/satcom-cybersecurity-alert-issued-authorities-probe-possible-russian-attack) Security Week.
+-  Langbroek, Marco (October 31 2016) [A NEMESIS in the sky](https://www.thespacereview.com/article/3095/1) The Space Review.
 -  Musk, Elon (March 3 2022) [Elon Musk Twitter Thread](https://twitter.com/elonmusk/status/1499472139333746691) Twitter.
 -   OSAC Cybersecurity Team (July 2 2021) [Guide for Overseas Satellite Phone Usage](https://www.osac.gov/Content/Report/9db45731-1eec-477a-a7af-1bf950cb4013) OSAC.gov.
 -   Pearson, James, et al (March 11 2022) [Exclusive: U.S. spy agency probes sabotage of satellite internet during Russian invasion, sources say](https://www.reuters.com/world/europe/exclusive-us-spy-agency-probes-sabotage-satellite-internet-during-russian-2022-03-11/) Reuters.

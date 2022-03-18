@@ -63,7 +63,7 @@ capacity, and/or will/intent an adversary would need to use the threat.
 ## Scope
 
 This is focused on 2-way satellite communications devices, including sat
-phones, VSAT terminals, and Starlink. Some of the risks discussed may
+phones / pagers, Inmarsat BGANs, VSATs, and Starlink. Some of the risks discussed may
 also apply to receive-only / broadcast satellite in situations where
 satellite dishes are regulated/illegal.
 
@@ -88,7 +88,7 @@ flexibility during a crisis. Topics, plans, and tools can include:
 
 -   Planning for physical meetings (and contingency planning if there
    are safety concerns or limited movement options)
--   HF/VHF Radio
+-   [HF/UHF/VHF Radio](https://en.wikipedia.org/wiki/Radio_frequency)
 -   Shortwave receivers to track international news
 
 ***Note**: Contributions to supplement this guide with detailed
@@ -119,14 +119,13 @@ service is available when and if you choose to use it.
 
 ## Electricity
 
-All satellite comms devices require power, just like normal routers and
-phones. Dishes and BGAN style terminals require anywhere from 20 to 100
+All satellite communications devices require power. VSAT and Starlink Dishes require anywhere up to 100
 watts while actively transmitting, which can rapidly exhaust a battery
-backup / UPS system. Satellite phones come with batteries capable of up
+backup / UPS system. Satphones, pagers, and BGANs come with batteries capable of up
 to 3 hours active time and 30 hours idle.
 
 ### Mitigations:
--   Make sure your satphone is fully charged, re-charging when power is available.
+-   Make sure your satphone/pager/BGAN is fully charged, re-charging when power is available.
 -   Maintain backup batteries, and ensure USB chargers are compatible
     with your satphone and that they are fully charged.
 -   Have (and test) a plan for usage of satellite terminals and base
@@ -148,13 +147,14 @@ to be concerned about during a crisis, so ensuring there is someone or a
 process supporting account maintenance is valuable.
 
 ### Mitigations:
--   Minimize use of satellite communications when other options are available.
--   Ensure your SIM card is topped up as early as possible.
+-   Top up / add funds to / pre-purchase bandwidth for your satellite devices (this may be topping up your SIM card for a satphone/pager or BGAN) ahead of time.
+-   Do not use satellite communications when other options are available.
+-   Strictly plan and limit your usage time.
 -   Know how your plan works if you reach your usage limit: will it stop
     working until you manually add funds? Will it continue at lower
     rates? Will it continue and charge overage fees?
 -   Have a person outside of the conflict who has the information needed
-    to track usage and recharge the SIM if the conflict is extended, or
+    to track usage and provide additional account funds / recharge the SIM if the conflict is extended, or
     if you are unable to continue funding it directly (this could be due
     to other issues such as banking problems, or
     over-compliance/confusion around sanctions). This can protect
@@ -184,7 +184,7 @@ Voice calls via satphone can have bad audio, background noises, signficant delay
 ## Device Legality and Seizure
 
 Satellite communication tools, from phones to more robust data
-connection setups, are often tightly regulated or outright illegal.
+connection setups, are often tightly regulated and may be illegal.
 OSAC's July 2021 report here:
 <https://www.osac.gov/Content/Report/9db45731-1eec-477a-a7af-1bf950cb4013>
 has a list of countries where sat phones are known to be illegal.
@@ -260,27 +260,22 @@ provide yet another avenue for this information.
 ### Mitigations
 
 -   Also practice the mitigations under device seizure, above.
-
     -   In specific, the use of a wireless router to give physical
         distance from the satellite device provides specific benefit
         here by giving you some warning of a raid against the location
         of the device, as well as (in military/conflict situations) some
         distance from kinetic attacks such as missiles or other
         bombardment.
-
 -   Leave the device turned off when not in use
-
 -   Change location of where you call from (but do not move while using
-    the device if avoidable)
-
+    the device if avoidable, as this can cause the connection to drop, forcing a recalibration)
 -   Don't use at home/work locations except in emergency
-
 -   Minimize usage time
-
 -   Consider the terrain / urban infrastructure and how it can help
     limit geolocation. In Afghanistan for instance, it's extremely
-    difficult to use DF equipment due to the mountains and deep valleys,
-    which act as an automatic shield for signals.
+    difficult to use direction finding equipment (which can be handheld or vehicle/drone mounted and used to triangulate signals) due to the mountains and deep valleys, act as an automatic shield for signals.
+-   If the device also has cellular service (GSM/4G/etc.) disable that functionality when not in use.
+
 
 **Additional Mitigations (Law Enforcement type adversary)**
 
@@ -303,7 +298,7 @@ Satellite phones are the highest risk here due to their omni-directional
 antenna setup. As differentiated from devices which use large satellite
 dish-style, directed antennas, Sat Phones are the easiest for an
 adversary to geolocate due to their use of L band comms with an
-omni-dorectional antenna. The band is a commonly monitored band, and the
+omni-directional antenna. The band is a commonly monitored band, and the
 omni-directional antenna means it has significant "spill-over" of RF
 noise visible to direction finder devices. This risk is higher when the
 phone is used or even left turned on for a long time. Even if not "used"
@@ -418,6 +413,7 @@ Interference from Radio Stations.
 -   Downlink jamming in range dependent and must be within line of sight,
     moving to a different area could get outside of the area of effect.
     *Consider if your adversary is trying to force you to move.*
+-   Uplink jamming is often scheduled around specific events or times of day, try testing connectivity at different times.
 
 ### Details
 
@@ -449,14 +445,18 @@ Device Firmware and Software Security
 
 -   To the extent possible, leverage satellite communications devices as
     untrusted network connections and layer on independent security.
+-   If possible, consider having backup / alternative satellite connectivity options using different providers.
 -   Check the manufacturer website for your device to ensure you have the latest possible firmware.
 
 #### Details
 
-"Between October and December last year, researchers from IOActive analyzed the firmware of popular satellite communications (SATCOM) devices that are used in the military, aerospace, maritime, critical infrastructure and other sectors. The research covered products manufactured or marketed by Harris, Hughes Network Systems, Cobham, Thuraya Telecommunications, Japan Radio Company (JRC) and Iridium Communications. The analysis focused on SATCOM terminals that are used on ground, in the air and at sea, not satellite communications equipment in space. "IOActive found that all devices within the scope of this research could be abused by a malicious actor," the IOActive researchers said in a report published Thursday. "We uncovered what would appear to be multiple backdoors, hardcoded credentials, undocumented and/or insecure protocols, and weak encryption algorithms."<br /> -- *Constantin, Lucian (April 18 2014) [Satellite communication systems rife with security flaws, vulnerable to remote hacks](https://www.computerworld.com/article/2698346/satellite-communication-systems-rife-with-security-flaws--vulnerable-to-remote-hacks.html) ComputerWorld.*
+"The agencies have advised SATCOM network providers and customers to **use secure authentication methods**, enforce a **principle of least privilege**, review existing trust relationships with IT service providers, **implement independent encryption, strengthen software and firmware security, monitor their networks for suspicious activity, and ensure that they have incident response and resilience plans in place**." <br /> -- *-  Kovacs, Eduard (March 18 2022)[SATCOM Cybersecurity Alert Issued as Authorities Probe Possible Russian Attack](https://www.securityweek.com/satcom-cybersecurity-alert-issued-authorities-probe-possible-russian-attack) Security Week.*
 {: .notice}
 
-The consequences are still being investigated but satellite modems belonging to tens of thousands of customers in Europe were knocked offline, according to an official of U.S. telecommunications firm Viasat, which owns the affected network. The hackers disabled modems that communicate with Viasat Inc's KA-SAT satellite, which supplies internet access to some customers in Europe, including Ukraine. More than two weeks later some remain offline, resellers told Reuters. … The Viasat official said a misconfiguration in the "management section" of the satellite network had allowed the hackers remote access into the modems, knocking them offline. He said most of the affected devices would need to be reprogrammed either by a technician on site or at a repair depot and that some would have to be swapped out.<br /> --  *Pearson, James, et al (March 11 2022) [Exclusive: U.S. spy agency probes sabotage of satellite internet during Russian invasion, sources say](https://www.reuters.com/world/europe/exclusive-us-spy-agency-probes-sabotage-satellite-internet-during-russian-2022-03-11/) Reuters.*
+"\[S\]atellite modems belonging to tens of thousands of customers in Europe were knocked offline. … The hackers disabled modems that communicate with Viasat Inc's KA-SAT satellite, which supplies internet access to some customers in Europe, including Ukraine. More than two weeks later some remain offline, resellers told Reuters. … The Viasat official said a misconfiguration in the "management section" of the satellite network had allowed the hackers remote access into the modems… He said most of the affected devices would need to be reprogrammed either by a technician on site or at a repair depot and that some would have to be swapped out.<br /> --  *Pearson, James, et al (March 11 2022) [Exclusive: U.S. spy agency probes sabotage of satellite internet during Russian invasion, sources say](https://www.reuters.com/world/europe/exclusive-us-spy-agency-probes-sabotage-satellite-internet-during-russian-2022-03-11/) Reuters.*
+{: .notice}
+
+"Between October and December last year, researchers from IOActive analyzed the firmware of popular satellite communications (SATCOM) devices that are used in the military, aerospace, maritime, critical infrastructure and other sectors… The analysis focused on SATCOM terminals that are used on ground, in the air and at sea, not satellite communications equipment in space. "IOActive found that **all devices within the scope of this research could be abused by a malicious actor**," the IOActive researchers said in a report published Thursday. "We uncovered what would appear to be **multiple backdoors, hardcoded credentials, undocumented and/or insecure protocols, and weak encryption algorithms**."<br /> -- *Constantin, Lucian (April 18 2014) [Satellite communication systems rife with security flaws, vulnerable to remote hacks](https://www.computerworld.com/article/2698346/satellite-communication-systems-rife-with-security-flaws--vulnerable-to-remote-hacks.html) ComputerWorld.*
 {: .notice}
 
 "Unfortunately, except for Iridium, the vendors did not engage in addressing this situation," the researchers said. "They did not respond to a series of requests sent by the CERT Coordination Center and/or its partners."<br /> -- *Santamarta, Ruben  (2014) [A Wake-up Call for SATCOM Security](https://ioactive.com/pdfs/IOActive_SATCOM_Security_WhitePaper.pdf) IOActive.*
