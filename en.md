@@ -62,16 +62,9 @@ capacity, and/or will/intent an adversary would need to use the threat.
 
 ## Scope
 
-This is focused on 2-way satellite communications devices, including sat
-phones / pagers, Inmarsat BGANs, VSATs, and Starlink. Some of the risks discussed may
-also apply to receive-only / broadcast satellite in situations where
-satellite dishes are regulated/illegal.
+This guide discusses threats which are widely applicable to 2-way satellite communications devices, such as satellite phones and pagers, Inmarsat BGANs, Starlinks, and VSAT terminals. Some of the risks discussed may also apply to receive-only / broadcast satellite in situations where satellite dishes are regulated/illegal.
 
-This document is focused on Internet shutdown, crisis, conflict, and
-emergency situations where a journalist, activist, or human rights
-defender may be using these tools to access and share information
-despite adversaries ranging from their own government's law enforcement
-to organized militias and even to State-backed militaries.
+This document is focused on Internet shutdown, crisis, conflict, and emergency situations where a journalist, activist, or human rights defender may be using these tools to access and share information, with a wide range of adversaries including well-resourced, state or military-level ones.
 
 Risks are inherent in using any form of communication tool when speaking
 truth to power. Satellite communication tools are often rolled out
