@@ -66,11 +66,7 @@ This guide discusses threats which are widely applicable to 2-way satellite comm
 
 This document is focused on Internet shutdown, crisis, conflict, and emergency situations where a journalist, activist, or human rights defender may be using these tools to access and share information, with a wide range of adversaries including well-resourced, state or military-level ones.
 
-Risks are inherent in using any form of communication tool when speaking
-truth to power. Satellite communication tools are often rolled out
-quickly during crises as they solve many core communication challenges.
-This document's goal is to also share the risks that come with satellite
-communications, as they are often not well understood.
+Risks are inherent in using any form of communication tool when speaking truth to power. Satellite communication tools are often rolled out quickly during crises as they solve many core communication challenges. This document seeks to identify the risks that come with satellite communications, as they are often not well understood.
 
 ### A note on Alternative Communication Options
 
