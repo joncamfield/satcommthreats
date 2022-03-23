@@ -228,18 +228,7 @@ countries, possession/use alone can be enough to detain someone.
 
 ## Device Geolocation
 
-Multiple approaches can be used to geolocate an active device.
-
-
-require proximity, specific technology, and some skills, so are
-generally limited to dedicated adversaries, but all of these approaches
-have options where one can trade cost for expertise (e.g. easy to use
-but expensive commercial/off-the-shelf tools vs easy-to-source, vs
-low-cost DIY tools with a steep learning curve). There is a large market
-for off-the-shelf commercial tools that are available for this,
-primarily to support frequency usage / regulation activities. These
-tools can include fixed antenna, vehicle-mounted and/or movable antenna,
-as well as aerial drone-mounted and handheld hardware.
+Multiple approaches can be used to geolocate an active device, including commercial satellite-based offerings enabling fully remote tracking and custom workflow/alert processes for "unexpected" satellite signals.  Many others are more proximity based and required and some skills and/or technology, but all of these approaches have options where one can trade cost for expertise (e.g. easy to use but expensive commercial/off-the-shelf tools vs easy-to-source, vs low-cost DIY tools with a steep learning curve). In addition to the global, satellite-based options, these devices can also be mounted on aircraft, drones, vehicles, or even be handheld.
 
 Military adversaries in a conflict zone are likely to be resourced with
 skills and devices and also likely to be actively scanning for satellite
