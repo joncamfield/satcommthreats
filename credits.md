@@ -36,6 +36,7 @@ toc: false
 -   Garino, Brian (Maj. USAF), and Gibson, Jane (Maj ,USAF) (2009) [Space System Threats](https://aerospace.csis.org/wp-content/uploads/2018/09/Space-System-Threats.pdf)  Maxwell Air Force Base: Air University Press.
 -   Gordon, Michael R. (April 25 1996) [Chechen Rebels Say Leader Died in Russian Air Attack](https://www.nytimes.com/1996/04/25/world/chechen-rebels-say-leader-died-in-russian-air-attack.html), New York Times.
 -   Green, Matthew  (February 5 2012) [Satellite phone encryption is terrible. Anyone surprised?](https://blog.cryptographyengineering.com/2012/02/05/sattelite-phone-encryption-is-terrible/) Cryptography Engineering.
+-   HawkEye360 Press Release, (March 4 2022), [HawkEye 360 Signal Detection Reveals GPS Interference in Ukraine](https://www.he360.com/hawkeye-360-signal-detection-reveals-gps-interference-in-ukraine/) he360.com
 -  Knight, Will (March 31 2003) [GPS phones confiscated from reporters in Iraq](https://www.newscientist.com/article/dn3567-gps-phones-confiscated-from-reporters-in-iraq/) New Scientist.
 -  Kovacs, Eduard (March 18 2022)[SATCOM Cybersecurity Alert Issued as Authorities Probe Possible Russian Attack](https://www.securityweek.com/satcom-cybersecurity-alert-issued-authorities-probe-possible-russian-attack) Security Week.
 -  Langbroek, Marco (October 31 2016) [A NEMESIS in the sky](https://www.thespacereview.com/article/3095/1) The Space Review.
@@ -52,5 +53,6 @@ toc: false
 -  Small Media (November 2012) [Satellite Jamming in Iran: A War Over Airwaves](https://smallmedia.org.uk/work/satellite-jamming-in-iran-a-war-over-airwaves), Small Media.
 -   SMALL WORLD NEWS (March 2012) [GUIDE TO SAFELY USING SAT PHONES](https://gisf.ngo/wp-content/uploads/2020/02/2173-Small-Worls-News-2012-Guide-to-safely-using-satphones.pdf) The Global Interagency Security Forum.
 -   Velkovsky, Pavel; Mohan, Janani; and Simon, Maxwell (April 03 2021) [Satellite Jamming](https://ontheradar.csis.org/issue-briefs/satellite-jamming/) On the radar / CSIS.
+-   Weinbaum, Cortney et al, (2017) [SIGINT for Anyone: The Growing Availability of Signals Intelligence in the Public Domain](https://www.rand.org/pubs/perspectives/PE273.html) RAND.
 -   Whittaker, Zack  (July 6 2017) [New attack can now decrypt satellite phone calls in "real time"](https://www.zdnet.com/article/encryption-satellite-phones-unscramble-attack-research/) ZDNet.
 -   York, Jillian and Timm, Trevor (February 2012) [Satphones, Syria, and Surveillance](https://www.eff.org/deeplinks/2012/02/satphones-syria-and-surveillance) EFF.

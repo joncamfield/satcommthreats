@@ -185,9 +185,10 @@ Additional law tracking resources include UNIDIR's Cyber Policy Portal
 
 In addition, due to the need for an outside, direct line of sight to the
 sky - combined with visually distinct features from cell phones and
-other equipment, sat phones and devices are difficult to conceal. Device
-seizure (and the further impacts that can have) is a very real risk to
-consider. Devices can reveal your contact network, stored files, and
+other equipment, satellite communication systems can be difficult to conceal.
+
+Device seizure (and the further impacts that can have) is a very real risk to
+consider. Device siezure can reveal your contact network, stored files, and
 recent call logs, as well as be used potentially to impersonate you to
 your contacts.
 
@@ -196,20 +197,18 @@ countries, possession/use alone can be enough to detain someone.
 
 ### Mitigations
 
--   Regularly purge contacts, recent calls/message and any other
-    content/documents on the device. Minimize app usage and use
-    automatically disappearing messages options. Log out of
-    apps/websites.
+-   Track which devices you are using (including smartphones and laptops) have what data stored on them.  Satellite phones and pagers are likely to have recent call logs and contacts. Regularly purge contacts, recent calls/message and any other content/documents on as many devices as possible - in particular ones which cannot be protected with encryption. Use automatically disappearing message options. Log out of apps/websites.
+-   Conceal the location of the satellite device and consider the requirements for device connectivity at the same time as security requirements. BGANs require different angles of access to clear sky depending on location (https://www.groundcontrol.com/products/inmarsat/bgan-range/bgan-coverage-map/)
 
--   Conceal the phone/antenna/dish and use a bluetooth headset or wifi
-    router to not be obviously in possession of the device when you use
-    it. Different materials will have different effects if covering a
+-   Disguise the phone/antenna/dish. Different materials will have different effects if covering a
     satellite dish. In general, any covering is likely to reduce your
     signal, so consider non-metallic paint or light, dry cloth (water --
     in clouds, rain, and even trees is a significant factor in signal
-    strength). Also consider your adversary -- are you trying to conceal
+    strength for some frequencies). Also consider your adversary -- are you trying to conceal
     this from someone walking by on the street, or from someone flying
     over in a helicopter? Both?
+
+-   Use a bluetooth headset or wifi router to not be in possession of the device when you use it. (See device geolocation mitigations below)
 
 -   When purchasing, seek out dual-use equipment, for example, devices
     which look like GPS units but which also provide a satellite data
@@ -229,7 +228,9 @@ countries, possession/use alone can be enough to detain someone.
 
 ## Device Geolocation
 
-Multiple approaches can be used to geolocate an active device. Most
+Multiple approaches can be used to geolocate an active device.
+
+
 require proximity, specific technology, and some skills, so are
 generally limited to dedicated adversaries, but all of these approaches
 have options where one can trade cost for expertise (e.g. easy to use
@@ -298,6 +299,20 @@ which could be tracked for triangulation.
 "\[Satellite communications\] can be triangulated with affordable, even homemade tools. […] Highly developed countries with advanced technical security are likely to have this capacity, less developed states and even non-state actors may be able to develop the capacity."<br /> -- *SMALL WORLD NEWS (March 2012) [GUIDE TO SAFELY USING SAT PHONES](https://gisf.ngo/wp-content/uploads/2020/02/2173-Small-Worls-News-2012-Guide-to-safely-using-satphones.pdf) The Global Interagency Security Forum.*
 {: .notice}
 
+"During our market scan, we found examples of SIGINT
+capabilities outside of government that are available to anyone. The
+capabilities we found have applications in maritime domain aware-
+ness; radio frequency (RF) spectrum mapping; eavesdropping, jam-
+ming, and hijacking of satellite communications; and cyber surveil-
+lance. Most of these capabilities are commercially available, many
+are free, and some are illegal. In our view, the existence of both
+legal and illegal markets and capabilities results in an environment
+where SIGINT has been democratized, or available to anyone.
+The capabilities we found have implications for the U.S." <br /> -- *Weinbaum, Cortney et al, (2017) [SIGINT for Anyone: The Growing Availability of Signals Intelligence in the Public Domain](https://www.rand.org/pubs/perspectives/PE273.html) RAND.*
+{: .notice}
+
+"HawkEye 360 is a Radio Frequency (RF) data analytics company. We operate a first-of-its-kind commercial satellite constellation to identify, process, and geolocate a broad set of RF signals. We extract value from this unique data through proprietary algorithms, fusing it with other sources to create powerful analytical products that solve hard challenges for our global customers. Our products include maritime domain awareness and spectrum mapping and monitoring; our customers include a wide range of commercial, government and international entities."<br /> -- HawkEye360 Press Release, (March 4 2022), [HawkEye 360 Signal Detection Reveals GPS Interference in Ukraine](https://www.he360.com/hawkeye-360-signal-detection-reveals-gps-interference-in-ukraine/) he360.com
+
 "It is possible that the Syrian army used the long-established ‘direction-finding’ approach to pin-point the location of the journalists in the media centre. […] It is relatively simple to receive this signal for a trained technician, using an RF (Radio Frequency) spectrum analyser. […] After detecting the presence of sat phone transmissions, it would be relatively easy for communications technicians to find the location of the phone by tuning to that frequency, moving the antennas to find the direction where the signal was strongest and then triangulating with their opposites. This would provide an ever-shrinking triangle until the points intersect."<br /> -- *SaferMobile Anonymous Contributors (February 23 2012) [Be Afraid, Be Very Afraid of Satellite Phones in Insecure Locations](https://web.archive.org/web/20120327070537/https://safermobile.org/be-afraid-be-very-afraid-of-satellite-phones-in-insecure-locations/) SaferMobile.*
 {: .notice}
 
@@ -362,6 +377,17 @@ More on the 2012 attack from a cryptanalysis/standard viewpoint :
 
 "Proximity is relative. First you have to distinguish between what's commonly called "tactical" intercepts which are done in the field. For those, you receive the phone uplink but a phone transmits with quite a bit of power and doesn't have very directional antenna, so it can be several kilometers, especially if you have a good vantage point.  Then there is what's called "strategic" interception setups, done at dedicated facilities. What goes up must come down and most satellites are just "bent pipe", dumbly retransmitting what they receive back to earth. So instead of receiving the phone, you can just listen to the sat retransmitting the phone comms back to the ground station."<br /> -- *Sylvain  Munaut 2021 (paraphrased)*
 {: .notice}
+
+"One example of satellite eavesdropping was the use of the
+$26 Russian SkyGrabber program by hackers in Iraq to capture
+U.S. military Predator drone video feeds in 2009. Insurgents
+eavesdropped on the unencrypted video feed backhauled from
+Predator drones through commercial communications satellites.13
+Surprisingly, such encryption weaknesses still exist for some com-
+mercial satellite systems. The government addresses this weakness
+by requiring encryption for military communications that rely on
+commercial systems, but other nongovernmental traffic through
+those systems may remain vulnerable."<br /> -- *Weinbaum, Cortney et al, (2017) [SIGINT for Anyone: The Growing Availability of Signals Intelligence in the Public Domain](https://www.rand.org/pubs/perspectives/PE273.html) RAND.*
 
 “As the conflict grew, an increasing number of users migrated from Thuraya to other networks, both because of the interruptions associated with the intermittent jamming as well as a strong perception among many in the Libyan opposition that the Thuraya servers were especially vulnerable to LAJ signals intelligence or some other form of unspecified interception. […] It would become clear after the conflict ended that this concern was at least in part well-founded: the LAJ was found to have training materials for the L3 Communications Tactical Thuraya Monitoring System, an interception and localization package developed for field-deployed signals intelligence applications.”<br /> -- *Scott-Railton, John (January 2013) [Revolutionary Risks: Cyber Technology and Threats in the 2011 Libyan Revolution](https://digital-commons.usnwc.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1012&context=ciwag-case-studies) U.S. Naval War College Digital Commons / CIWAG Case Studies.*
 {: .notice}
