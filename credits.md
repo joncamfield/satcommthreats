@@ -20,12 +20,12 @@ toc: false
 #  Thanks To
 
 -   Sylvain Munaut, email conversation, November 2021
--   Hammer, [Project Ainita](https://ainita.net/), conversations, review, and comments, Feb 2022
+-   Hammer, [Project Ainita](https://ainita.net/), conversations, review, and comments, January 2022
 -   Anonymous Security Expert 1, Extensive document review and comments, March 2022 <!--(sha1: 9c13e5ab761f74428afb1e3b1cba82540d063cde)-->
-
-# Additional Thanks to Reviewers
-
--   Thom Kaye <!-- (sha1 e316600e38882ca0bfbb9e5ad375271284db3894) -->
+-   Anonymous Security Expert 2, Extensive document review and comments, March 2022
+-   Anonymous Industry Experts, conversations and clarifications at/adjacent to SATELLITE 2022 conference, March 2022
+-   Thom Kaye, Review <!-- (sha1 e316600e38882ca0bfbb9e5ad375271284db3894) -->
+-   
 
 
 # References
@@ -45,6 +45,7 @@ toc: false
 -   Pearson, James, et al (March 11 2022) [Exclusive: U.S. spy agency probes sabotage of satellite internet during Russian invasion, sources say](https://www.reuters.com/world/europe/exclusive-us-spy-agency-probes-sabotage-satellite-internet-during-russian-2022-03-11/) Reuters.
 -   Pelton, Robert Young (March 3 2012) [Kill The Messenger](https://foreignpolicy.com/2012/03/03/kill-the-messenger/), Foreign Policy.
 -   RFE/RL Staff (February 24 2012) [Marie Colvin\'s Death Raises Concerns About Use Of Satellite Phones](https://www.rferl.org/a/marie_colvin_death_concerns_about_safe_use_satelite_phones/24495230.html), RFE/RL.
+-   Rohde & Schwarz (Retrieved Mar 24 2022) [Satellite Intelligence](https://www.rohde-schwarz.com/us/products/aerospace-defense-security/satellite-monitoring/pg_overview_64135.html) rohde-schwarz.com [Archive](https://web.archive.org/web/20220324142831/https://www.rohde-schwarz.com/us/products/aerospace-defense-security/satellite-monitoring/pg_overview_64135.html)
 -  SaferMobile Anonymous Contributors (February 23 2012) [Be Afraid, Be Very Afraid of Satellite Phones in Insecure Locations](https://web.archive.org/web/20120327070537/https://safermobile.org/be-afraid-be-very-afraid-of-satellite-phones-in-insecure-locations/) SaferMobile.
 -   Santamarta, Ruben  (2014) [A Wake-up Call for SATCOM Security](https://ioactive.com/pdfs/IOActive_SATCOM_Security_WhitePaper.pdf) IOActive.
 -   Santamarta, Ruben  (August 2018) [Last Call for SATCOM Security](https://i.blackhat.com/us-18/Thu-August-9/us-18-Santamarta-Last-Call-For-Satcom-Security-wp.pdf) Blackhat.

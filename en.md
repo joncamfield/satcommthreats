@@ -198,28 +198,23 @@ countries, possession/use alone can be enough to detain someone.
 ### Mitigations
 
 -   Track which devices you are using (including smartphones and laptops) have what data stored on them.  Satellite phones and pagers are likely to have recent call logs and contacts. Regularly purge contacts, recent calls/message and any other content/documents on as many devices as possible - in particular ones which cannot be protected with encryption. Use automatically disappearing message options. Log out of apps/websites.
--   Conceal the location of the satellite device and consider the requirements for device connectivity at the same time as security requirements. BGANs require different angles of access to clear sky depending on location (https://www.groundcontrol.com/products/inmarsat/bgan-range/bgan-coverage-map/)
+-   Use a bluetooth headset (for calls/satphones) or wifi connectivity / router to not be in possession of the device when you use it. (See device geolocation mitigations below)
+-   If you are in a location where raids or similar physical searches are likely, find a safer location to store equipment, and carefully consider the potential value of the satellite device against the possibility of arrest. Should you dispose of or destroy this device instead?
+-   If purchasing, seek out dual-use equipment, for example, devices which look like GPS units but which also provide a satellite data connection. If using this approach, ensure that users have a reason to use a GPS device and familiarity with its features.
+- Consider your adversary -- are you trying to conceal your device from someone walking by on the street, or from someone flying over in a helicopter? Both?
 
--   Disguise the phone/antenna/dish. Different materials will have different effects if covering a
+**Specifically for satellite dishes and BGANs**
+
+- BGANs are directional (as opposed to omnidirectional satellite phones) and require specific angles of visiblity to the sky. Understanding what angle your device requires allows you to minimize its visibility from other directions. [This map](https://www.groundcontrol.com/products/inmarsat/bgan-range/bgan-coverage-map/) provides a very rough idea of the angles (both compass directional and vertical) that you will need for BGANs depending on your location.
+- Starlink terminals require a 100° cone up from the dish, which will calibrate itself to the ideal base angle depending on your location.
+- -   Conceal the location of the satellite device and consider the requirements for device connectivity at the same time as security requirements.
+
+-   Concealment -- different materials will have different effects if covering a
     satellite dish. In general, any covering is likely to reduce your
-    signal, so consider non-metallic paint or light, dry cloth (water --
-    in clouds, rain, and even trees is a significant factor in signal
-    strength for some frequencies). Also consider your adversary -- are you trying to conceal
-    this from someone walking by on the street, or from someone flying
-    over in a helicopter? Both?
+    signal, so consider non-metallic paint or light, dry cloth.
 
--   Use a bluetooth headset or wifi router to not be in possession of the device when you use it. (See device geolocation mitigations below)
 
--   When purchasing, seek out dual-use equipment, for example, devices
-    which look like GPS units but which also provide a satellite data
-    connection. If using this approach, ensure that users have a reason
-    to use a GPS device and familiarity with its features.
 
--   If you are in a location where raids or similar physical searches
-    are likely, find a safer location to store equipment, and carefully
-    consider the potential value of the satellite device against the
-    possibility of arrest. Should you dispose of or destroy this device
-    instead?
 
 ### Details
 
@@ -228,47 +223,33 @@ countries, possession/use alone can be enough to detain someone.
 
 ## Device Geolocation
 
-Multiple approaches can be used to geolocate an active device, including commercial satellite-based offerings enabling fully remote tracking and custom workflow/alert processes for "unexpected" satellite signals.  Many others are more proximity based and required and some skills and/or technology, but all of these approaches have options where one can trade cost for expertise (e.g. easy to use but expensive commercial/off-the-shelf tools vs easy-to-source, vs low-cost DIY tools with a steep learning curve). In addition to the global, satellite-based options, these devices can also be mounted on aircraft, drones, vehicles, or even be handheld.
+Multiple approaches can be used to geolocate an active satellite communications device. The longer a device is used, and the more times it is used from the same location over time, the more precise the location can be calculated and/or corroborated with other events or known locations (such as office or house addresses, posting of news stories, social media engagement, etc.).
 
-Military adversaries in a conflict zone are likely to be resourced with
-skills and devices and also likely to be actively scanning for satellite
-communications.
+There are commercially available satellite-based offerings which enable fully global and remote location, tracking, and even custom alerts for "unexpected" satellite signals. Additional geolocation options can be mounted on aircraft, drones/UAVs, vehicles, or even be handheld, and these range from easy to use but expensive to low-cost DIY tools which are easy to source but require more skills. Military adversaries in a conflict zone are likely to be resourced with skills and devices and also likely to be actively scanning for satellite communications.
 
-Government-level legal pressure/demands of relevant service providers
-provide yet another avenue for this information.
+Finally, government-level legal pressure/demands of relevant service providers provide yet another avenue for this information.
 
 ### Mitigations
 
+-   Minimize usage time - short calls or messages, very planned and prepared sending/receiving of data
+-   If possible, use the device from a different location each time to reduce the ability for an adverdsary to correlate the device with a specific location over time.
+-   Leave the device fully turned off when not in use
+-   If the device also has cellular service (GSM/4G/etc.) disable that functionality when not in use to limit tracking by cellular tower triangulation.
 -   Also practice the mitigations under device seizure, above.
     -   In specific, the use of a wireless router to give physical
         distance from the satellite device provides specific benefit
-        here by giving you some warning of a raid against the location
+        here by giving you some warning of a raid or other targeted activity against the location
         of the device, as well as (in military/conflict situations) some
         distance from kinetic attacks such as missiles or other
         bombardment.
--   Leave the device turned off when not in use
--   Change location of where you call from (but do not move while using
-    the device if avoidable, as this can cause the connection to drop, forcing a recalibration)
--   Don't use at home/work locations except in emergency
--   Minimize usage time
--   Consider the terrain / urban infrastructure and how it can help
-    limit geolocation. In Afghanistan for instance, it's extremely
-    difficult to use direction finding equipment (which can be handheld or vehicle/drone mounted and used to triangulate signals) due to the mountains and deep valleys, act as an automatic shield for signals.
--   If the device also has cellular service (GSM/4G/etc.) disable that functionality when not in use.
-
-
-**Additional Mitigations (Law Enforcement type adversary)**
-
-Making sat-phone calls from highly populated areas can make it difficult
-for authorities to identify and physically intercept the caller after a
-short call.
-
-**Additional Mitigations (State/Military type adversary)**
-
-Using devices in locations far from urban areas, government
+-  Where you use the device from impacts how easy it is to locate, track, and respond to by adversaries. There is no universal guidance here, and specific use cases, requirements, adversaries, and context play roles:
+   - Consider the terrain / urban infrastructure and how it can help limit geolocation. In Afghanistan for instance, it's extremely difficult to use direction finding equipment due to the mountains and deep valleys, act as an automatic shield for signals.
+   - Making sat-phone calls from highly populated areas can make it difficult
+for law enforcement type authorities to identify and physically intercept the caller after a
+short call. However, if facing military or state actors, this could instead add risk of bombardment of the area.
+   - Using devices in locations far from urban areas, government
 infrastructure, military installation/activity, and borders, and using
-them for short periods of time and from different locations each time
-provide additional mitigations against direction finding equipment.
+them for short periods of time and
 
 ### Details
 
@@ -330,18 +311,14 @@ the country(s) where their ground stations are located.
 ## Communication Interception
 
 Similarly to the device geo-location options, interception of satellite
-comms has a range of technical options as well as legal pathways. Sadly,
-research to date has revealed that the baseline security of the
+communication has a range of technical options as well as legal pathways. Interception can take place nearby using ground-based equipment, by using commercial and private satellite options, and by intercepting the signal from the satellite back down to its earthstation or even by way of other satellites. Further, a small number of nations have the ability to position satellites alongside (“co-orbital”) popular communication satellites to eavesdrop on communications to/from that satellite. While this is very rare and much more likely focused on military/defense outcomes, there are many similarly capable commercial options.
+
+Sadly, research to date has revealed that the baseline security of the
 communication is not a priority for providers or the standards-setting
 bodies.
 
-"Modern satellite phones encrypt voice traffic to prevent eavesdropping. It's that modern GMR-2 algorithm that was the focus of the research, given that it's used in most satellite phones today. […] The end result was that encrypted data could be cracked in a fraction of a second. "This again demonstrates that there exists serious security flaws in the GMR-2 cipher, and it is crucial for service providers to upgrade the cryptographic modules of the system in order to provide confidential communication," said the researchers."<br /> -- *Whittaker, Zack  (July 6 2017) [New attack can now decrypt satellite phone calls in "real time"](https://www.zdnet.com/article/encryption-satellite-phones-unscramble-attack-research/) ZDNet.*
-{: .notice}
+This means that without additional encryption, basic satellite communication is both insecure and easy to passively monitor.
 
-More on the 2012 attack from a cryptanalysis/standard viewpoint :
-
-"[E]avesdropping on satellite communications is (in principle) easier than eavesdropping on cellular signals. That’s because satellite ‘spot beams’ cover relatively broad geographic territories (Thuraya’s are 600km on average). So you don’t just have to worry about eavesdropping by your neighbor, you have to worry about eavesdropping by neighboring countries."<br /> -- *Green, Matthew  (February 5 2012) [Satellite phone encryption is terrible. Anyone surprised?](https://blog.cryptographyengineering.com/2012/02/05/sattelite-phone-encryption-is-terrible/) Cryptography Engineering.*
-{: .notice}
 
 ### Mitigations
 
@@ -362,7 +339,15 @@ More on the 2012 attack from a cryptanalysis/standard viewpoint :
 
 ### Details
 
-**Uplink/Downlink Interception**
+**Baseline Encryption**
+
+"Modern satellite phones encrypt voice traffic to prevent eavesdropping. It's that modern GMR-2 algorithm that was the focus of the research, given that it's used in most satellite phones today. […] The end result was that encrypted data could be cracked in a fraction of a second. "This again demonstrates that there exists serious security flaws in the GMR-2 cipher, and it is crucial for service providers to upgrade the cryptographic modules of the system in order to provide confidential communication," said the researchers."<br /> -- *Whittaker, Zack  (July 6 2017) [New attack can now decrypt satellite phone calls in "real time"](https://www.zdnet.com/article/encryption-satellite-phones-unscramble-attack-research/) ZDNet.*
+{: .notice}
+
+"[E]avesdropping on satellite communications is (in principle) easier than eavesdropping on cellular signals. That’s because satellite ‘spot beams’ cover relatively broad geographic territories (Thuraya’s are 600km on average). So you don’t just have to worry about eavesdropping by your neighbor, you have to worry about eavesdropping by neighboring countries."<br /> -- *Green, Matthew  (February 5 2012) [Satellite phone encryption is terrible. Anyone surprised?](https://blog.cryptographyengineering.com/2012/02/05/sattelite-phone-encryption-is-terrible/) Cryptography Engineering.*
+{: .notice}
+
+**Nearby (Tactical) Interception**
 
 "Proximity is relative. First you have to distinguish between what's commonly called "tactical" intercepts which are done in the field. For those, you receive the phone uplink but a phone transmits with quite a bit of power and doesn't have very directional antenna, so it can be several kilometers, especially if you have a good vantage point.  Then there is what's called "strategic" interception setups, done at dedicated facilities. What goes up must come down and most satellites are just "bent pipe", dumbly retransmitting what they receive back to earth. So instead of receiving the phone, you can just listen to the sat retransmitting the phone comms back to the ground station."<br /> -- *Sylvain  Munaut 2021 (paraphrased)*
 {: .notice}
@@ -384,14 +369,14 @@ those systems may remain vulnerable."<br /> -- *Weinbaum, Cortney et al, (2017) 
 “By this point, the regime's electronic warfare had become even more sophisticated. Cell phone and landline calls had long been monitored, but now the spies turned their attention to satellite phones. To avoid NATO air strikes, one team of Ukrainian mercenaries set up shop in a kindergarten, right around the corner from the intelligence headquarters; from there they snooped on sat-phone traffic using frequency scanners. Gadhafi had declared that anyone caught with a satellite phone could be sentenced to death.”<br /> -- *Aikins, Matthieu (May 18 2012) [Jamming Tripoli](https://www.wired.com/2012/05/ff-libya/) Wired.*
 {: .notice}
 
-**In-orbit Interception**
+**Global/Remote (Strategic) Interception**
 
-A very small number of nations have the potential ability to position satellites alongside (“co-orbital”) popular communication satellites to eavesdrop on communications to/from that satellite. This is very rare and much more likely focused on military/defense outcomes, but is in the realm of possible:
+"The portfolio of Rohde & Schwarz satellite monitoring solutions for passive interception and monitoring of satellite communications signals is based on many years of professional experience. It ranges from flexible, transportable solutions to complex stationary strategic systems for simultaneous interception of signals and services from multiple satellites. Areas of application include the analysis and identification of unknown satellite based communications as well as the processing of satellite signals and services for intelligence purposes. Field-proven operational concepts and sophisticated analysis tools help organizations efficiently and effectively analyze carriers, services, content and metadata."<br /> -- *Rohde & Schwarz (Retrieved Mar 24 2022) [Satellite Intelligence](https://www.rohde-schwarz.com/us/products/aerospace-defense-security/satellite-monitoring/pg_overview_64135.html) rohde-schwarz.com [Archive](https://web.archive.org/web/20220324142831/https://www.rohde-schwarz.com/us/products/aerospace-defense-security/satellite-monitoring/pg_overview_64135.html)*
 
 "That new primary mission was “Thuraya collection and Afghanistan/Pakistan exfiltration.” The first confirms that the close placement near, and apparent co-orbital shadowing of, the commercial Thuraya 2 satellite is indeed intentional: Mentor 4 is indeed eavesdropping on Thuraya 2. The second relates to a more typical mission of ORION SIGINT satellites: collecting radio signals from a wide geographic region on Earth. The document also mentions (in the byline with the illustration) that the satellite was expected to be fully operational around mid-May of 2009. This tallies with the observed moment of Mentor 4’s arrival near 44 degrees east. It arrived there in late April of 2009, although it did not fully stabilize there until July 2009 (see diagram below.) Like PAN’s orbital behavior, the behaviour of Mentor 4 is unusual for a SIGINT satellite. The very close placement and closely synchronized co-orbital movement of Mentor 4 with regard to Thuraya 2 is unique, in the sense that it is behavior different from both earlier and later satellites in the ORION series: none of these shadow another satellite this closely." <br /> -- *Langbroek, Marco (Octover 31 2016) [A NEMESIS in the sky](https://www.thespacereview.com/article/3095/1) The Space Review.*
 {: .notice}
 
-In a speech outlining France’s space policy and security issues, Parly said that the Athena-Fidus satellite, operated jointly by France and Italy, was approached “a bit too closely” by Russia’s Luch-Olymp craft, known for its advanced listening capacity. “It got so close that we might have imagined it was trying to intercept our communications,” she added. “Trying to listen to your neighbours is not only unfriendly, it’s an act of espionage.”<br /> -- *Chrisafis Angelique (September 7 2018) ['Act of espionage': France accuses Russia of trying to spy on satellite data](https://www.theguardian.com/world/2018/sep/07/france-accuses-russia-spying-satellite-communications-espionage) The Guardian*
+"In a speech outlining France’s space policy and security issues, Parly said that the Athena-Fidus satellite, operated jointly by France and Italy, was approached “a bit too closely” by Russia’s Luch-Olymp craft, known for its advanced listening capacity. “It got so close that we might have imagined it was trying to intercept our communications,” she added. “Trying to listen to your neighbours is not only unfriendly, it’s an act of espionage.”<br /> -- *Chrisafis Angelique (September 7 2018) ['Act of espionage': France accuses Russia of trying to spy on satellite data](https://www.theguardian.com/world/2018/sep/07/france-accuses-russia-spying-satellite-communications-espionage) The Guardian*
 {: .notice}
 
 **Groundstation Monitoring**
@@ -411,7 +396,11 @@ with a specific satellite (uplink). Both are relatively easy and
 inexpensive, but untargeted. Jamming a satellite (uplink) can have
 international impacts and would be a breach of ITU's [Article
 15](https://www.itu.int/en/ITU-R/terrestrial/tpr/Documents/Article15-RR16.pdf),
-Interference from Radio Stations.
+Interference from Radio Stations, and will be quickly noticed internationally.  GPS signals can also be targeted for jamming, which inhibits satellite devices from connecting and staying connected with satellites.
+
+Jamming may not be targeted at you specifically, but could still impact your ability to connect using satellite communications -- you may be a bystander to jamming targeted in the area and/or against the same satellites you are using.
+
+Finally, environmental factors may also cause failed connectivity. Weather and/or other obstructions between your satellite device and the sky (dependent on the type of device, it's precise angle to aim at the satellite, etc.) all can cause connectivity issues.
 
 ### Mitigation
 
@@ -439,6 +428,8 @@ Interference from Radio Stations.
 
 “Over the weekend of February 19, transmissions from two television satellites that served a wide range of news programming to Libya and the region were disrupted by jamming, according to the Lebanese Telecommunications Regulatory Authority. And on February 21, Al Jazeera accused Libya of jamming its satellite transmissions in the region, and stated that it had conclusively identified the jamming as emanating from an LAJ intelligence services building south of Tripoli. <br />Satellite telecommunications were not immune to LAJ disruption and denial efforts, which were likely targeted against the use of satellite telephones like the Thuraya handset, which were widely used in Libya. On February 25, Thuraya accused Libya of having engaged in a week’s worth of jamming of the Thuraya-2 satellite that provided satellite phone and data connectivity to Thuraya devices within Libya. Shortly thereafter, Thuraya announced that its technical efforts had restored voice services to much of Libya. Nevertheless, users of Thuraya phones continued to experience substantial difficulty connecting throughout the revolution.”<br /> -- *Scott-Railton, John (January 2013) [Revolutionary Risks: Cyber Technology and Threats in the 2011 Libyan Revolution](https://digital-commons.usnwc.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1012&context=ciwag-case-studies) U.S. Naval War College Digital Commons / CIWAG Case Studies.*
 {: .notice}
+
+"When HawkEye 360 analysts examined Ukraine over the past four months, they discovered continued and increased GPS interference across the region. The data showed extensive GPS interference in November 2021 along the boundary of the pro-Russian separatist-controlled regions in Luhansk and Donetsk. Open-source information confirmed Unmanned Aerial Vehicles (UAVs) operating in the area were disrupted due to lost GPS connections… And in February 2022, HawkEye 360 detected GPS interference along the border between Ukraine and Belarus, shortly before the Russian invasion started." <br /> --*HawkEye360 Press Release, (March 4 2022), [HawkEye 360 Signal Detection Reveals GPS Interference in Ukraine](https://www.he360.com/hawkeye-360-signal-detection-reveals-gps-interference-in-ukraine/) he360.com*
 
 "Jamming can also occur accidentally: in 2015, U.S. military officials noted they were unintentionally jamming satellite communications an average of 23 times per month. Purposeful jamming can be difficult to differentiate from accidental interference, making attribution more challenging."<br /> -- *Velkovsky, Pavel; Mohan, Janani; and Simon, Maxwell (April 03 2021) [Satellite Jamming](https://ontheradar.csis.org/issue-briefs/satellite-jamming/) On the radar / CSIS.*
 {: .notice}
