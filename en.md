@@ -203,18 +203,14 @@ countries, possession/use alone can be enough to detain someone.
 -   If purchasing, seek out dual-use equipment, for example, devices which look like GPS units but which also provide a satellite data connection. If using this approach, ensure that users have a reason to use a GPS device and familiarity with its features.
 - Consider your adversary -- are you trying to conceal your device from someone walking by on the street, or from someone flying over in a helicopter? Both?
 
-**Specifically for satellite dishes and BGANs**
+**Additional guidance for satellite dishes and BGANs**
 
-- BGANs are directional (as opposed to omnidirectional satellite phones) and require specific angles of visiblity to the sky. Understanding what angle your device requires allows you to minimize its visibility from other directions. [This map](https://www.groundcontrol.com/products/inmarsat/bgan-range/bgan-coverage-map/) provides a very rough idea of the angles (both compass directional and vertical) that you will need for BGANs depending on your location.
-- Starlink terminals require a 100° cone up from the dish, which will calibrate itself to the ideal base angle depending on your location.
-- -   Conceal the location of the satellite device and consider the requirements for device connectivity at the same time as security requirements.
-
--   Concealment -- different materials will have different effects if covering a
-    satellite dish. In general, any covering is likely to reduce your
-    signal, so consider non-metallic paint or light, dry cloth.
-
-
-
+- **Concealment** -- limit how visible the device is when it is outside:
+  - BGANs are directional (as opposed to omnidirectional satellite phones) and require specific angles of visiblity to the sky. [This map](https://www.groundcontrol.com/products/inmarsat/bgan-range/bgan-coverage-map/) provides a very rough idea of the angles (both compass directional and vertical) that you will need for BGANs depending on your location.
+  - Starlink terminals require a 100° cone up from the dish, which will calibrate itself to the ideal base angle depending on your location.
+  - Understanding what angle your device requires allows you to minimize its visibility from other directions - including to some extent from above in the case of BGAN and other directional dishes pointing at geostationary satellites.
+- **Camoflauge** -- different materials will have different effects if covering a satellite dish. In general, any covering is likely to reduce your signal. Consider lightweight, dry cloth or plastic, or non-metallic paint.
+- As you explore your concealment options, review your device's diagnostics tools to see how that is impacting its connectivity.
 
 ### Details
 
@@ -223,13 +219,40 @@ countries, possession/use alone can be enough to detain someone.
 
 ## Device Geolocation
 
-Multiple approaches can be used to geolocate an active satellite communications device. The longer a device is used, and the more times it is used from the same location over time, the more precise the location can be calculated and/or corroborated with other events or known locations (such as office or house addresses, posting of news stories, social media engagement, etc.).
+Multiple approaches can be used to geolocate an active satellite communications device regardless of the type of device. While satellite phones are the easiest to track given their omnidirectional antenna, other devices such as BGANs and Starlinks are still locatable by multiple methods. These methods range from easy to use but expensive to low-cost DIY tools which are easy to source but require more skills. Military adversaries in a conflict zone are likely to be resourced with skills and devices and also likely to be actively scanning for satellite communications.
 
-There are commercially available satellite-based offerings which enable fully global and remote location, tracking, and even custom alerts for "unexpected" satellite signals. Additional geolocation options can be mounted on aircraft, drones/UAVs, vehicles, or even be handheld, and these range from easy to use but expensive to low-cost DIY tools which are easy to source but require more skills. Military adversaries in a conflict zone are likely to be resourced with skills and devices and also likely to be actively scanning for satellite communications.
+Geolocation methods include the following, see the Details section below for specific references and capabilities
 
-Finally, government-level legal pressure/demands of relevant service providers provide yet another avenue for this information.
+* **Satellite-based tracking** - There are commercially available satellite-based offerings which enable fully global and remote location, tracking, and even custom alerts for "unexpected" satellite (and other radio frequency) signals. Intelligence satellites are an additional option for some countries.
+* **Intercepting of GPS data** - Satellite devices often communicate GPS locaiton details which can be intercepted.
+* **Radio Frequency (RF) monitoring and triangulation** - Geolocation tools can be mounted on aircraft and drones/UAVs for better detection of BGAN, Starlink, and other more directional connections, as well as locating signals where terrain or other obstacles limits ground-based tool effectiveness. RF monitoring tools (incuding simply, DIY once) can also be mounted on vehicles or even be handheld. Tools can also be placed in fixed locations to track signals in an area over time.
+* **Legal pathways** - In addition to technical means, there are also legal avenues (simply demanding records from satellite service providers directly and/or in the country(s) where their ground stations are located.
+
+<!--
+Satellite phones are the highest risk here due to their omni-directional
+antenna setup.
+
+As differentiated from devices which use large satellite
+dish-style, directed antennas, Sat Phones are the easiest for an
+adversary to geolocate due to their use of L band comms with an
+omni-directional antenna. The band is a commonly monitored band, and the
+omni-directional antenna means it has significant "spill-over" of RF
+noise visible to direction finder devices. This risk is higher when the
+phone is used or even left turned on for a long time. Even if not "used"
+but only tuned on, the phone will send frequent pings to the satellite
+which could be tracked for triangulation.
+
+Any adversary capable of intercepting (see below) also has the potential
+to receive precise GPS coordinates. These are in some cases transmitted
+in the clear, and can be therefore discovered by capturing uplink and in
+some cases much more widely available downlink signals as well.
+
+
+-->
 
 ### Mitigations
+
+The longer a device is used, and the more times it is used from the same location over time, the more precise the location can be calculated and/or corroborated with other events or known locations (such as office or house addresses, posting of news stories, social media engagement, etc.).
 
 -   Minimize usage time - short calls or messages, very planned and prepared sending/receiving of data
 -   If possible, use the device from a different location each time to reduce the ability for an adverdsary to correlate the device with a specific location over time.
@@ -253,20 +276,15 @@ them for short periods of time and
 
 ### Details
 
-**Using Radio Frequency Triangulation**
+**Satellite-based tracking**
 
-Satellite phones are the highest risk here due to their omni-directional
-antenna setup. As differentiated from devices which use large satellite
-dish-style, directed antennas, Sat Phones are the easiest for an
-adversary to geolocate due to their use of L band comms with an
-omni-directional antenna. The band is a commonly monitored band, and the
-omni-directional antenna means it has significant "spill-over" of RF
-noise visible to direction finder devices. This risk is higher when the
-phone is used or even left turned on for a long time. Even if not "used"
-but only tuned on, the phone will send frequent pings to the satellite
-which could be tracked for triangulation.
+"HawkEye 360 is a Radio Frequency (RF) data analytics company. We operate a first-of-its-kind commercial satellite constellation to identify, process, and geolocate a broad set of RF signals. We extract value from this unique data through proprietary algorithms, fusing it with other sources to create powerful analytical products that solve hard challenges for our global customers. Our products include maritime domain awareness and spectrum mapping and monitoring; our customers include a wide range of commercial, government and international entities."<br /> -- HawkEye360 Press Release, (March 4 2022), [HawkEye 360 Signal Detection Reveals GPS Interference in Ukraine](https://www.he360.com/hawkeye-360-signal-detection-reveals-gps-interference-in-ukraine/) he360.com
 
-"\[Satellite communications\] can be triangulated with affordable, even homemade tools. […] Highly developed countries with advanced technical security are likely to have this capacity, less developed states and even non-state actors may be able to develop the capacity."<br /> -- *SMALL WORLD NEWS (March 2012) [GUIDE TO SAFELY USING SAT PHONES](https://gisf.ngo/wp-content/uploads/2020/02/2173-Small-Worls-News-2012-Guide-to-safely-using-satphones.pdf) The Global Interagency Security Forum.*
+(See also Global/Remote (strategic) interception, below.)
+
+**Radio Frequency (RF) Monitoring and Triangulation**
+
+"“Russia has spent a long time perfecting these techniques. On April 21, 1996, Chechnya’s breakaway president, Dzhokhar Dudayev, was speaking on a satellite phone with Russian envoy Konstantin Borovoi about setting peace talks with Yeltsin. During the phone call, he was killed by a signal-guided missile fired from a Russian jet fighter. The warplane had received Dudayev’s coordinates from a Russian ELINT (electronic intelligence) plane that had picked up and locked on to the signal emitted by the satellite phone. It was Russian deception and brutality at its finest."<br /> -- *Pelton, Robert Young (March 3 2012) [Kill The Messenger](https://foreignpolicy.com/2012/03/03/kill-the-messenger/), Foreign Policy.*
 {: .notice}
 
 "During our market scan, we found examples of SIGINT
@@ -281,29 +299,20 @@ where SIGINT has been democratized, or available to anyone.
 The capabilities we found have implications for the U.S." <br /> -- *Weinbaum, Cortney et al, (2017) [SIGINT for Anyone: The Growing Availability of Signals Intelligence in the Public Domain](https://www.rand.org/pubs/perspectives/PE273.html) RAND.*
 {: .notice}
 
-"HawkEye 360 is a Radio Frequency (RF) data analytics company. We operate a first-of-its-kind commercial satellite constellation to identify, process, and geolocate a broad set of RF signals. We extract value from this unique data through proprietary algorithms, fusing it with other sources to create powerful analytical products that solve hard challenges for our global customers. Our products include maritime domain awareness and spectrum mapping and monitoring; our customers include a wide range of commercial, government and international entities."<br /> -- HawkEye360 Press Release, (March 4 2022), [HawkEye 360 Signal Detection Reveals GPS Interference in Ukraine](https://www.he360.com/hawkeye-360-signal-detection-reveals-gps-interference-in-ukraine/) he360.com
+"\[Satellite communications\] can be triangulated with affordable, even homemade tools. […] Highly developed countries with advanced technical security are likely to have this capacity, less developed states and even non-state actors may be able to develop the capacity."<br /> -- *SMALL WORLD NEWS (March 2012) [GUIDE TO SAFELY USING SAT PHONES](https://gisf.ngo/wp-content/uploads/2020/02/2173-Small-Worls-News-2012-Guide-to-safely-using-satphones.pdf) The Global Interagency Security Forum.*
+{: .notice}
 
 "It is possible that the Syrian army used the long-established ‘direction-finding’ approach to pin-point the location of the journalists in the media centre. […] It is relatively simple to receive this signal for a trained technician, using an RF (Radio Frequency) spectrum analyser. […] After detecting the presence of sat phone transmissions, it would be relatively easy for communications technicians to find the location of the phone by tuning to that frequency, moving the antennas to find the direction where the signal was strongest and then triangulating with their opposites. This would provide an ever-shrinking triangle until the points intersect."<br /> -- *SaferMobile Anonymous Contributors (February 23 2012) [Be Afraid, Be Very Afraid of Satellite Phones in Insecure Locations](https://web.archive.org/web/20120327070537/https://safermobile.org/be-afraid-be-very-afraid-of-satellite-phones-in-insecure-locations/) SaferMobile.*
 {: .notice}
 
-"“Russia has spent a long time perfecting these techniques. On April 21, 1996, Chechnya’s breakaway president, Dzhokhar Dudayev, was speaking on a satellite phone with Russian envoy Konstantin Borovoi about setting peace talks with Yeltsin. During the phone call, he was killed by a signal-guided missile fired from a Russian jet fighter. The warplane had received Dudayev’s coordinates from a Russian ELINT (electronic intelligence) plane that had picked up and locked on to the signal emitted by the satellite phone. It was Russian deception and brutality at its finest."<br /> -- *Pelton, Robert Young (March 3 2012) [Kill The Messenger](https://foreignpolicy.com/2012/03/03/kill-the-messenger/), Foreign Policy.*
-{: .notice}
 
 **Intercepting GPS Coordinates**
-
-Any adversary capable of intercepting (see below) also has the potential
-to receive precise GPS coordinates. These are in some cases transmitted
-in the clear, and can be therefore discovered by capturing uplink and in
-some cases much more widely available downlink signals as well.
 
 "It is very likely that the GPS location data is transmitted by the sat phone is sent in the clear.  According to the specification (GSM-1 04.008 Section 10.1.8) the message from the sat phone requesting a channel carries among other information the dialed number and the GPS location data before the handset identity is established.  This makes the location data easily readable by an adversary."<br /> -- *SaferMobile Anonymous Contributors (February 23 2012) [Be Afraid, Be Very Afraid of Satellite Phones in Insecure Locations](https://web.archive.org/web/20120327070537/https://safermobile.org/be-afraid-be-very-afraid-of-satellite-phones-in-insecure-locations/) SaferMobile.*
 {: .notice}
 
 **Legal pathways**
 
-In addition to technical means, there are also legal avenues (simply
-demanding records from satellite service providers directly and/or in
-the country(s) where their ground stations are located.
 
 "There are a few different ways by which satellite phones can be tracked.  The first—and easiest for a government actor—would be to simply ask or pressure a company to hand over user data."<br /> -- *York, Jillian and Timm, Trevor (February 2012) [Satphones, Syria, and Surveillance](https://www.eff.org/deeplinks/2012/02/satphones-syria-and-surveillance) EFF.*
 {: .notice}
