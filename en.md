@@ -3,7 +3,7 @@ layout: single
 permalink: /en/
 title: "Satellite Communication Threats"
 excerpt: "English"
-last_modified_at: 2022-03-10T10:23:16-04:00
+last_modified_at: 2022-03-28T10:23:16-04:00
 toc: true
 toc_sticky: true
 
@@ -95,7 +95,8 @@ would be welcomed.*
 -   **GEO** - [Geostationary orbit](https://en.wikipedia.org/wiki/Geostationary_orbit) ("Geosynchronous Earth Orbit") - a satellite, often for communications, which is in an orbit such that it is always in the same location in the sky above a fixed point on the Earth's equator. These are high orbits, so there is additional latency in communications.
 -   **Groundstation** Also referred to as a "teleport", Earth Stations, and [Satellite Earth Stations ("SES")](https://en.wikipedia.org/wiki/Ground_station)) - Satellites relay the comms to dedicated ground stations where the data/call rejoins the "normal" terrestrial internet. Groundstations are strategically located for satellite visibility, but may be in countries without strong human rights or data privacy track records. ***Ground Stations can also refer to any two-way satellite communications terminal on the ground.***
 -   **LEO** - [Low Earth Orbit](https://en.wikipedia.org/wiki/Low_Earth_orbit) - Due to their lower orbit, satellites in LEO offer higher bandwidth and lower latency, but require more satellites to cover a communication area.  Iridium and Starlink are examples of LEO communications satellite systems.
--   **Satphone** / **handset** -- a device in the form factor of a large cell phone with a non-directional antenna.
+-   **Radio Frequency (RF)** - for the purspose of this guide, the [signals](https://www.techtarget.com/searchnetworking/definition/radio-frequency) used by satellite communication devices - but also cell phones, radios, and TV -- which can be blocked, intercepted and detected remotely. Specific frequencies are [reserved](https://en.wikipedia.org/wiki/Frequency_allocation) for specific applications, internationally by the ITU and per-country by regulation.
+-   **Satphone** / **handset** - a device in the form factor of a large cell phone with a non-directional antenna.
 -   **Uplink** - the communication from the satellite device up to the satellite in orbit. Directional antennas (dishes) limit the area one must be to intercept this, but most sat phones do not have directional antennas.
 -   **VSAT** - "[Very-small-aperture terminal](https://en.wikipedia.org/wiki/Very-small-aperture_terminal)" - a two-way groundstation with a dish antenna smaller than 3.8 meters (so most satellite internet antenna like for starlink). These tend to require some "aiming" to make a connection.
 {: .notice}
@@ -161,7 +162,7 @@ Voice calls via satphone can have bad audio, background noises, signficant delay
 ### Mitigations
 
 *  Much like with communicating via radio, it is handy to have staff briefed before on things like the [NATO alphabet](https://en.wikipedia.org/wiki/NATO_phonetic_alphabet) or other simple, pre-arranged codewords.
-*  Use 2-way good radio etiquette to help with latency problems: https://www.csudh.edu/Assets/csudh-sites/dhpd/emergency-preparedness/two%20way%20radio%20protocol.pdf
+*  Use 2-way good radio etiquette to help with latency problems, see this [Two-Way Radio Protocol by California State University](https://www.csudh.edu/Assets/csudh-sites/dhpd/emergency-preparedness/two%20way%20radio%20protocol.pdf).
 
 <!--
 # Summary of Mitigations to consider
@@ -171,17 +172,13 @@ Voice calls via satphone can have bad audio, background noises, signficant delay
 
 # Risks and Mitigations
 
-## Device Legality and Seizure
+## Legality and Seizure
 
 Satellite communication tools, from phones to more robust data
 connection setups, are often tightly regulated and may be illegal.
-OSAC's July 2021 report here:
-<https://www.osac.gov/Content/Report/9db45731-1eec-477a-a7af-1bf950cb4013>
+[OSAC's July 2021 report](https://www.osac.gov/Content/Report/9db45731-1eec-477a-a7af-1bf950cb4013)
 has a list of countries where sat phones are known to be illegal.
-Additional law tracking resources include UNIDIR's Cyber Policy Portal
-(<https://unidir.org/cpp/en>), GPD's Encryption Policy map
-(<https://www.gp-digital.org/world-map-of-encryption/>) , and
-<https://cyrilla.org/>
+Additional law tracking resources include [UNIDIR's Cyber Policy Portal](https://unidir.org/cpp/en), [GPD's Encryption Policy map](https://www.gp-digital.org/world-map-of-encryption/) , and [Cyrilla](https://cyrilla.org/).
 
 In addition, due to the need for an outside, direct line of sight to the
 sky - combined with visually distinct features from cell phones and
@@ -217,7 +214,7 @@ countries, possession/use alone can be enough to detain someone.
 "OSAC members have reported difficulties importing satellite phones in countries where the devices are technically permitted (or not restricted). In Libya, there are no laws against satellite phones, but there have been multiple reports of authorities confiscating satellite phones, GPS devices, and personal tracking devices at the airport. "<br />--*OSAC Cybersecurity Team (July 2 2021) [Guide for Overseas Satellite Phone Usage](https://www.osac.gov/Content/Report/9db45731-1eec-477a-a7af-1bf950cb4013) OSAC.gov.* (**Also has a table of known laws**)
 {: .notice}
 
-## Device Geolocation
+## Geolocation
 
 Multiple approaches can be used to geolocate an active satellite communications device regardless of the type of device. While satellite phones are the easiest to track given their omnidirectional antenna, other devices such as BGANs and Starlinks are still locatable by multiple methods. These methods range from easy to use but expensive to low-cost DIY tools which are easy to source but require more skills. Military adversaries in a conflict zone are likely to be resourced with skills and devices and also likely to be actively scanning for satellite communications.
 
@@ -278,7 +275,9 @@ them for short periods of time and
 
 **Satellite-based tracking**
 
-"HawkEye 360 is a Radio Frequency (RF) data analytics company. We operate a first-of-its-kind commercial satellite constellation to identify, process, and geolocate a broad set of RF signals. We extract value from this unique data through proprietary algorithms, fusing it with other sources to create powerful analytical products that solve hard challenges for our global customers. Our products include maritime domain awareness and spectrum mapping and monitoring; our customers include a wide range of commercial, government and international entities."<br /> -- HawkEye360 Press Release, (March 4 2022), [HawkEye 360 Signal Detection Reveals GPS Interference in Ukraine](https://www.he360.com/hawkeye-360-signal-detection-reveals-gps-interference-in-ukraine/) he360.com
+"HawkEye 360 is a Radio Frequency (RF) data analytics company. We operate a first-of-its-kind commercial satellite constellation to identify, process, and geolocate a broad set of RF signals. We extract value from this unique data through proprietary algorithms, fusing it with other sources to create powerful analytical products that solve hard challenges for our global customers. Our products include maritime domain awareness and spectrum mapping and monitoring; our customers include a wide range of commercial, government and international entities."<br /> -- *HawkEye360 Press Release, (March 4 2022), [HawkEye 360 Signal Detection Reveals GPS Interference in Ukraine](https://www.he360.com/hawkeye-360-signal-detection-reveals-gps-interference-in-ukraine/) he360.com*
+{: .notice}
+
 
 (See also Global/Remote (strategic) interception, below.)
 
@@ -371,6 +370,7 @@ mercial satellite systems. The government addresses this weakness
 by requiring encryption for military communications that rely on
 commercial systems, but other nongovernmental traffic through
 those systems may remain vulnerable."<br /> -- *Weinbaum, Cortney et al, (2017) [SIGINT for Anyone: The Growing Availability of Signals Intelligence in the Public Domain](https://www.rand.org/pubs/perspectives/PE273.html) RAND.*
+{: .notice}
 
 “As the conflict grew, an increasing number of users migrated from Thuraya to other networks, both because of the interruptions associated with the intermittent jamming as well as a strong perception among many in the Libyan opposition that the Thuraya servers were especially vulnerable to LAJ signals intelligence or some other form of unspecified interception. […] It would become clear after the conflict ended that this concern was at least in part well-founded: the LAJ was found to have training materials for the L3 Communications Tactical Thuraya Monitoring System, an interception and localization package developed for field-deployed signals intelligence applications.”<br /> -- *Scott-Railton, John (January 2013) [Revolutionary Risks: Cyber Technology and Threats in the 2011 Libyan Revolution](https://digital-commons.usnwc.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1012&context=ciwag-case-studies) U.S. Naval War College Digital Commons / CIWAG Case Studies.*
 {: .notice}
@@ -381,6 +381,7 @@ those systems may remain vulnerable."<br /> -- *Weinbaum, Cortney et al, (2017) 
 **Global/Remote (Strategic) Interception**
 
 "The portfolio of Rohde & Schwarz satellite monitoring solutions for passive interception and monitoring of satellite communications signals is based on many years of professional experience. It ranges from flexible, transportable solutions to complex stationary strategic systems for simultaneous interception of signals and services from multiple satellites. Areas of application include the analysis and identification of unknown satellite based communications as well as the processing of satellite signals and services for intelligence purposes. Field-proven operational concepts and sophisticated analysis tools help organizations efficiently and effectively analyze carriers, services, content and metadata."<br /> -- *Rohde & Schwarz (Retrieved Mar 24 2022) [Satellite Intelligence](https://www.rohde-schwarz.com/us/products/aerospace-defense-security/satellite-monitoring/pg_overview_64135.html) rohde-schwarz.com [Archive](https://web.archive.org/web/20220324142831/https://www.rohde-schwarz.com/us/products/aerospace-defense-security/satellite-monitoring/pg_overview_64135.html)*
+{: .notice}
 
 "That new primary mission was “Thuraya collection and Afghanistan/Pakistan exfiltration.” The first confirms that the close placement near, and apparent co-orbital shadowing of, the commercial Thuraya 2 satellite is indeed intentional: Mentor 4 is indeed eavesdropping on Thuraya 2. The second relates to a more typical mission of ORION SIGINT satellites: collecting radio signals from a wide geographic region on Earth. The document also mentions (in the byline with the illustration) that the satellite was expected to be fully operational around mid-May of 2009. This tallies with the observed moment of Mentor 4’s arrival near 44 degrees east. It arrived there in late April of 2009, although it did not fully stabilize there until July 2009 (see diagram below.) Like PAN’s orbital behavior, the behaviour of Mentor 4 is unusual for a SIGINT satellite. The very close placement and closely synchronized co-orbital movement of Mentor 4 with regard to Thuraya 2 is unique, in the sense that it is behavior different from both earlier and later satellites in the ORION series: none of these shadow another satellite this closely." <br /> -- *Langbroek, Marco (Octover 31 2016) [A NEMESIS in the sky](https://www.thespacereview.com/article/3095/1) The Space Review.*
 {: .notice}
@@ -439,21 +440,21 @@ Finally, environmental factors may also cause failed connectivity. Weather and/o
 {: .notice}
 
 "When HawkEye 360 analysts examined Ukraine over the past four months, they discovered continued and increased GPS interference across the region. The data showed extensive GPS interference in November 2021 along the boundary of the pro-Russian separatist-controlled regions in Luhansk and Donetsk. Open-source information confirmed Unmanned Aerial Vehicles (UAVs) operating in the area were disrupted due to lost GPS connections… And in February 2022, HawkEye 360 detected GPS interference along the border between Ukraine and Belarus, shortly before the Russian invasion started." <br /> --*HawkEye360 Press Release, (March 4 2022), [HawkEye 360 Signal Detection Reveals GPS Interference in Ukraine](https://www.he360.com/hawkeye-360-signal-detection-reveals-gps-interference-in-ukraine/) he360.com*
+{: .notice}
 
 "Jamming can also occur accidentally: in 2015, U.S. military officials noted they were unintentionally jamming satellite communications an average of 23 times per month. Purposeful jamming can be difficult to differentiate from accidental interference, making attribution more challenging."<br /> -- *Velkovsky, Pavel; Mohan, Janani; and Simon, Maxwell (April 03 2021) [Satellite Jamming](https://ontheradar.csis.org/issue-briefs/satellite-jamming/) On the radar / CSIS.*
 {: .notice}
 
-Device Firmware and Software Security
-------------------------
+## Device Firmware and Software Security
 
-#### Mitigation
+### Mitigation
 
 -   To the extent possible, leverage satellite communications devices as
     untrusted network connections and layer on independent security.
 -   If possible, consider having backup / alternative satellite connectivity options using different providers.
 -   Check the manufacturer website for your device to ensure you have the latest possible firmware.
 
-#### Details
+### Details
 
 "The agencies have advised SATCOM network providers and customers to **use secure authentication methods**, enforce a **principle of least privilege**, review existing trust relationships with IT service providers, **implement independent encryption, strengthen software and firmware security, monitor their networks for suspicious activity, and ensure that they have incident response and resilience plans in place**." <br /> -- *-  Kovacs, Eduard (March 18 2022)[SATCOM Cybersecurity Alert Issued as Authorities Probe Possible Russian Attack](https://www.securityweek.com/satcom-cybersecurity-alert-issued-authorities-probe-possible-russian-attack) Security Week.*
 {: .notice}
