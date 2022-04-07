@@ -25,7 +25,7 @@ toc: false
 -   Anonymous Security Expert 2, Extensive document review and comments, March 2022
 -   Anonymous Industry Experts, conversations and clarifications at/adjacent to SATELLITE 2022 conference, March 2022
 -   Thom Kaye, Review <!-- (sha1 e316600e38882ca0bfbb9e5ad375271284db3894) -->
--   
+-
 
 
 # References
@@ -33,6 +33,7 @@ toc: false
 -   Berger, Brian (February 28 2022) [SpaceX heeds Ukraine’s Starlink SOS](https://spacenews.com/spacex-heeds-ukraines-starlink-sos/) SpaceNews.
 -   Chrisafis Angelique (September 7 2018) ['Act of espionage': France accuses Russia of trying to spy on satellite data](https://www.theguardian.com/world/2018/sep/07/france-accuses-russia-spying-satellite-communications-espionage) The Guardian.
 -   Constantin, Lucian (April 18 2014) [Satellite communication systems rife with security flaws, vulnerable to remote hacks](https://www.computerworld.com/article/2698346/satellite-communication-systems-rife-with-security-flaws--vulnerable-to-remote-hacks.html) ComputerWorld.
+-   Eddy, Max (August 6, 2020) [Sensitive Satellite Internet Data Is Easily Accessible, If You Know Where to Look](https://www.pcmag.com/news/sensitive-satellite-internet-data-is-easily-accessible) PCMag.
 -   Garino, Brian (Maj. USAF), and Gibson, Jane (Maj ,USAF) (2009) [Space System Threats](https://aerospace.csis.org/wp-content/uploads/2018/09/Space-System-Threats.pdf)  Maxwell Air Force Base: Air University Press.
 -   Gordon, Michael R. (April 25 1996) [Chechen Rebels Say Leader Died in Russian Air Attack](https://www.nytimes.com/1996/04/25/world/chechen-rebels-say-leader-died-in-russian-air-attack.html), New York Times.
 -   Green, Matthew  (February 5 2012) [Satellite phone encryption is terrible. Anyone surprised?](https://blog.cryptographyengineering.com/2012/02/05/sattelite-phone-encryption-is-terrible/) Cryptography Engineering.

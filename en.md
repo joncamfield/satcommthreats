@@ -318,15 +318,9 @@ The capabilities we found have implications for the U.S." <br /> -- *Weinbaum, C
 
 ## Communication Interception
 
-Similarly to the device geo-location options, interception of satellite
-communication has a range of technical options as well as legal pathways. Interception can take place nearby using ground-based equipment, by using commercial and private satellite options, and by intercepting the signal from the satellite back down to its earthstation or even by way of other satellites. Further, a small number of nations have the ability to position satellites alongside (“co-orbital”) popular communication satellites to eavesdrop on communications to/from that satellite. While this is very rare and much more likely focused on military/defense outcomes, there are many similarly capable commercial options.
+Similarly to the device geo-location options, interception of satellite communication has a range of technical options as well as legal pathways. Interception of satellite phone calls can take place nearby using ground-based equipment. Interception of any satellite device can take place by intercepting the signal from the satellite back down to its earthstation, or even by using commercial and private satellite options. Finally, a small number of nations have the ability to position satellites alongside (“co-orbital”) popular communication satellites to eavesdrop on communications to/from that satellite. While this is very rare and much more likely focused on military/defense outcomes, there are many similarly capable commercial options.
 
-Sadly, research to date has revealed that the baseline security of the
-communication is not a priority for providers or the standards-setting
-bodies.
-
-This means that without additional encryption, basic satellite communication is both insecure and easy to passively monitor.
-
+Further, research to date has revealed that the baseline security of the communication is not a priority for providers or the standards-setting bodies. **This means that without additional encryption, basic satellite communication is both insecure and easy to passively monitor.**
 
 ### Mitigations
 
@@ -359,6 +353,11 @@ This means that without additional encryption, basic satellite communication is 
 
 "Proximity is relative. First you have to distinguish between what's commonly called "tactical" intercepts which are done in the field. For those, you receive the phone uplink but a phone transmits with quite a bit of power and doesn't have very directional antenna, so it can be several kilometers, especially if you have a good vantage point.  Then there is what's called "strategic" interception setups, done at dedicated facilities. What goes up must come down and most satellites are just "bent pipe", dumbly retransmitting what they receive back to earth. So instead of receiving the phone, you can just listen to the sat retransmitting the phone comms back to the ground station."<br /> -- *Sylvain  Munaut 2021 (paraphrased)*
 {: .notice}
+
+"The satellite doesn't do much," said Pavur. "It's basically just a dumb, bent pipe." It sends the data back to a base station on Earth, which then connects to the internet as usual. This part of the journey is very difficult for an attacker to intercept.  When data comes back from the internet, it heads to the satellite and back down to customers. This time, Pavur explains, the satellite blasts data across an enormous area in order to reach all of the satellite ISP's customers.
+"This is the crux of satellite eavesdropping," he explained. Because the broadcast covers such a wide area, an attacker can easily intercept one side of the communications. … **Intercepting satellite communications can be done by someone in a different country, or even different continent, than the victim.**<br /> -- *-   Eddy, Max (August 6, 2020) [Sensitive Satellite Internet Data Is Easily Accessible, If You Know Where to Look](https://www.pcmag.com/news/sensitive-satellite-internet-data-is-easily-accessible) PCMag.*
+{: .notice}
+
 
 "One example of satellite eavesdropping was the use of the
 $26 Russian SkyGrabber program by hackers in Iraq to capture
