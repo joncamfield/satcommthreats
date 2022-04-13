@@ -7,6 +7,7 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+#main {max-width: 80% !important;}
 .toc__menu {
 
   /* hide sub sub links on small screens*/
@@ -23,3 +24,7 @@
   padding: 2px;
   font-style: italic;
 }
+
+.page__content h2 { background-color: #f8f5ec; padding: 5px; border-left: 1em #e9dcbe solid;}
+
+.page__content h2.intro { background-color: transparent !important; border-left: none !important;}
