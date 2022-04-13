@@ -273,15 +273,14 @@ them for short periods of time and
 
 ### Details
 
-**Satellite-based tracking**
+#### Satellite-based tracking
 
 "HawkEye 360 is a Radio Frequency (RF) data analytics company. We operate a first-of-its-kind commercial satellite constellation to identify, process, and geolocate a broad set of RF signals. We extract value from this unique data through proprietary algorithms, fusing it with other sources to create powerful analytical products that solve hard challenges for our global customers. Our products include maritime domain awareness and spectrum mapping and monitoring; our customers include a wide range of commercial, government and international entities."<br /> -- *HawkEye360 Press Release, (March 4 2022), [HawkEye 360 Signal Detection Reveals GPS Interference in Ukraine](https://www.he360.com/hawkeye-360-signal-detection-reveals-gps-interference-in-ukraine/) he360.com*
 {: .notice}
 
+*(See also Global/Remote (strategic) interception, below.)*
 
-(See also Global/Remote (strategic) interception, below.)
-
-**Radio Frequency (RF) Monitoring and Triangulation**
+#### Radio Frequency (RF) Monitoring and Triangulation
 
 "“Russia has spent a long time perfecting these techniques. On April 21, 1996, Chechnya’s breakaway president, Dzhokhar Dudayev, was speaking on a satellite phone with Russian envoy Konstantin Borovoi about setting peace talks with Yeltsin. During the phone call, he was killed by a signal-guided missile fired from a Russian jet fighter. The warplane had received Dudayev’s coordinates from a Russian ELINT (electronic intelligence) plane that had picked up and locked on to the signal emitted by the satellite phone. It was Russian deception and brutality at its finest."<br /> -- *Pelton, Robert Young (March 3 2012) [Kill The Messenger](https://foreignpolicy.com/2012/03/03/kill-the-messenger/), Foreign Policy.*
 {: .notice}
@@ -304,13 +303,12 @@ The capabilities we found have implications for the U.S." <br /> -- *Weinbaum, C
 "It is possible that the Syrian army used the long-established ‘direction-finding’ approach to pin-point the location of the journalists in the media centre. […] It is relatively simple to receive this signal for a trained technician, using an RF (Radio Frequency) spectrum analyser. […] After detecting the presence of sat phone transmissions, it would be relatively easy for communications technicians to find the location of the phone by tuning to that frequency, moving the antennas to find the direction where the signal was strongest and then triangulating with their opposites. This would provide an ever-shrinking triangle until the points intersect."<br /> -- *SaferMobile Anonymous Contributors (February 23 2012) [Be Afraid, Be Very Afraid of Satellite Phones in Insecure Locations](https://web.archive.org/web/20120327070537/https://safermobile.org/be-afraid-be-very-afraid-of-satellite-phones-in-insecure-locations/) SaferMobile.*
 {: .notice}
 
-
-**Intercepting GPS Coordinates**
+#### Intercepting GPS Coordinates
 
 "It is very likely that the GPS location data is transmitted by the sat phone is sent in the clear.  According to the specification (GSM-1 04.008 Section 10.1.8) the message from the sat phone requesting a channel carries among other information the dialed number and the GPS location data before the handset identity is established.  This makes the location data easily readable by an adversary."<br /> -- *SaferMobile Anonymous Contributors (February 23 2012) [Be Afraid, Be Very Afraid of Satellite Phones in Insecure Locations](https://web.archive.org/web/20120327070537/https://safermobile.org/be-afraid-be-very-afraid-of-satellite-phones-in-insecure-locations/) SaferMobile.*
 {: .notice}
 
-**Legal pathways**
+#### Legal pathways
 
 
 "There are a few different ways by which satellite phones can be tracked.  The first—and easiest for a government actor—would be to simply ask or pressure a company to hand over user data."<br /> -- *York, Jillian and Timm, Trevor (February 2012) [Satphones, Syria, and Surveillance](https://www.eff.org/deeplinks/2012/02/satphones-syria-and-surveillance) EFF.*
@@ -341,7 +339,7 @@ Further, research to date has revealed that the baseline security of the communi
 
 ### Details
 
-**Baseline Encryption**
+#### Baseline Encryption
 
 "Modern satellite phones encrypt voice traffic to prevent eavesdropping. It's that modern GMR-2 algorithm that was the focus of the research, given that it's used in most satellite phones today. […] The end result was that encrypted data could be cracked in a fraction of a second. "This again demonstrates that there exists serious security flaws in the GMR-2 cipher, and it is crucial for service providers to upgrade the cryptographic modules of the system in order to provide confidential communication," said the researchers."<br /> -- *Whittaker, Zack  (July 6 2017) [New attack can now decrypt satellite phone calls in "real time"](https://www.zdnet.com/article/encryption-satellite-phones-unscramble-attack-research/) ZDNet.*
 {: .notice}
@@ -349,7 +347,7 @@ Further, research to date has revealed that the baseline security of the communi
 "[E]avesdropping on satellite communications is (in principle) easier than eavesdropping on cellular signals. That’s because satellite ‘spot beams’ cover relatively broad geographic territories (Thuraya’s are 600km on average). So you don’t just have to worry about eavesdropping by your neighbor, you have to worry about eavesdropping by neighboring countries."<br /> -- *Green, Matthew  (February 5 2012) [Satellite phone encryption is terrible. Anyone surprised?](https://blog.cryptographyengineering.com/2012/02/05/sattelite-phone-encryption-is-terrible/) Cryptography Engineering.*
 {: .notice}
 
-**Nearby (Tactical) Interception**
+#### Nearby (Tactical) Interception
 
 "Proximity is relative. First you have to distinguish between what's commonly called "tactical" intercepts which are done in the field. For those, you receive the phone uplink but a phone transmits with quite a bit of power and doesn't have very directional antenna, so it can be several kilometers, especially if you have a good vantage point.  Then there is what's called "strategic" interception setups, done at dedicated facilities. What goes up must come down and most satellites are just "bent pipe", dumbly retransmitting what they receive back to earth. So instead of receiving the phone, you can just listen to the sat retransmitting the phone comms back to the ground station."<br /> -- *Sylvain  Munaut 2021 (paraphrased)*
 {: .notice}
@@ -377,7 +375,7 @@ those systems may remain vulnerable."<br /> -- *Weinbaum, Cortney et al, (2017) 
 “By this point, the regime's electronic warfare had become even more sophisticated. Cell phone and landline calls had long been monitored, but now the spies turned their attention to satellite phones. To avoid NATO air strikes, one team of Ukrainian mercenaries set up shop in a kindergarten, right around the corner from the intelligence headquarters; from there they snooped on sat-phone traffic using frequency scanners. Gadhafi had declared that anyone caught with a satellite phone could be sentenced to death.”<br /> -- *Aikins, Matthieu (May 18 2012) [Jamming Tripoli](https://www.wired.com/2012/05/ff-libya/) Wired.*
 {: .notice}
 
-**Global/Remote (Strategic) Interception**
+#### Global/Remote (Strategic) Interception
 
 "The portfolio of Rohde & Schwarz satellite monitoring solutions for passive interception and monitoring of satellite communications signals is based on many years of professional experience. It ranges from flexible, transportable solutions to complex stationary strategic systems for simultaneous interception of signals and services from multiple satellites. Areas of application include the analysis and identification of unknown satellite based communications as well as the processing of satellite signals and services for intelligence purposes. Field-proven operational concepts and sophisticated analysis tools help organizations efficiently and effectively analyze carriers, services, content and metadata."<br /> -- *Rohde & Schwarz (Retrieved Mar 24 2022) [Satellite Intelligence](https://www.rohde-schwarz.com/us/products/aerospace-defense-security/satellite-monitoring/pg_overview_64135.html) rohde-schwarz.com [Archive](https://web.archive.org/web/20220324142831/https://www.rohde-schwarz.com/us/products/aerospace-defense-security/satellite-monitoring/pg_overview_64135.html)*
 {: .notice}
@@ -388,7 +386,7 @@ those systems may remain vulnerable."<br /> -- *Weinbaum, Cortney et al, (2017) 
 "In a speech outlining France’s space policy and security issues, Parly said that the Athena-Fidus satellite, operated jointly by France and Italy, was approached “a bit too closely” by Russia’s Luch-Olymp craft, known for its advanced listening capacity. “It got so close that we might have imagined it was trying to intercept our communications,” she added. “Trying to listen to your neighbours is not only unfriendly, it’s an act of espionage.”<br /> -- *Chrisafis Angelique (September 7 2018) ['Act of espionage': France accuses Russia of trying to spy on satellite data](https://www.theguardian.com/world/2018/sep/07/france-accuses-russia-spying-satellite-communications-espionage) The Guardian*
 {: .notice}
 
-**Groundstation Monitoring**
+#### Groundstation Monitoring
 
 "Governments can also intercept communications on satellite phones. Satellite phone calls with a mobile phone or landline are routed through ground stations in numerous countries. When transmitting through these ground stations, communications providers must comply with local legal and regulatory frameworks, making it possible for local governments to intercept private communications. " <br />--*OSAC Cybersecurity Team (July 2 2021) [Guide for Overseas Satellite Phone Usage](https://www.osac.gov/Content/Report/9db45731-1eec-477a-a7af-1bf950cb4013) OSAC.gov.* (**Also has a table of known laws**)
 {: .notice}
@@ -420,25 +418,30 @@ Finally, environmental factors may also cause failed connectivity. Weather and/o
 
 ### Details
 
-“It is true that the Starlink ground terminals will be broadcasting, and thus potentially targetable using RF signal detection equipment. But I doubt they’d be that high of a priority for Russian targeting, so I think the odds of them being targeted is probably low,” Weeden said Monday by email. “A much bigger challenge would be Russian ground-based mobile jamming, which is sophisticated and can already deal with existing satellite signals such as GPS and satellite communications.”<br /> -- *Berger, Brian (February 28 2022) [SpaceX heeds Ukraine’s Starlink SOS](https://spacenews.com/spacex-heeds-ukraines-starlink-sos/) SpaceNews.*
-{: .notice}
-
 "There are two main types of satellite jamming. The first, uplink jamming, interferes with the signal going from a ground station or user terminal to the satellite. An RF signal of the same frequency as the targeted uplink signal is transmitted to the satellite, aiming to limit the satellite transponder from differentiating between the jamming signal and the actual signal. The second type, downlink jamming, disrupts transmissions sent from the satellite to ground-based or airborne receivers using RF signals that mimic the frequency of the downlink signal. It aims to inhibit ground users from receiving transmissions from the satellite and only needs to be as strong as the signal being received on the ground. Uplink jamming is considered more difficult because greater transmitter power is required to reach a given satellite’s transponders. It could be more impactful, however, due to its ability to degrade the satellite’s signal for all its users. Because downlink jammers must be within the field of view of the receiving terminal’s antenna, however, the effects of downlink jamming are more localized."<br /> -- *Velkovsky, Pavel; Mohan, Janani; and Simon, Maxwell (April 03 2021) [Satellite Jamming](https://ontheradar.csis.org/issue-briefs/satellite-jamming/) On the radar / CSIS.*
-{: .notice}
-
-"Terrestrial jamming takes place in a specific location and involves equipment that is easy to purchase, use and conceal. Rather than targeting the satellite itself, as is the case in orbital jamming, terrestrial jamming involves transmitting rogue frequencies in the direction of local consumer-level satellite dishes. The contradictory frequencies are area-specific, interfering only with the frequency emanating from the satellite in a specific location. **Small, portable terrestrial jammers have a range of 3-5 kilometres in urban, built-up areas. In rural areas, their range can increase to up to 20 kilometres**"<br /> --  *Small Media (November 2012) [Satellite Jamming in Iran: A War Over Airwaves](https://smallmedia.org.uk/work/satellite-jamming-in-iran-a-war-over-airwaves), Small Media.*
-{: .notice}
-
-"The jamming of Persian-language satellite channels has been ongoing since 2003. Infrequent bouts of pressure from the international community have achieved limited success. Alongside international organisations like the International Union (ITU), the governments of the UK, US, France and the European Union have condemned the Iranian government for not acting on the issue of satellite jamming. Despite these condemnations, the jamming of satellite TV channels has continued. At the time of publishing, the sudden devaluation of the Iranian Rial in October 2012 had spurred another intense period of jamming, with the broadcasts of both BBC and the VOA being disrupted … **It is important to note here that Iran is not the only country engaged in or experiencing satellite jamming. There are reports of jamming from countries such as Bahrain, Libya, Syria, Ethiopia, North Korea, and China.**"<br /> --  *Small Media (November 2012) [Satellite Jamming in Iran: A War Over Airwaves](https://smallmedia.org.uk/work/satellite-jamming-in-iran-a-war-over-airwaves), Small Media.*
 {: .notice}
 
 "Jamming technology tends to be commercially available and relatively inexpensive. Satellite jamming systems are easy for states and non-state actors to develop given the relative low cost of their procurement and operation. There is a low threshold of technological competency required to perform jamming, and the technology is available to a plethora of actors across the globe. For example, interference with satellite signals has emanated from Indonesia, Cuba, Ethiopia, Libya, and Syria, among others."<br /> -- *Velkovsky, Pavel; Mohan, Janani; and Simon, Maxwell (April 03 2021) [Satellite Jamming](https://ontheradar.csis.org/issue-briefs/satellite-jamming/) On the radar / CSIS.*
 {: .notice}
 
-“Over the weekend of February 19, transmissions from two television satellites that served a wide range of news programming to Libya and the region were disrupted by jamming, according to the Lebanese Telecommunications Regulatory Authority. And on February 21, Al Jazeera accused Libya of jamming its satellite transmissions in the region, and stated that it had conclusively identified the jamming as emanating from an LAJ intelligence services building south of Tripoli. <br />Satellite telecommunications were not immune to LAJ disruption and denial efforts, which were likely targeted against the use of satellite telephones like the Thuraya handset, which were widely used in Libya. On February 25, Thuraya accused Libya of having engaged in a week’s worth of jamming of the Thuraya-2 satellite that provided satellite phone and data connectivity to Thuraya devices within Libya. Shortly thereafter, Thuraya announced that its technical efforts had restored voice services to much of Libya. Nevertheless, users of Thuraya phones continued to experience substantial difficulty connecting throughout the revolution.”<br /> -- *Scott-Railton, John (January 2013) [Revolutionary Risks: Cyber Technology and Threats in the 2011 Libyan Revolution](https://digital-commons.usnwc.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1012&context=ciwag-case-studies) U.S. Naval War College Digital Commons / CIWAG Case Studies.*
+
+#### Downlink / Ground-based / Terrestrial Jamming
+
+“It is true that the Starlink ground terminals will be broadcasting, and thus potentially targetable using RF signal detection equipment. But I doubt they’d be that high of a priority for Russian targeting, so I think the odds of them being targeted is probably low,” Weeden said Monday by email. “A much bigger challenge would be Russian ground-based mobile jamming, which is sophisticated and can already deal with existing satellite signals such as GPS and satellite communications.”<br /> -- *Berger, Brian (February 28 2022) [SpaceX heeds Ukraine’s Starlink SOS](https://spacenews.com/spacex-heeds-ukraines-starlink-sos/) SpaceNews.*
+{: .notice}
+
+"Terrestrial jamming takes place in a specific location and involves equipment that is easy to purchase, use and conceal. Rather than targeting the satellite itself, as is the case in orbital jamming, terrestrial jamming involves transmitting rogue frequencies in the direction of local consumer-level satellite dishes. The contradictory frequencies are area-specific, interfering only with the frequency emanating from the satellite in a specific location. **Small, portable terrestrial jammers have a range of 3-5 kilometres in urban, built-up areas. In rural areas, their range can increase to up to 20 kilometres**"<br /> --  *Small Media (November 2012) [Satellite Jamming in Iran: A War Over Airwaves](https://smallmedia.org.uk/work/satellite-jamming-in-iran-a-war-over-airwaves), Small Media.*
 {: .notice}
 
 "When HawkEye 360 analysts examined Ukraine over the past four months, they discovered continued and increased GPS interference across the region. The data showed extensive GPS interference in November 2021 along the boundary of the pro-Russian separatist-controlled regions in Luhansk and Donetsk. Open-source information confirmed Unmanned Aerial Vehicles (UAVs) operating in the area were disrupted due to lost GPS connections… And in February 2022, HawkEye 360 detected GPS interference along the border between Ukraine and Belarus, shortly before the Russian invasion started." <br /> --*HawkEye360 Press Release, (March 4 2022), [HawkEye 360 Signal Detection Reveals GPS Interference in Ukraine](https://www.he360.com/hawkeye-360-signal-detection-reveals-gps-interference-in-ukraine/) he360.com*
+{: .notice}
+
+"The jamming of Persian-language satellite channels has been ongoing since 2003. Infrequent bouts of pressure from the international community have achieved limited success. Alongside international organisations like the International Union (ITU), the governments of the UK, US, France and the European Union have condemned the Iranian government for not acting on the issue of satellite jamming. Despite these condemnations, the jamming of satellite TV channels has continued. At the time of publishing, the sudden devaluation of the Iranian Rial in October 2012 had spurred another intense period of jamming, with the broadcasts of both BBC and the VOA being disrupted … **It is important to note here that Iran is not the only country engaged in or experiencing satellite jamming. There are reports of jamming from countries such as Bahrain, Libya, Syria, Ethiopia, North Korea, and China.**"<br /> --  *Small Media (November 2012) [Satellite Jamming in Iran: A War Over Airwaves](https://smallmedia.org.uk/work/satellite-jamming-in-iran-a-war-over-airwaves), Small Media.*
+{: .notice}
+
+#### Uplink / Satellite Jamming
+
+“Over the weekend of February 19, transmissions from two television satellites that served a wide range of news programming to Libya and the region were disrupted by jamming, according to the Lebanese Telecommunications Regulatory Authority. And on February 21, Al Jazeera accused Libya of jamming its satellite transmissions in the region, and stated that it had conclusively identified the jamming as emanating from an LAJ intelligence services building south of Tripoli. <br />Satellite telecommunications were not immune to LAJ disruption and denial efforts, which were likely targeted against the use of satellite telephones like the Thuraya handset, which were widely used in Libya. On February 25, Thuraya accused Libya of having engaged in a week’s worth of jamming of the Thuraya-2 satellite that provided satellite phone and data connectivity to Thuraya devices within Libya. Shortly thereafter, Thuraya announced that its technical efforts had restored voice services to much of Libya. Nevertheless, users of Thuraya phones continued to experience substantial difficulty connecting throughout the revolution.”<br /> -- *Scott-Railton, John (January 2013) [Revolutionary Risks: Cyber Technology and Threats in the 2011 Libyan Revolution](https://digital-commons.usnwc.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1012&context=ciwag-case-studies) U.S. Naval War College Digital Commons / CIWAG Case Studies.*
 {: .notice}
 
 "Jamming can also occur accidentally: in 2015, U.S. military officials noted they were unintentionally jamming satellite communications an average of 23 times per month. Purposeful jamming can be difficult to differentiate from accidental interference, making attribution more challenging."<br /> -- *Velkovsky, Pavel; Mohan, Janani; and Simon, Maxwell (April 03 2021) [Satellite Jamming](https://ontheradar.csis.org/issue-briefs/satellite-jamming/) On the radar / CSIS.*
