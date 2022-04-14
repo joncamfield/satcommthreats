@@ -16,8 +16,8 @@ header:
 #      url: "/my/"
 #    - label: "Spanish"
 #      url: "/es/"
-#    - label: "Ukrainian"
-#      url: "/ua/"
+    - label: "Ukrainian"
+      url: "/ua/"
   caption: "Photo by [SpaceX](https://unsplash.com/@spacex)"
 excerpt: "A review of known risks with satellite communications (satphones, BGANs, and LEO-orbit (StarLink) terminals)."
 intro:

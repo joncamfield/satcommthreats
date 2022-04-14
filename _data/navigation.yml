@@ -1,8 +1,8 @@
 main:
   - title: "EN"
     url: /en/
-#  - title: "UA"
-#    url: /ua/
+  - title: "UA"
+    url: /ua/
 #  - title: "MY"
 #    url: /my/
 #  - title: "ES"
