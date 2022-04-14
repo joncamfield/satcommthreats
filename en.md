@@ -14,35 +14,29 @@ header:
   caption: "Photo by [SpaceX](https://unsplash.com/@spacex)"
 excerpt: "This is an adversary-neutral review of known risks when using Satellite communication tools such as satphones, BGANs, and even LEO-orbit (e.g. StarLink) terminals."
 ---
-
-This document is a **public draft** and is still under review. <br /><br />**Please offer [feedback](/contact) if you have any**. While the author has focused primarily on summarizing existing, known, historical risks of satellite communications, the mitigations suggested may be incomplete. Consider your specific needs, vulnerabilties, and your adversary in applying this document to your situation.
+**Please offer [feedback](/contact) if you have any**. While the authors have focused primarily on summarizing existing, known risks of satellite communications, the mitigations suggested may be incomplete. Consider your specific needs, vulnerabilties, and your adversary in applying this document to your situation.
 {: .notice--danger}
 
 # Introduction
 
-Satellite Communications tools provide critical access during complete
-Internet shutdowns and are difficult -- but not impossible -- to block.
-However, the risks of using these tools must be considered.
+Risks are inherent in using any form of communication tool when speaking truth to power. Satellite communication tools are often rolled out quickly during crises as they provide critical access and are difficult -- but not impossible -- to block. However, the risks of using these tools must be considered.
 
-Satellite
-devices are easy to geolocate, with documented evidence of this turning
-into lethal actions.  The communications can also be easily intercepted, jammed,
-and users can be arrested/harassed because of the hard-to-conceal use of
-specialty hardware.
+This guide discusses threats which are widely applicable to 2-way satellite communications devices, such as satellite phones and pagers, Inmarsat BGANs, Starlinks, and VSAT terminals. Some of the risks discussed may also apply to receive-only / broadcast satellite in situations where satellite dishes are regulated/illegal. These satellite devices are easy to geolocate, with documented evidence of this turning into lethal actions. The communications can also be easily intercepted, jammed, and users can be arrested/harassed because of the hard-to-conceal use of specialty hardware.
 
-## Goals
-{: .intro}
+"[S]atellite phones may also be **susceptible to jamming, surveillance, interception, and other security threats** \[…\] users should have **no expectation of privacy** when communicating by satellite phone. Additionally, satellite phone users could potentially be **tracked through frequency emissions, commercially available tracking devices, and built-in global positioning system (GPS) capabilities**. \[GPS\] could also be a potential security vulnerability to be exploited and used for malicious intent, like kidnapping or detention. \[…\] It is also feasible for a nation-state or criminal enterprise, with financial resources and access to the right commercially available technology, to track a satellite phone and intercept communication beyond voice calls and texts."<br />--*OSAC Cybersecurity Team (July 2 2021) [Guide for Overseas Satellite Phone Usage](https://www.osac.gov/Content/Report/9db45731-1eec-477a-a7af-1bf950cb4013) OSAC.gov.*
+{: .notice}
 
-Risks are inherent in using any form of communication tool when speaking truth to power. Satellite communication tools are often rolled out quickly during crises as they solve many core communication challenges. This document seeks to identify the risks that come with satellite communications, as they are often not well understood.
 
 <!--This document will attempt to map out the known vulnerabilities of
 satellite communications, as well as how those and other concerns
 contribute to the risks journalists, human rights defenders, and others
 face when using them.-->
 
-This does not take into account any specific adversary but tries to
-identify the complexity of the different threats and how much resources,
-capacity, and/or will/intent an adversary would need to use the threat.
+This document is focused on Internet shutdown, crisis, conflict, and emergency situations where a journalist, activist, or human rights defender may be using these tools to access and share critical information, with a wide range of adversaries including well-resourced, state or military-level ones.
+
+This does not focus on any specific adversary but tries to
+identify the complexity of the different threats and what resources,
+capacity, and intent an adversary would need to use the threat.
 
 <!--Satellite communication tools provide unique, unmatched qualities when
 dealing with remote locations, emergency situations, fluid conflict
@@ -62,16 +56,6 @@ hardware, cost-prohibitive connectivity costs, legal and import/export
 restrictions -- and a steep learning curve around the intentionally
 obfuscated safety and security of the usage of the products.-->
 
-"[S]atellite phones may also be susceptible to jamming, surveillance, interception, and other security threats. In 2012 and 2017, researchers identified weaknesses and cracked satellite phone encryption standards used by multiple service providers, underscoring that users should have no expectation of privacy when communicating by satellite phone. Additionally, satellite phone users could potentially be tracked through frequency emissions, commercially available tracking devices, and built-in global positioning system (GPS) capabilities. While GPS features may facilitate locating an individual in an emergency situation, it could also be a potential security vulnerability to be exploited and used for malicious intent, like kidnapping or detention. […] It is also feasible for a nation-state or criminal enterprise, with financial resources and access to the right commercially available technology, to track a satellite phone and intercept communication beyond voice calls and texts."<br />--*OSAC Cybersecurity Team (July 2 2021) [Guide for Overseas Satellite Phone Usage](https://www.osac.gov/Content/Report/9db45731-1eec-477a-a7af-1bf950cb4013) OSAC.gov.*
-{: .notice}
-
-## Scope
-{: .intro}
-
-This guide discusses threats which are widely applicable to 2-way satellite communications devices, such as satellite phones and pagers, Inmarsat BGANs, Starlinks, and VSAT terminals. Some of the risks discussed may also apply to receive-only / broadcast satellite in situations where satellite dishes are regulated/illegal.
-
-This document is focused on Internet shutdown, crisis, conflict, and emergency situations where a journalist, activist, or human rights defender may be using these tools to access and share critical information, with a wide range of adversaries including well-resourced, state or military-level ones.
-
 <div class="notice--info">
 <p><strong>A note on Alternative Communication Options</strong></p>
 <p>While not in scope for this document, for situations such as preparation
@@ -89,31 +73,58 @@ would be welcomed.*
 {: .notice--info}-->
 </div>
 
-## Glossary of terms
-{: .intro}
+# Summary of mitigations
 
--   **"Bent Pipe"** - a term used to discuss "how" satellites deal with communication -- for the most part, the satellite simply relays the signals it receives directly between the device and the groundstation.
--   **BGAN** - Broadband Global Area Network - Inmarsat's portable satellite internet and related hardware
--   **Direction-Finding** or DF equipment - are tools which can help track the location of satellite (and other!) communication equipment. These systems can be permanently mounted, or used as hendheld kits or placed on vehicles or aircraft/drones.
--   **Downlink** - the broadcast from the satellite in orbit back down. Generally the "footprint" of these cover wide areas (hundreds of miles) each.
--   **ELINT** - A subset of SIGINT ("SIGnals INTelligence"), [ELINT ("ELectronic INTelligence")](https://en.wikipedia.org/wiki/Signals_intelligence#ELINT_and_ESM) focuses on only the radio frequency and related electronic components of communication, to support geolocation, signal jamming, and interception needs. A common term in researching satellite communication security.
--   **GEO** - [Geostationary orbit](https://en.wikipedia.org/wiki/Geostationary_orbit) ("Geosynchronous Earth Orbit") - a satellite, often for communications, which is in an orbit such that it is always in the same location in the sky above a fixed point on the Earth's equator. These are high orbits, so there is additional latency in communications.
--   **Groundstation** Also referred to as a "teleport", Earth Stations, and [Satellite Earth Stations ("SES")](https://en.wikipedia.org/wiki/Ground_station)) - Satellites relay the comms to dedicated ground stations where the data/call rejoins the "normal" terrestrial internet. Groundstations are strategically located for satellite visibility, but may be in countries without strong human rights or data privacy track records. ***Ground Stations can also refer to any two-way satellite communications terminal on the ground.***
--   **LEO** - [Low Earth Orbit](https://en.wikipedia.org/wiki/Low_Earth_orbit) - Due to their lower orbit, satellites in LEO offer higher bandwidth and lower latency, but require more satellites to cover a communication area.  Iridium and Starlink are examples of LEO communications satellite systems.
--   **Radio Frequency (RF)** - for the purspose of this guide, the [signals](https://www.techtarget.com/searchnetworking/definition/radio-frequency) used by satellite communication devices - but also cell phones, radios, and TV -- which can be blocked, intercepted and detected remotely. Specific frequencies are [reserved](https://en.wikipedia.org/wiki/Frequency_allocation) for specific applications, internationally by the ITU and per-country by regulation.
--   **Satphone** / **handset** - a device in the form factor of a large cell phone with a non-directional antenna.
--   **Uplink** - the communication from the satellite device up to the satellite in orbit. Directional antennas (dishes) limit the area one must be to intercept this, but most sat phones do not have directional antennas.
--   **VSAT** - "[Very-small-aperture terminal](https://en.wikipedia.org/wiki/Very-small-aperture_terminal)" - a two-way groundstation with a dish antenna smaller than 3.8 meters (so most satellite internet antenna like for starlink). These tend to require some "aiming" to make a connection.
-{: .notice}
+[<i class="fas fa-download" aria-hidden="true"></i> DOCX](/assets/docs/satcom-mitigations-en.docx){: .btn .btn--info} [<i class="fas fa-download" aria-hidden="true"></i> PDF](/assets/docs/satcom-mitigations-en.pdf){: .btn .btn--info}
+
+<table>
+<tr>
+<td><strong>Satellite communications are slow and expensive</strong></td>
+<td><ul class="incremental">
+<li>Avoid using the device for long periods of time.</li>
+<li>For Internet Links, avoid activities that require a lot of speed or bandwidth.</li>
+<li>Be mindful of the service’s billing.</li>
+<li>Prefer to use more traditional technologies to make calls/connect to the internet if available.</li>
+</ul></td>
+</tr>
+<tbody>
+<tr class="odd">
+<td><strong>Satellite communication devices can be geolocated</strong></td>
+<td><ul class="incremental">
+<li>Please only turn on satellite phones to make short calls, ideally from different places and away from home, work, etc.</li>
+<li>Please only turn on the device for short periods of time. For a phone, only to make short calls. Keep in mind that some satellite devices take several minutes to set up and get connected.</li>
+<li>Operate the device ideally from different places and away from home, work, etc.</li>
+<li>Avoid multiple parties transmitting from the same location. Especially at different times.</li>
+<li>For Internet links, locate the device as far from your exact location as possible, one strategy is to connect a wireless router to the link to receive Wi-Fi signal at a distance, or use cables and switches to gain space between the link and you.</li>
+<li>Satellite devices with omnidirectional antennas are way easier to locate. Be careful.</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><strong>Satellite communications might be intercepted and jammed</strong></td>
+<td><ul class="incremental">
+<li>Treat communication transmitted by satellite as untrusted and easily compromised, especially phone calls.</li>
+<li>If possible, try to add extra layers of security, for instance, when using devices with internet data try to use applications and platforms that use encryption, like Signal or WhatsApp.</li>
+<li>Be prepared for the connection to be affected, this can be done at the satellite level (more complicated), or at the local terrain level (easier)</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><strong>Be mindful of the physical environment</strong></td>
+<td><ul class="incremental">
+<li>Satellite devices use electricity as any other electronic equipment, prepare backup power solutions like power banks, solar chargers, generators, etc., and manage them efficiently.</li>
+<li>The terrain also affects the reception quality, you will need to operate the device with a line of sight to the sky and avoid buildings, mountains, etc. that might block the signal.</li>
+<li>Look for danger in the surroundings when operating the equipment. Avoid using it from a location that cannot be easily evacuated in case of an emergency or attack.</li>
+<li>You can put camouflage (like cardboard, paper, cloth, etc.) on top of satellite antennas to conceal them and see if the service is good enough to operate without issues. Be mindful of the angle the antenna should point to the open sky, this will vary on the type of device.</li>
+<li>Be mindful of your risks if carrying a satellite device with you at checkpoints, during raids, etc. One strategy might be storing the device in fixed locations, considering the advice above of not operating it from these places.</li>
+<li>Using Bluetooth headsets might help you to gain some extra distance from satellite phones and raise less suspiciousness from carrying an unusual device.</li>
+<li>Some devices cannot operate outside of specific temperatures, read the manual of your device to make sure that for instance, it won’t break below 0 Celsius. Make sure other devices, like routers, are always dry.</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
 
-<!--
-# Summary of Mitigations to consider
 
-    -   *(To be summarized from below at final doc stage)*
--->
-
-# Risks and Mitigations
+# Detailed Risks and Mitigations
 
 ## Geolocation
 
@@ -460,3 +471,19 @@ Voice calls via satphone can have bad audio, background noises, signficant delay
 
 *  Much like with communicating via radio, it is handy to have staff briefed before on things like the [NATO alphabet](https://en.wikipedia.org/wiki/NATO_phonetic_alphabet) or other simple, pre-arranged codewords.
 *  Use 2-way good radio etiquette to help with latency problems, see this [Two-Way Radio Protocol by California State University](https://www.csudh.edu/Assets/csudh-sites/dhpd/emergency-preparedness/two%20way%20radio%20protocol.pdf).
+
+# Glossary of terms
+
+-   **"Bent Pipe"** - a term used to discuss "how" satellites deal with communication -- for the most part, the satellite simply relays the signals it receives directly between the device and the groundstation.
+-   **BGAN** - Broadband Global Area Network - Inmarsat's portable satellite internet and related hardware
+-   **Direction-Finding** or DF equipment - are tools which can help track the location of satellite (and other!) communication equipment. These systems can be permanently mounted, or used as hendheld kits or placed on vehicles or aircraft/drones.
+-   **Downlink** - the broadcast from the satellite in orbit back down. Generally the "footprint" of these cover wide areas (hundreds of miles) each.
+-   **ELINT** - A subset of SIGINT ("SIGnals INTelligence"), [ELINT ("ELectronic INTelligence")](https://en.wikipedia.org/wiki/Signals_intelligence#ELINT_and_ESM) focuses on only the radio frequency and related electronic components of communication, to support geolocation, signal jamming, and interception needs. A common term in researching satellite communication security.
+-   **GEO** - [Geostationary orbit](https://en.wikipedia.org/wiki/Geostationary_orbit) ("Geosynchronous Earth Orbit") - a satellite, often for communications, which is in an orbit such that it is always in the same location in the sky above a fixed point on the Earth's equator. These are high orbits, so there is additional latency in communications.
+-   **Groundstation** Also referred to as a "teleport", Earth Stations, and [Satellite Earth Stations ("SES")](https://en.wikipedia.org/wiki/Ground_station)) - Satellites relay the comms to dedicated ground stations where the data/call rejoins the "normal" terrestrial internet. Groundstations are strategically located for satellite visibility, but may be in countries without strong human rights or data privacy track records. ***Ground Stations can also refer to any two-way satellite communications terminal on the ground.***
+-   **LEO** - [Low Earth Orbit](https://en.wikipedia.org/wiki/Low_Earth_orbit) - Due to their lower orbit, satellites in LEO offer higher bandwidth and lower latency, but require more satellites to cover a communication area.  Iridium and Starlink are examples of LEO communications satellite systems.
+-   **Radio Frequency (RF)** - for the purspose of this guide, the [signals](https://www.techtarget.com/searchnetworking/definition/radio-frequency) used by satellite communication devices - but also cell phones, radios, and TV -- which can be blocked, intercepted and detected remotely. Specific frequencies are [reserved](https://en.wikipedia.org/wiki/Frequency_allocation) for specific applications, internationally by the ITU and per-country by regulation.
+-   **Satphone** / **handset** - a device in the form factor of a large cell phone with a non-directional antenna.
+-   **Uplink** - the communication from the satellite device up to the satellite in orbit. Directional antennas (dishes) limit the area one must be to intercept this, but most sat phones do not have directional antennas.
+-   **VSAT** - "[Very-small-aperture terminal](https://en.wikipedia.org/wiki/Very-small-aperture_terminal)" - a two-way groundstation with a dish antenna smaller than 3.8 meters (so most satellite internet antenna like for starlink). These tend to require some "aiming" to make a connection.
+{: .notice}
