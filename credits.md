@@ -25,10 +25,9 @@ toc: false
 -   Anonymous Security Expert 2, Extensive document review and comments, March 2022
 -   Anonymous Industry Experts, conversations and clarifications at/adjacent to SATELLITE 2022 conference, March 2022
 -   Thom Kaye, Review <!-- (sha1 e316600e38882ca0bfbb9e5ad375271284db3894) -->
--
-
 
 # References
+
 -   Aikins, Matthieu (May 18 2012) [Jamming Tripoli](https://www.wired.com/2012/05/ff-libya/) Wired.
 -   Berger, Brian (February 28 2022) [SpaceX heeds Ukraine’s Starlink SOS](https://spacenews.com/spacex-heeds-ukraines-starlink-sos/) SpaceNews.
 -   Chrisafis Angelique (September 7 2018) ['Act of espionage': France accuses Russia of trying to spy on satellite data](https://www.theguardian.com/world/2018/sep/07/france-accuses-russia-spying-satellite-communications-espionage) The Guardian.
