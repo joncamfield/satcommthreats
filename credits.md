@@ -19,6 +19,8 @@ toc: false
 
 #  Thanks To
 
+-   Carlos Guerra, for writing a clear mitigation summary
+-   Khin, translations and other input
 -   Sylvain Munaut, email conversation, November 2021
 -   Hammer, [Project Ainita](https://ainita.net/), conversations, review, and comments, January 2022
 -   Anonymous Security Expert 1, Extensive document review and comments, March 2022 <!--(sha1: 9c13e5ab761f74428afb1e3b1cba82540d063cde)-->
