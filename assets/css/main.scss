@@ -7,7 +7,7 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-#main {max-width: 80% !important;}
+#main {max-width: 90% !important;}
 .toc__menu {
 
   /* hide sub sub links on small screens*/

@@ -12,8 +12,8 @@ header:
   actions:
     - label: "English"
       url: "/en/"
-#    - label: "Burmese"
-#      url: "/my/"
+    - label: "မြန်မာ"
+      url: "/mm/"
 #    - label: "Spanish"
 #      url: "/es/"
     - label: "український"
