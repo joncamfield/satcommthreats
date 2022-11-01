@@ -134,7 +134,7 @@ Geolocation methods include the following, see the Details section below for spe
 
 * **Satellite-based tracking** - There are commercially available satellite-based offerings which enable fully global and remote location, tracking, and even custom alerts for "unexpected" satellite (and other radio frequency) signals. Intelligence satellites are an additional option for some countries.
 * **Intercepting of GPS data** - Satellite devices often communicate GPS locaiton details which can be intercepted.
-* **Radio Frequency (RF) monitoring and triangulation** - Geolocation tools can be mounted on aircraft and drones/UAVs for better detection of BGAN, Starlink, and other more directional connections, as well as locating signals where terrain or other obstacles limits ground-based tool effectiveness. RF monitoring tools (incuding simply, DIY once) can also be mounted on vehicles or even be handheld. Tools can also be placed in fixed locations to track signals in an area over time.
+* **Radio Frequency (RF) monitoring and triangulation** - Geolocation tools can be mounted on aircraft and drones/UAVs for better detection of BGAN, Starlink, and other more directional connections, as well as locating signals where terrain or other obstacles limits ground-based tool effectiveness. RF monitoring tools (including simple, DIY ones) can also be mounted on vehicles or even be handheld. Tools can also be placed in fixed locations to track signals in an area over time.
 * **Legal pathways** - In addition to technical means, there are also legal avenues (simply demanding records from satellite service providers directly and/or in the country(s) where their ground stations are located.
 
 <!--
