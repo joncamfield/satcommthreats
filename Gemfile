@@ -35,3 +35,5 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "jekyll-include-cache", group: :jekyll_plugins
 
 gem "jekyll-paginate", "~> 1.1"
+
+gem "webrick", "~> 1.8"
