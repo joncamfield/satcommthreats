@@ -20,7 +20,7 @@ excerpt: "ဂြိုလ်တုစက်ပစ္စည်း သုံးသ
 
 # မိတ်ဆက်
 
-[<i class="fas fa-download" aria-hidden="true"></i> DOCX](/assets/docs/satcom-mitigations-mm.docx){: .btn .btn--info} [<i class="fas fa-download" aria-hidden="true"></i> PDF](/docs/satcom-mitigations-mm.pdf){: .btn .btn--info}
+[<i class="fas fa-download" aria-hidden="true"></i> DOCX](/assets/docs/satcom-mitigations-mm.docx){: .btn .btn--info} [<i class="fas fa-download" aria-hidden="true"></i> PDF](/assets/docs/satcom-mitigations-mm.pdf){: .btn .btn--info}
 
 အမှန်တရားအတွက် ရပ်တည်သည့်အခါ မည်ကဲ့သို့သော ဆက်သွယ်ရေးကိရိယာ/နည်းလမ်းကို သုံးသည်မဆို အန္တရာယ်သည် အမြဲမသွေ ပါတတ်စမြဲဖြစ်သည်။ ဆက်သွယ်ရေးဖြတ်တောက်ခံရနိုင်ခြေရှိသော်လည်း  ထိုသို့ပြုလုပ်ရန်ခက်ခဲပြီး ဆက်သွယ်ရေးအတွက် အသုံးဝင်သည့်အတွက် အရေးပေါ်အခြေအနေများတွင် ဂြိုလ်တုဆက်သွယ်ရေးကိရိယာများကို သုံးနိုင်ရန် အလျင်အမြန် ကြိုးပမ်းကြလေ့ရှိသည်။ သို့သော်ငြား ဂြိုလ်တုဆက်သွယ်ရေးကိရိယာများကြောင့် ဖြစ်လာနိုင်သည့် အန္တရာယ်ကို ထည့်သွင်းစဥ်းစားရန် လိုအပ်သည်။
 
