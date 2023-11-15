@@ -190,8 +190,8 @@ them for short periods of time and
 "HawkEye 360 is a Radio Frequency (RF) data analytics company. We operate a first-of-its-kind commercial satellite constellation to identify, process, and geolocate a broad set of RF signals. We extract value from this unique data through proprietary algorithms, fusing it with other sources to create powerful analytical products that solve hard challenges for our global customers. Our products include maritime domain awareness and spectrum mapping and monitoring; our customers include a wide range of commercial, government and international entities."<br /> -- *HawkEye360 Press Release, (March 4 2022), [HawkEye 360 Signal Detection Reveals GPS Interference in Ukraine](https://www.he360.com/hawkeye-360-signal-detection-reveals-gps-interference-in-ukraine/) he360.com*
 {: .notice}
 
-{% include video id="Ezbzc6seJ2Q" provider="youtube" %}
-*Video from HawkEye360 detailing commerical capabilities*
+{% include video id="hsxHk7kK-9U" provider="youtube" %}
+*Video from HawkEye360 detailing commercial capabilities*
 
 #### Radio Frequency (RF) Monitoring and Triangulation
 
