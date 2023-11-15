@@ -384,19 +384,38 @@ Finally, environmental factors may also cause failed connectivity. Weather and/o
 "Jamming can also occur accidentally: in 2015, U.S. military officials noted they were unintentionally jamming satellite communications an average of 23 times per month. Purposeful jamming can be difficult to differentiate from accidental interference, making attribution more challenging."<br /> -- *Velkovsky, Pavel; Mohan, Janani; and Simon, Maxwell (April 03 2021) [Satellite Jamming](https://ontheradar.csis.org/issue-briefs/satellite-jamming/) On the radar / CSIS.*
 {: .notice}
 
-## Device Firmware and Software Security
+## Satellite Systems Security
+
+Both the user-facing devices (phones, terminals, modems) and the space-based satellites and their groundstation infrastructure also face classic cybersecurity risks of compromise, DDoS, and similar vulnerabilities rendering them unsafe or unusable.
 
 ### Mitigations
 
--   To the extent possible, leverage satellite communications devices as
-    untrusted network connections and layer on independent security.
--   If possible, consider having backup / alternative satellite connectivity options using different providers.
+-   To the extent possible, leverage satellite communications devices as untrusted network connections and layer on independent security.
+-   Consider having a further backup communications plan if satellite connectivity stops working. This could include alternative satellite connectivity options using different providers.
 -   Check the manufacturer website for your device to ensure you have the latest possible firmware.
+-   If you operate a network using satellite uplinks, see also this checklist from US's CISA (Cybersecurity and Infrastructure Security Agency) [Strengthening Cybersecurity of SATCOM Network Providers and Customers ](https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-076a)
 
 ### Details
 
+#### Attacks against Satellite infrastructure
+
+"The situation in Ukraine has demonstrated dependencies on space-based technologies (Starlink, for example, and other satellites and communications networks) during conflict. In 2024, we expect to see evidence of sophisticated state-sponsored cyber actors’ full spectrum Computer Network Exploitation capabilities to compromise space-based and associated ground support infrastructure and communications channels to interdict, disrupt, deny, degrade, destroy, or deceive an adversary—as well as to conduct espionage" <br /> *- Carmakal, Charles; Joyce, Sandra; Potti, Sunil; Venables, Phil; et al. (November 8, 2023) [Cybersecurity Forecast 2024](https://services.google.com/fh/files/misc/google-cloud-cybersecurity-forecast-2024.pdf") Google.*
+{: .notice}
+
+
+"However, the attack against Viasat may not have involved jamming. The attack against the network was a “deliberate, isolated, and external cyber event,” according to Viasat spokesperson Chris Phillips. The attack only impacted fixed broadband customers and didn’t cause disruption to airlines or Viasat’s US government clients, the company says, and no customer data was impacted. However, people’s modems have not been able to connect to the network, and they have been “rendered unusable.”" <br /> -- *Burgess, Matt (March 23, 2022) [A Mysterious Satellite Hack Has Victims Far Beyond Ukraine](https://www.wired.com/story/viasat-internet-hack-ukraine-russia/) Wired.*
+{: .notice}
+
+"According to Colaluca, on February 23, at around 5 p.m. local time, before the modems were disabled, someone attempted to log into a Viasat appliance using several sets of valid credentials, although those attempts failed. An hour later, "there was a successful unauthorized access through that VPN, which landed in the core node, but nothing happened," at least initially, Colaluca said. About two hours after that, the attackers accessed the management server that was in place inside the core node with a different set of credentials. <br /> "From that point, over the next three to four hours, the attackers did a couple of things," Colaluca said. "One, they went to a network operations server that was present there, and its primary purpose was modem diagnostics, modem health, and how many modems are online. So that server had access to all the modems in the network in those two partitions, and they did recon work." <br /> The attack appeared targeted, with the attackers seeking particular sets of modems in certain regions for specific customers and specific functions, learning how many modems were online. An hour later, at about midnight, the attackers accessed Viasat’s FTP server, a part of the infrastructure that delivers new software or updates to the modems. They dropped a wiper binary along with scripts to enumerate the network, interrogate it, and report back the status after the scripts completed execution." <br /> -- *Brumfield, Cynthia (Aug 16 2023) [Incident response lessons learned from the Russian attack on Viasat](https://www.csoonline.com/article/649714/incident-response-lessons-learned-from-the-russian-attack-on-viasat.html) CSO Online.*
+{: .notice}
+
+"In a presentation at the Black Hat security conference in Las Vegas, Johannes Willbold, a PhD student at Germany's Ruhr University Bochum, explained he had been investigating the security of satellites. He studied three types of orbital machinery and found that many were utterly defenseless against remote takeover because they lack the most basic security systems. "People think that satellites are secure," he said. "Those are expensive assets and they should have encryption and authentication. I assume that criminals think the same and they are too hard to target and you need to be some kind of cryptography genius. Maybe it wasn't a good idea to give this talk." " <br /> -- *Thomson, Iain (Aug 11 2023) [Want to pwn a satellite? Turns out it's surprisingly easy](https://www.theregister.com/2023/08/11/satellite_hacking_black_hat/) The Register.*
+{: .notice}
+
 "The agencies have advised SATCOM network providers and customers to **use secure authentication methods**, enforce a **principle of least privilege**, review existing trust relationships with IT service providers, **implement independent encryption, strengthen software and firmware security, monitor their networks for suspicious activity, and ensure that they have incident response and resilience plans in place**." <br /> -- *-  Kovacs, Eduard (March 18 2022)[SATCOM Cybersecurity Alert Issued as Authorities Probe Possible Russian Attack](https://www.securityweek.com/satcom-cybersecurity-alert-issued-authorities-probe-possible-russian-attack) Security Week.*
 {: .notice}
+
+#### Attacks against end-user devices
 
 "\[S\]atellite modems belonging to tens of thousands of customers in Europe were knocked offline. … The hackers disabled modems that communicate with Viasat Inc's KA-SAT satellite, which supplies internet access to some customers in Europe, including Ukraine. More than two weeks later some remain offline, resellers told Reuters. … The Viasat official said a misconfiguration in the "management section" of the satellite network had allowed the hackers remote access into the modems… He said most of the affected devices would need to be reprogrammed either by a technician on site or at a repair depot and that some would have to be swapped out.<br /> --  *Pearson, James, et al (March 11 2022) [Exclusive: U.S. spy agency probes sabotage of satellite internet during Russian invasion, sources say](https://www.reuters.com/world/europe/exclusive-us-spy-agency-probes-sabotage-satellite-internet-during-russian-2022-03-11/) Reuters.*
 {: .notice}
