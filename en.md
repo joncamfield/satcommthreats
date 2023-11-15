@@ -14,7 +14,7 @@ header:
   caption: "Photo by [SpaceX](https://unsplash.com/@spacex)"
 excerpt: "This is an adversary-neutral review of known risks when using Satellite communication tools such as satphones, BGANs, and even LEO-orbit (e.g. StarLink) terminals."
 ---
-**Please offer [feedback](/contact) if you have any**. While the authors have focused primarily on summarizing existing, known risks of satellite communications, the mitigations suggested may be incomplete. Consider your specific needs, vulnerabilties, and your adversary in applying this document to your situation.
+**Please offer [feedback](/contact) if you have any**. While the authors have focused primarily on summarizing existing, known risks of satellite communications, the mitigations suggested may be incomplete. Consider your specific needs, vulnerabilities, and your adversary in applying this document to your situation.
 {: .notice--danger}
 
 # Introduction
@@ -329,6 +329,9 @@ countries, possession/use alone can be enough to detain someone.
 - As you explore your concealment options, review your device's diagnostics tools to see how that is impacting its connectivity.
 
 ### Details
+
+A week after shutting down the internet for the second time in two months, the Senegalese government is arresting people selling Starlink in the country for “illegal provision of internet access and irregular marketing”. <br /> On Monday, the Senegalese government arrested five people for selling Starlink terminals without the required licence or authorisation. The five people arrested by the Department of Urban Security of the National Police face up to five years imprisonment and a fine of 60 million CFA ($100,000). The telecommunications regulatory authority has also issued a warning for any service providers marketing Starlink and any other company with similar activities to immediately cease all service throughout the country." <br /> -- *Oladunmade, Muktar (Aug 08, 2023) [Starlink sellers arrested in Senegal](https://techcabal.com/2023/08/08/starlink-senegal/) TechCabal.*
+{: .notice}
 
 "OSAC members have reported difficulties importing satellite phones in countries where the devices are technically permitted (or not restricted). In Libya, there are no laws against satellite phones, but there have been multiple reports of authorities confiscating satellite phones, GPS devices, and personal tracking devices at the airport. "<br />--*OSAC Cybersecurity Team (July 2 2021) [Guide for Overseas Satellite Phone Usage](https://www.osac.gov/Content/Report/9db45731-1eec-477a-a7af-1bf950cb4013) OSAC.gov.* (**Also has a table of known laws**)
 {: .notice}
