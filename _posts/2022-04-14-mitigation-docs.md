@@ -14,10 +14,10 @@ With specific thanks to Carlos Guerra and our translators, please find 1-page mi
 
 **український**
 
-[<i class="fas fa-download" aria-hidden="true"></i> DOCX](/assets/docs/satcom-mitigations-ua.docx){: .btn .btn--info} [<i class="fas fa-download" aria-hidden="true"></i> PDF](/docs/satcom-mitigations-ua.pdf){: .btn .btn--info}
+[<i class="fas fa-download" aria-hidden="true"></i> DOCX](/assets/docs/satcom-mitigations-ua.docx){: .btn .btn--info} [<i class="fas fa-download" aria-hidden="true"></i> PDF](/assets/docs/satcom-mitigations-ua.pdf){: .btn .btn--info}
 
 **English**
-[<i class="fas fa-download" aria-hidden="true"></i> DOCX](/assets/docs/satcom-mitigations-en.docx){: .btn .btn--info} [<i class="fas fa-download" aria-hidden="true"></i> PDF](/docs/satcom-mitigations-en.pdf){: .btn .btn--info}
+[<i class="fas fa-download" aria-hidden="true"></i> DOCX](/assets/docs/satcom-mitigations-en.docx){: .btn .btn--info} [<i class="fas fa-download" aria-hidden="true"></i> PDF](/assets/docs/satcom-mitigations-en.pdf){: .btn .btn--info}
 
 In addition, the guide itself has been re-organized to prioritize the most impactful risks and reduce or move introductory/overview/reference material, and with added formatting to hopefully improve readability throughout.
 

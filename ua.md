@@ -21,7 +21,7 @@ header:
 
 # резюме
 
-[<i class="fas fa-download" aria-hidden="true"></i> DOCX](/assets/docs/satcom-mitigations-ua.docx){: .btn .btn--info} [<i class="fas fa-download" aria-hidden="true"></i> PDF](/docs/satcom-mitigations-ua.pdf){: .btn .btn--info}
+[<i class="fas fa-download" aria-hidden="true"></i> DOCX](/assets/docs/satcom-mitigations-ua.docx){: .btn .btn--info} [<i class="fas fa-download" aria-hidden="true"></i> PDF](/assets/docs/satcom-mitigations-ua.pdf){: .btn .btn--info}
 
 <p><strong>ПРОЧИТАЙТЕ</strong> цю довідку, щоб дізнатися про ризики використання цього обладнання <strong>ПЕРЕД</strong> його експлуатацією. На цій сторінці наведено поради для початківців щодо супутникових телефонів та інтернет-зв’язку</p>
 <table><tbody>

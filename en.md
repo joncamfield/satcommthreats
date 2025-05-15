@@ -164,7 +164,7 @@ some cases much more widely available downlink signals as well.
 **The longer a device is used, and the more times it is used from the same location over time, the more precise the location can be calculated and/or corroborated with other events or known locations** (such as office or house addresses, posting of news stories, social media engagement, etc.).
 
 -   Minimize usage time - short calls or messages, very planned and prepared sending/receiving of data
--   If possible, use the device from a different location each time to reduce the ability for an adverdsary to correlate the device with a specific location over time.
+-   If possible, use the device from a different location each time to reduce the ability for an adversary to correlate the device with a specific location over time.
 -   Leave the device fully turned off when not in use
 -   If the device also has cellular service (GSM/4G/etc.) disable that functionality when not in use to limit tracking by cellular tower triangulation.
 -   Also practice the mitigations under device seizure, above.
