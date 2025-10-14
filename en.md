@@ -219,7 +219,9 @@ them for short periods of time and
 
 ## Communication Interception
 
-Similarly to the device geo-location options, interception of satellite communication has a range of technical options as well as legal pathways. Interception of satellite phone calls can take place nearby using ground-based equipment. Interception of any satellite device can take place by intercepting the signal from the satellite back down to its earthstation, or even by using commercial and private satellite options. Finally, a small number of nations have the ability to position satellites alongside (“co-orbital”) popular communication satellites to eavesdrop on communications to/from that satellite. While this is very rare and much more likely focused on military/defense outcomes, there are many similarly capable commercial options.
+Similarly to the device geo-location options, interception of satellite communication has a range of technical options as well as legal pathways. Interception of satellite data, phone calls, and increasingly **telecom calls and SMS sent over satellites**, can all take place using low-cost, ground-based equipment. 
+
+Interception of any satellite device can take place by intercepting the signal from the satellite back down to the connected devices or an earthstation - revealing the largely un-encrypted satellite communication content for a large nearby area. Resourced adversaries can also use commercial and private satellite options. Finally, a small number of nations have the ability to position satellites alongside (“co-orbital”) popular communication satellites to eavesdrop on communications to/from that satellite. While this is very rare and much more likely focused on military/defense outcomes, there are similarly capable commercial options.
 
 Further, research to date has revealed that the baseline security of the communication is not a priority for providers or the standards-setting bodies. **This means that without additional encryption, basic satellite communication is both insecure and easy to passively monitor.**
 
@@ -248,6 +250,10 @@ Further, research to date has revealed that the baseline security of the communi
 {: .notice}
 
 "**[E]avesdropping on satellite communications is (in principle) easier than eavesdropping on cellular signals.** That’s because satellite ‘spot beams’ cover relatively broad geographic territories (Thuraya’s are 600km on average). So you don’t just have to worry about eavesdropping by your neighbor, you have to worry about eavesdropping by neighboring countries."<br /> -- *Green, Matthew  (February 5 2012) [Satellite phone encryption is terrible. Anyone surprised?](https://blog.cryptographyengineering.com/2012/02/05/sattelite-phone-encryption-is-terrible/) Cryptography Engineering.*
+{: .notice}
+
+
+"Roughly half of geostationary satellite signals, many carrying sensitive consumer, corporate, and government communications, have been left **entirely vulnerable to eavesdropping**, a team of researchers at UC San Diego and the University of Maryland revealed [...] By simply pointing their [$800USD] dish at different satellites and spending months interpreting the obscure—but unprotected—signals they received from them, the researchers assembled an alarming collection of private data: They obtained samples of the contents of Americans’ calls and text messages on T-Mobile’s cellular network, data from airline passengers’ in-flight Wi-Fi browsing, communications to and from critical infrastructure such as electric utilities and offshore oil and gas platforms, and even US and Mexican military and law enforcement communications that revealed the locations of personnel, equipment, and facilities."<br /> -- *- Greenberg, Andy and Burgess, Matt (Oct 13, 2025) [Satellites Are Leaking the World’s Secrets: Calls, Texts, Military and Corporate Data](https://www.wired.com/story/satellites-are-leaking-the-worlds-secrets-calls-texts-military-and-corporate-data/) Wired.*
 {: .notice}
 
 #### Nearby (Tactical) Interception
