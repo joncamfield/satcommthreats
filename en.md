@@ -225,6 +225,8 @@ Interception of any satellite device can take place by intercepting the signal f
 
 Further, research to date has revealed that the baseline security of the communication is not a priority for providers or the standards-setting bodies. **This means that without additional encryption, basic satellite communication is both insecure and easy to passively monitor.**
 
+*As an interesting adversarial adaptation taking advantage of this specific satellite data broadcasting setup, the Turla malware was found abusing satellite downlinks to conceal their central "C&C" (command and control) servers by having malware installations send their extracted information from targets to innocent IP addresses known to be satellite Internet users, and then listening to the data broadcast "incorrectly" to those users.*
+
 ### Mitigations
 
 -   Because Sat Phones don't operate well as "standby", but a set
@@ -274,6 +276,9 @@ those systems may remain vulnerable."<br /> -- *Weinbaum, Cortney et al, (2017) 
 {: .notice}
 
 “By this point, the regime's electronic warfare had become even more sophisticated. Cell phone and landline calls had long been monitored, but now the spies turned their attention to satellite phones. To avoid NATO air strikes, one team of Ukrainian mercenaries set up shop in a kindergarten, right around the corner from the intelligence headquarters; **from there they snooped on sat-phone traffic using frequency scanners**. Gadhafi had declared that anyone caught with a satellite phone could be sentenced to death.”<br /> -- *Aikins, Matthieu (May 18 2012) [Jamming Tripoli](https://www.wired.com/2012/05/ff-libya/) Wired.*
+{: .notice}
+
+"The Turla group takes advantage of this weakness in a different way: by using it to hide the location of its Command and Control servers (C&C), one of the most important parts of the malicious infrastructure. […] Another interesting thing with the Turla actor tactics is that they tend to use satellite Internet connection providers located in Middle Eastern and African countries. In their research, Kaspersky Lab experts have spotted the Turla group using IPs of providers located in countries such as Congo, Lebanon, Libya, Niger, Nigeria, Somalia or the UAE."<br /> -- *Kaspersky Labs (Septembver 9, 2015) [Turla Hiding in the Sky: Russian Speaking Cyberespionage Group Exploits Satellites to Reach the Ultimate Level of Anonymity](https://www.kaspersky.es/about/press-releases/turla-hiding-in-the-sky-russian-speaking-cyberespionage-group-exploits-satellites-to-reach-the-ultimate-level-of-anonymity)*
 {: .notice}
 
 #### Global/Remote (Strategic) Interception
