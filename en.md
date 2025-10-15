@@ -225,6 +225,8 @@ Interception of any satellite device can take place by intercepting the signal f
 
 Further, research to date has revealed that the baseline security of the communication is not a priority for providers or the standards-setting bodies. **This means that without additional encryption, basic satellite communication is both insecure and easy to passively monitor.**
 
+*As an interesting adversarial adaptation taking advantage of this specific satellite data broadcasting setup, the Turla malware was found abusing satellite downlinks to conceal their central "C&C" (command and control) servers by having malware installations send their extracted information from targets to innocent IP addresses known to be satellite Internet users, and then listening to the data broadcast "incorrectly" to those users.*
+
 ### Mitigations
 
 -   Because Sat Phones don't operate well as "standby", but a set
@@ -253,7 +255,7 @@ Further, research to date has revealed that the baseline security of the communi
 {: .notice}
 
 
-"Roughly half of geostationary satellite signals, many carrying sensitive consumer, corporate, and government communications, have been left **entirely vulnerable to eavesdropping**, a team of researchers at UC San Diego and the University of Maryland revealed [...] By simply pointing their [$800USD] dish at different satellites and spending months interpreting the obscure—but unprotected—signals they received from them, the researchers assembled an alarming collection of private data: They obtained samples of the contents of Americans’ calls and text messages on T-Mobile’s cellular network, data from airline passengers’ in-flight Wi-Fi browsing, communications to and from critical infrastructure such as electric utilities and offshore oil and gas platforms, and even US and Mexican military and law enforcement communications that revealed the locations of personnel, equipment, and facilities."<br /> -- *- Greenberg, Andy and Burgess, Matt (Oct 13, 2025) [Satellites Are Leaking the World’s Secrets: Calls, Texts, Military and Corporate Data](https://www.wired.com/story/satellites-are-leaking-the-worlds-secrets-calls-texts-military-and-corporate-data/) Wired.*
+"Roughly half of geostationary satellite signals, many carrying sensitive consumer, corporate, and government communications, have been left **entirely vulnerable to eavesdropping**, a team of researchers at UC San Diego and the University of Maryland revealed […] By simply pointing their [$800USD] dish at different satellites and spending months interpreting the obscure—but unprotected—signals they received from them, the researchers assembled an alarming collection of private data: They obtained samples of the contents of Americans’ calls and text messages on T-Mobile’s cellular network, data from airline passengers’ in-flight Wi-Fi browsing, communications to and from critical infrastructure such as electric utilities and offshore oil and gas platforms, and even US and Mexican military and law enforcement communications that revealed the locations of personnel, equipment, and facilities."<br /> -- *- Greenberg, Andy and Burgess, Matt (Oct 13, 2025) [Satellites Are Leaking the World’s Secrets: Calls, Texts, Military and Corporate Data](https://www.wired.com/story/satellites-are-leaking-the-worlds-secrets-calls-texts-military-and-corporate-data/) Wired.*<br /> -- *- Wenyi Morty Zhang, Annie Dai, Keegan Ryan, Dave Levin, Nadia Heninger, and Aaron Schulman. (October 2025) [Full Paper: Don’t look up: There are sensitive internal links in the clear on GEO satellites](https://satcom.sysnet.ucsd.edu/) In Proceedings of the 32nd ACM Conference on Computer and Communications Security (CCS ’25), Taipei, Taiwan.* 
 {: .notice}
 
 #### Nearby (Tactical) Interception
@@ -274,6 +276,9 @@ those systems may remain vulnerable."<br /> -- *Weinbaum, Cortney et al, (2017) 
 {: .notice}
 
 “By this point, the regime's electronic warfare had become even more sophisticated. Cell phone and landline calls had long been monitored, but now the spies turned their attention to satellite phones. To avoid NATO air strikes, one team of Ukrainian mercenaries set up shop in a kindergarten, right around the corner from the intelligence headquarters; **from there they snooped on sat-phone traffic using frequency scanners**. Gadhafi had declared that anyone caught with a satellite phone could be sentenced to death.”<br /> -- *Aikins, Matthieu (May 18 2012) [Jamming Tripoli](https://www.wired.com/2012/05/ff-libya/) Wired.*
+{: .notice}
+
+"The Turla group takes advantage of this weakness in a different way: by using it to hide the location of its Command and Control servers (C&C), one of the most important parts of the malicious infrastructure. […] Another interesting thing with the Turla actor tactics is that they tend to use satellite Internet connection providers located in Middle Eastern and African countries. In their research, Kaspersky Lab experts have spotted the Turla group using IPs of providers located in countries such as Congo, Lebanon, Libya, Niger, Nigeria, Somalia or the UAE."<br /> -- *Kaspersky Labs (Septembver 9, 2015) [Turla Hiding in the Sky: Russian Speaking Cyberespionage Group Exploits Satellites to Reach the Ultimate Level of Anonymity](https://www.kaspersky.es/about/press-releases/turla-hiding-in-the-sky-russian-speaking-cyberespionage-group-exploits-satellites-to-reach-the-ultimate-level-of-anonymity)*
 {: .notice}
 
 #### Global/Remote (Strategic) Interception
@@ -393,13 +398,15 @@ Finally, environmental factors may also cause failed connectivity. Weather and/o
 "Jamming can also occur accidentally: in 2015, U.S. military officials noted they were unintentionally jamming satellite communications an average of 23 times per month. Purposeful jamming can be difficult to differentiate from accidental interference, making attribution more challenging."<br /> -- *Velkovsky, Pavel; Mohan, Janani; and Simon, Maxwell (April 03 2021) [Satellite Jamming](https://ontheradar.csis.org/issue-briefs/satellite-jamming/) On the radar / CSIS.*
 {: .notice}
 
-## Satellite Systems Security
+## Satellite Systems Security and Stability
 
-Both the user-facing devices (phones, terminals, modems) and the space-based satellites and their groundstation infrastructure also face classic cybersecurity risks of compromise, DDoS, and similar vulnerabilities rendering them unsafe or unusable.
+Both the user-facing devices (phones, terminals, modems) and the space-based satellites and their groundstation infrastructure also face classic cybersecurity risks of compromise, DDoS, and similar vulnerabilities - as well as normal software failures - rendering them unsafe or unusable, due to targeted attacks as well as accidents and upstream outages.
+
+The use of satellite connectivity (as revealed by IP address or other metadata) may itself also be a signal for adversaries to deploy targeted techniques against you.
 
 ### Mitigations
 
--   To the extent possible, leverage satellite communications devices as untrusted network connections and layer on independent security.
+-   To the extent possible, leverage satellite communications devices as an **untrusted network connection** and layer on independent security.
 -   Consider having a further backup communications plan if satellite connectivity stops working. This could include alternative satellite connectivity options using different providers.
 -   Check the manufacturer website for your device to ensure you have the latest possible firmware.
 -   If you operate a network using satellite uplinks, see also this checklist from US's CISA (Cybersecurity and Infrastructure Security Agency) [Strengthening Cybersecurity of SATCOM Network Providers and Customers ](https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-076a)
@@ -408,7 +415,13 @@ Both the user-facing devices (phones, terminals, modems) and the space-based sat
 
 #### Attacks against Satellite infrastructure
 
-"The situation in Ukraine has demonstrated dependencies on space-based technologies (Starlink, for example, and other satellites and communications networks) during conflict. In 2024, we expect to see evidence of sophisticated state-sponsored cyber actors’ full spectrum Computer Network Exploitation capabilities to compromise space-based and associated ground support infrastructure and communications channels to interdict, disrupt, deny, degrade, destroy, or deceive an adversary—as well as to conduct espionage" <br /> *- Carmakal, Charles; Joyce, Sandra; Potti, Sunil; Venables, Phil; et al. (November 8, 2023) [Cybersecurity Forecast 2024](https://services.google.com/fh/files/misc/google-cloud-cybersecurity-forecast-2024.pdf") Google.*
+"SpaceX's Starlink satellite internet service experienced a global outage on Thursday that lasted for over two hours[…] Users across the US, Europe, the UK and Asia reported issues on r/starlink, the service's Reddit page, and SpaceX even acknowledged the outage on Starlink's website. The company hasn't shared the number of people who were actually impacted, but it could be in the millions — as of the last Starlink network update, the service has over six million active customers globally. 
+In announcing the service's recovery, Nicolls explained that the outage was due to a "failure of key internal software services that operate the core network," rather than any issue with SpaceX's satellite constellation or other hardware problems. Nicolls added that Starlink will "fully root cause this issue and ensure it does not occur again."
+<br /> *- Campbell, Ian Carlos (July 24, 2025) [Starlink outage: Service returns after over two hours down](https://www.engadget.com/science/space/starlink-outage-service-returns-after-over-two-hours-down-204002942.html) Engadget.*
+{: .notice}
+
+
+"The situation in Ukraine has demonstrated dependencies on space-based technologies (Starlink, for example, and other satellites and communications networks) during conflict. In 2024, we expect to see evidence of sophisticated state-sponsored cyber actors’ full spectrum Computer Network Exploitation capabilities to compromise space-based and associated ground support infrastructure and communications channels to interdict, disrupt, deny, degrade, destroy, or deceive an adversary—as well as to conduct espionage" <br /> *- Carmakal, Charles; Joyce, Sandra; Potti, Sunil; Venables, Phil; et al. (November 8, 2023) [Cybersecurity Forecast 2024](https://services.google.com/fh/files/misc/google-cloud-cybersecurity-forecast-2024.pdf) Google.*
 {: .notice}
 
 
@@ -425,6 +438,9 @@ Both the user-facing devices (phones, terminals, modems) and the space-based sat
 {: .notice}
 
 #### Attacks against end-user devices
+
+"“Regardless of the means, Microsoft Threat Intelligence assesses that Secret Blizzard’s pursuit of footholds provided by or stolen from other threat actors highlights this threat actor’s prioritization of accessing military devices in Ukraine,” Wednesday’s post stated. […] The ultimate objective was to install Tavdig, a backdoor Secret Blizzard used to conduct reconnaissance on targets of interest. The Amdey sample Microsoft uncovered collected information from device clipboards and harvested passwords from browsers. It would then go on to install a custom reconnaissance tool that was “**selectively deployed to devices of further interest by the threat actor—for example, devices egressing from STARLINK IP addresses**, a common signature of Ukrainian front-line military devices.”" <br /> -- *- Goodin, Dan (December 11, 2024) [Russia takes unusual route to hack Starlink-connected devices in Ukraine](https://arstechnica.com/security/2024/12/russia-takes-unusual-route-to-hack-starlink-connected-devices-in-ukraine/) Ars Technica.*
+{: .notice}
 
 "\[S\]atellite modems belonging to tens of thousands of customers in Europe were knocked offline. … The hackers disabled modems that communicate with Viasat Inc's KA-SAT satellite, which supplies internet access to some customers in Europe, including Ukraine. More than two weeks later some remain offline, resellers told Reuters. … The Viasat official said a misconfiguration in the "management section" of the satellite network had allowed the hackers remote access into the modems… He said most of the affected devices would need to be reprogrammed either by a technician on site or at a repair depot and that some would have to be swapped out.<br /> --  *Pearson, James, et al (March 11 2022) [Exclusive: U.S. spy agency probes sabotage of satellite internet during Russian invasion, sources say](https://www.reuters.com/world/europe/exclusive-us-spy-agency-probes-sabotage-satellite-internet-during-russian-2022-03-11/) Reuters.*
 {: .notice}
