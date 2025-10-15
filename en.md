@@ -402,6 +402,8 @@ Finally, environmental factors may also cause failed connectivity. Weather and/o
 
 Both the user-facing devices (phones, terminals, modems) and the space-based satellites and their groundstation infrastructure also face classic cybersecurity risks of compromise, DDoS, and similar vulnerabilities - as well as normal software failures - rendering them unsafe or unusable, due to targeted attacks as well as accidents and upstream outages.
 
+The use of satellite connectivity (as revealed by IP address or other metadata) may itself also be a signal for adversaries to deploy targeted techniques against you.
+
 ### Mitigations
 
 -   To the extent possible, leverage satellite communications devices as an **untrusted network connection** and layer on independent security.
@@ -436,6 +438,8 @@ In announcing the service's recovery, Nicolls explained that the outage was due 
 {: .notice}
 
 #### Attacks against end-user devices
+
+"“Regardless of the means, Microsoft Threat Intelligence assesses that Secret Blizzard’s pursuit of footholds provided by or stolen from other threat actors highlights this threat actor’s prioritization of accessing military devices in Ukraine,” Wednesday’s post stated. […] The ultimate objective was to install Tavdig, a backdoor Secret Blizzard used to conduct reconnaissance on targets of interest. The Amdey sample Microsoft uncovered collected information from device clipboards and harvested passwords from browsers. It would then go on to install a custom reconnaissance tool that was “**selectively deployed to devices of further interest by the threat actor—for example, devices egressing from STARLINK IP addresses**, a common signature of Ukrainian front-line military devices.”" <br /> -- *- Goodin, Dan (December 11, 2024) [Russia takes unusual route to hack Starlink-connected devices in Ukraine](https://arstechnica.com/security/2024/12/russia-takes-unusual-route-to-hack-starlink-connected-devices-in-ukraine/) Ars Technica.*
 
 "\[S\]atellite modems belonging to tens of thousands of customers in Europe were knocked offline. … The hackers disabled modems that communicate with Viasat Inc's KA-SAT satellite, which supplies internet access to some customers in Europe, including Ukraine. More than two weeks later some remain offline, resellers told Reuters. … The Viasat official said a misconfiguration in the "management section" of the satellite network had allowed the hackers remote access into the modems… He said most of the affected devices would need to be reprogrammed either by a technician on site or at a repair depot and that some would have to be swapped out.<br /> --  *Pearson, James, et al (March 11 2022) [Exclusive: U.S. spy agency probes sabotage of satellite internet during Russian invasion, sources say](https://www.reuters.com/world/europe/exclusive-us-spy-agency-probes-sabotage-satellite-internet-during-russian-2022-03-11/) Reuters.*
 {: .notice}
