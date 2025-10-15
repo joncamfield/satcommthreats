@@ -253,7 +253,7 @@ Further, research to date has revealed that the baseline security of the communi
 {: .notice}
 
 
-"Roughly half of geostationary satellite signals, many carrying sensitive consumer, corporate, and government communications, have been left **entirely vulnerable to eavesdropping**, a team of researchers at UC San Diego and the University of Maryland revealed [...] By simply pointing their [$800USD] dish at different satellites and spending months interpreting the obscure—but unprotected—signals they received from them, the researchers assembled an alarming collection of private data: They obtained samples of the contents of Americans’ calls and text messages on T-Mobile’s cellular network, data from airline passengers’ in-flight Wi-Fi browsing, communications to and from critical infrastructure such as electric utilities and offshore oil and gas platforms, and even US and Mexican military and law enforcement communications that revealed the locations of personnel, equipment, and facilities."<br /> -- *- Greenberg, Andy and Burgess, Matt (Oct 13, 2025) [Satellites Are Leaking the World’s Secrets: Calls, Texts, Military and Corporate Data](https://www.wired.com/story/satellites-are-leaking-the-worlds-secrets-calls-texts-military-and-corporate-data/) Wired.*
+"Roughly half of geostationary satellite signals, many carrying sensitive consumer, corporate, and government communications, have been left **entirely vulnerable to eavesdropping**, a team of researchers at UC San Diego and the University of Maryland revealed […] By simply pointing their [$800USD] dish at different satellites and spending months interpreting the obscure—but unprotected—signals they received from them, the researchers assembled an alarming collection of private data: They obtained samples of the contents of Americans’ calls and text messages on T-Mobile’s cellular network, data from airline passengers’ in-flight Wi-Fi browsing, communications to and from critical infrastructure such as electric utilities and offshore oil and gas platforms, and even US and Mexican military and law enforcement communications that revealed the locations of personnel, equipment, and facilities."<br /> -- *- Greenberg, Andy and Burgess, Matt (Oct 13, 2025) [Satellites Are Leaking the World’s Secrets: Calls, Texts, Military and Corporate Data](https://www.wired.com/story/satellites-are-leaking-the-worlds-secrets-calls-texts-military-and-corporate-data/) Wired.*
 {: .notice}
 
 #### Nearby (Tactical) Interception
@@ -393,13 +393,13 @@ Finally, environmental factors may also cause failed connectivity. Weather and/o
 "Jamming can also occur accidentally: in 2015, U.S. military officials noted they were unintentionally jamming satellite communications an average of 23 times per month. Purposeful jamming can be difficult to differentiate from accidental interference, making attribution more challenging."<br /> -- *Velkovsky, Pavel; Mohan, Janani; and Simon, Maxwell (April 03 2021) [Satellite Jamming](https://ontheradar.csis.org/issue-briefs/satellite-jamming/) On the radar / CSIS.*
 {: .notice}
 
-## Satellite Systems Security
+## Satellite Systems Security and Stability
 
-Both the user-facing devices (phones, terminals, modems) and the space-based satellites and their groundstation infrastructure also face classic cybersecurity risks of compromise, DDoS, and similar vulnerabilities rendering them unsafe or unusable.
+Both the user-facing devices (phones, terminals, modems) and the space-based satellites and their groundstation infrastructure also face classic cybersecurity risks of compromise, DDoS, and similar vulnerabilities - as well as normal software failures - rendering them unsafe or unusable, due to targeted attacks as well as accidents and upstream outages.
 
 ### Mitigations
 
--   To the extent possible, leverage satellite communications devices as untrusted network connections and layer on independent security.
+-   To the extent possible, leverage satellite communications devices as an **untrusted network connection** and layer on independent security.
 -   Consider having a further backup communications plan if satellite connectivity stops working. This could include alternative satellite connectivity options using different providers.
 -   Check the manufacturer website for your device to ensure you have the latest possible firmware.
 -   If you operate a network using satellite uplinks, see also this checklist from US's CISA (Cybersecurity and Infrastructure Security Agency) [Strengthening Cybersecurity of SATCOM Network Providers and Customers ](https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-076a)
@@ -408,7 +408,13 @@ Both the user-facing devices (phones, terminals, modems) and the space-based sat
 
 #### Attacks against Satellite infrastructure
 
-"The situation in Ukraine has demonstrated dependencies on space-based technologies (Starlink, for example, and other satellites and communications networks) during conflict. In 2024, we expect to see evidence of sophisticated state-sponsored cyber actors’ full spectrum Computer Network Exploitation capabilities to compromise space-based and associated ground support infrastructure and communications channels to interdict, disrupt, deny, degrade, destroy, or deceive an adversary—as well as to conduct espionage" <br /> *- Carmakal, Charles; Joyce, Sandra; Potti, Sunil; Venables, Phil; et al. (November 8, 2023) [Cybersecurity Forecast 2024](https://services.google.com/fh/files/misc/google-cloud-cybersecurity-forecast-2024.pdf") Google.*
+"SpaceX's Starlink satellite internet service experienced a global outage on Thursday that lasted for over two hours[…] Users across the US, Europe, the UK and Asia reported issues on r/starlink, the service's Reddit page, and SpaceX even acknowledged the outage on Starlink's website. The company hasn't shared the number of people who were actually impacted, but it could be in the millions — as of the last Starlink network update, the service has over six million active customers globally. 
+In announcing the service's recovery, Nicolls explained that the outage was due to a "failure of key internal software services that operate the core network," rather than any issue with SpaceX's satellite constellation or other hardware problems. Nicolls added that Starlink will "fully root cause this issue and ensure it does not occur again."
+<br /> *- Campbell, Ian Carlos (July 24, 2025) [Starlink outage: Service returns after over two hours down](https://www.engadget.com/science/space/starlink-outage-service-returns-after-over-two-hours-down-204002942.html) Engadget.*
+{: .notice}
+
+
+"The situation in Ukraine has demonstrated dependencies on space-based technologies (Starlink, for example, and other satellites and communications networks) during conflict. In 2024, we expect to see evidence of sophisticated state-sponsored cyber actors’ full spectrum Computer Network Exploitation capabilities to compromise space-based and associated ground support infrastructure and communications channels to interdict, disrupt, deny, degrade, destroy, or deceive an adversary—as well as to conduct espionage" <br /> *- Carmakal, Charles; Joyce, Sandra; Potti, Sunil; Venables, Phil; et al. (November 8, 2023) [Cybersecurity Forecast 2024](https://services.google.com/fh/files/misc/google-cloud-cybersecurity-forecast-2024.pdf) Google.*
 {: .notice}
 
 
