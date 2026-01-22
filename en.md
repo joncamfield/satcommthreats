@@ -354,7 +354,9 @@ with a specific satellite (uplink). Both are relatively easy and
 inexpensive, but untargeted. Jamming a satellite (uplink) can have
 international impacts and would be a breach of ITU's [Article
 15](https://www.itu.int/en/ITU-R/terrestrial/tpr/Documents/Article15-RR16.pdf),
-Interference from Radio Stations, and will be quickly noticed internationally.  GPS signals can also be targeted for jamming, which inhibits satellite devices from connecting and staying connected with satellites.
+Interference from Radio Stations, and will be quickly noticed internationally.  
+
+GPS signals can also be targeted for jamming, which inhibits satellite devices from connecting and staying connected with satellites. This approach appears to have been used successfully against Starlink terminals in Iran in early 2026.
 
 Jamming may not be targeted at you specifically, but could still impact your ability to connect using satellite communications -- you may be a bystander to jamming targeted in the area and/or against the same satellites you are using.
 
@@ -362,10 +364,10 @@ Finally, environmental factors may also cause failed connectivity. Weather and/o
 
 ### Mitigations
 
--   Downlink jamming in range dependent and must be within line of sight,
-    moving to a different area could get outside of the area of effect.
+-   Downlink jamming is range dependent, moving to a different area could get outside of the area of effect.
     *Consider if your adversary is trying to force you to move.*
 -   Uplink jamming is often scheduled around specific events or times of day, try testing connectivity at different times.
+-   Review [GPSJAM](https://gpsjam.org/) for data on tracked areas of GPS interference.
 
 ### Details
 
@@ -389,6 +391,9 @@ Finally, environmental factors may also cause failed connectivity. Weather and/o
 
 "The jamming of Persian-language satellite channels has been ongoing since 2003. Infrequent bouts of pressure from the international community have achieved limited success. Alongside international organisations like the International Union (ITU), the governments of the UK, US, France and the European Union have condemned the Iranian government for not acting on the issue of satellite jamming. **Despite these condemnations, the jamming of satellite TV channels has continued.** At the time of publishing, the sudden devaluation of the Iranian Rial in October 2012 had spurred another intense period of jamming, with the broadcasts of both BBC and the VOA being disrupted … **It is important to note here that Iran is not the only country engaged in or experiencing satellite jamming. There are reports of jamming from countries such as Bahrain, Libya, Syria, Ethiopia, North Korea, and China.**"<br /> --  *Small Media (November 2012) [Satellite Jamming in Iran: A War Over Airwaves](https://smallmedia.org.uk/work/satellite-jamming-in-iran-a-war-over-airwaves), Small Media.*
 {: .notice}
+
+""Jamming GPS signals was the classic way to jam Starlink," Kave Salamatian, a professor at the University of Savoie in France, who specialises in the geopolitics of the internet, told our team. "But a Starlink update, which was added after Russia jammed signals in Ukraine and in the Black Sea, [now] enables users to bypass a GPS signal by relying on Starlink’s own satellites to identify a location using triangulation.” This solution, which enables users to get around GPS interference, does have some limits, says Radim Badsi, CEO of the French company Ground Space [...] in this mode, the civilian version of a Starlink terminal can’t be used on the move, Badsi says."  --  *Pham, Quang  (January 2026) [How Iran jammed Starlink (and how Iranians are trying to get around it)](https://www.france24.com/en/iran-jammed-starlink-get-around-it), France24.*
+{: .notice} 
 
 #### Uplink / Satellite Jamming
 
