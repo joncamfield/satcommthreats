@@ -457,6 +457,7 @@ In announcing the service's recovery, Nicolls explained that the outage was due 
 {: .notice}
 
 
+
 # Commonly overlooked challenges
 
 Most of this document focuses on the operational security challenges and
@@ -521,6 +522,43 @@ Voice calls via satphone can have bad audio, background noises, signficant delay
 *  Much like with communicating via radio, it is handy to have staff briefed before on things like the [NATO alphabet](https://en.wikipedia.org/wiki/NATO_phonetic_alphabet) or other simple, pre-arranged codewords.
 *  Use 2-way good radio etiquette to help with latency problems, see this [Two-Way Radio Protocol by California State University](https://www.csudh.edu/Assets/csudh-sites/dhpd/emergency-preparedness/two%20way%20radio%20protocol.pdf).
 
+
+## International Governance and Policy
+
+There are multiple ways where traditional Internet governance and policy issues intersect satellite communications, allowing for governmental pressures to control access to satellite communications in much the same way they apply to traditional, terrestrial Internet. Specifically, this means regulatory licensing for spectrum in each country is theoretically required, though much more difficult for a country to technically block. But failing direct pressure, countries can still apply both technical (e.g. [jamming](#jamming), [hacking](#satellite-systems-security-and-stability), covered above) or political pressure on other aspects of a satellite provider's infrastructure such as ground stations in friendly jursidictions, or telecom partnerships. Countries have begun seekin redress at the ITU -- the global regulatory body responsible for coordinating international spectrum for interoperable satellite, cell, and other wireless signals. The ITU notably  does not have a process for civil society to directly engage, so only member states and their delegates have any ability to take action on ITU-level decision making.
+
+### Mitigations
+
+- Be aware of policy and governance risks which could shut down official usage of satellite terminals remotely
+- Be aware of where the headquarters, significant officers, and Satellite Earth Stations of your satellite system are geographically located, and if they are close allies of your specific threat actor
+- If you access space-based mobile connectivity through a telecom provider, note their headquarters and alliances also.
+- Balance the network value of publicity around tools which provide access with the elevated risks and targeting that widespread knowledge brings
+- Avoid registering satellite devices with addresses within territories they are not regulatorily / legally permitted
+
+
+### Details
+
+"Last year, Sri Lanka had stalled the rollout of Starlink in view of the same concern. Such considerations might similarly complicate future licensing of Starlink as well as other emerging satellite constellations. Iran’s complaints to the International Telecommunication Union (ITU) since 2022 have revealed the insufficiency of the existing international frameworks to tackle this challenge; the ITU had ruled in Iran’s favor and concluded that Starlink was operating in Iran illegally. Yet it could do nothing about it."<br /> -- *Bilal, Mustafa (February 2026) [Starlink and the unravelling of digital sovereignty](https://spacenews.com/starlink-and-the-unravelling-of-digital-sovereignty/
+) SpaceNews.*
+{: .notice}
+
+"International law, focusing on international cooperation, peaceful use of space, registration, and liability attribution, **largely overlooks the intersection of satellite communications with fundamental human rights** such as access to information, data privacy, and freedom of expression. […] Unfortunately, the ITU, which plays an established role in satellite governance, remains largely inaccessible to civil society[…]"<br /> -- *Anthonio, Felicia, Micek, Peter, Liang, Yichen, and Coppi, Giulio (February 2025) [Holding space for human rights: improving the governance of satellite internet connectivity](https://www.accessnow.org/wp-content/uploads/2025/02/Holding-Space-for-Human-Rights-a-bid-for-better-governance-of-satellite-internet-connectivity.pdf) AccessNow.*
+{: .notice}
+
+"In its ruling previously, the Radio Regulations Board effectively endorsed state action against the very infrastructure that had allowed Iranians to remain connected. The decision includes language that: requests the Administration of the Islamic Republic of Iran to pursue efforts to identify and deactivate unauthorized Starlink terminals in its territory" <br /> -- *Badii, Farzaneh (February 2026) [ITU, Radio Regulations Board, State Power, and the Silencing of Iranians’ Last Connection to the Internet](https://digitalmedusa.org/itu-radio-regulations-board-state-power-and-the-silencing-of-iranians-last-connection-to-the-internet/) Digital Medusa.* 
+{: .notice}
+
+"Consequently, the Board decided to: request the Administration of the Islamic Republic of Iran to pursue its efforts, to the extent possible, to identify and deactivate unauthorized STARLINK terminals in its territory, […] strongly urge the Administration of Norway to take all appropriate actions at its disposal to have the operator of the Starlink system immediately disable unauthorized transmissions of its terminals within the territory of the Islamic Republic of Iran."<br /> -- *100th RRB Meeting (December 2025) [Provision of Starlink satellite services in the territory of the Islamic Republic of Iran](https://www.itu.int/en/ITU-R/conferences/RRB/Pages/Starlink.aspx) ITU.*
+{: .notice}
+
+
+"While regulatory hurdles for Starlink are increasing, Sri Lanka’s case is distinct. Some countries, including Lesotho and Cambodia, have approved Starlink as part of broader trade negotiations with the United States. […] India required Starlink to suspend preorders in 2021 until it secured proper licencing. Indonesia approved Starlink in 2024 only after obtaining regulatory assurances. And France revoked Starlink’s licence in 2022 after a court ruled regulators failed to conduct mandatory public consultation."<br /> -- *Opatha, Malki (May 2025) [Sri Lanka stalls Starlink over security and sovereignty concerns](https://www.aspistrategist.org.au/sri-lanka-stalls-starlink-over-security-and-sovereignty-concerns/) The Strategist — The Australian Strategic Policy Institute.*
+{: .notice}
+
+"Presently, internet governance is largely the purview of the Internet Engineering Task Force (IETF), a nonprofit, multi-stakeholder internet standards-setting body, and the Internet Corporation for Assigned Names and Numbers (ICANN)[…] This governance system, though imperfect, works because it is agile, inclusive of industry and civil society, and not directly subject to intergovernmental negotiations and maneuvering[…] A number of countries, including Russia, China, and some in both Africa and the Asia-Pacific, look at the ITU as a more appropriate institution to manage the internet[…] At the same time, for decades, the Chinese government and the Russian government have both pushed for the ITU to have a greater role in governing the internet, from suggesting that the ITU literally take over ICANN to pushing for internet standards-setting to move to the ITU almost entirely. " <br /> -- *Komaitis, Konstantinos and Sherman, Justin (September 2022) [The ITU election pitted the United States and Russia against each other for the future of the internet](https://www.atlanticcouncil.org/content-series/tech-at-the-leading-edge/the-itu-election-and-the-future-of-the-internet/) Atlantic Council.*
+{: .notice}
+
+
 # Glossary of terms
 
 -   **"Bent Pipe"** - a term used to discuss "how" satellites deal with communication -- for the most part, the satellite simply relays the signals it receives directly between the device and the groundstation.
@@ -529,7 +567,7 @@ Voice calls via satphone can have bad audio, background noises, signficant delay
 -   **Downlink** - the broadcast from the satellite in orbit back down. Generally the "footprint" of these cover wide areas (hundreds of miles) each.
 -   **ELINT** - A subset of SIGINT ("SIGnals INTelligence"), [ELINT ("ELectronic INTelligence")](https://en.wikipedia.org/wiki/Signals_intelligence#ELINT_and_ESM) focuses on only the radio frequency and related electronic components of communication, to support geolocation, signal jamming, and interception needs. A common term in researching satellite communication security.
 -   **GEO** - [Geostationary orbit](https://en.wikipedia.org/wiki/Geostationary_orbit) ("Geosynchronous Earth Orbit") - a satellite, often for communications, which is in an orbit such that it is always in the same location in the sky above a fixed point on the Earth's equator. These are high orbits, so there is additional latency in communications.
--   **Groundstation** Also referred to as a "teleport", Earth Stations, and [Satellite Earth Stations ("SES")](https://en.wikipedia.org/wiki/Ground_station)) - Satellites relay the comms to dedicated ground stations where the data/call rejoins the "normal" terrestrial internet. Groundstations are strategically located for satellite visibility, but may be in countries without strong human rights or data privacy track records. ***Ground Stations can also refer to any two-way satellite communications terminal on the ground.***
+-   **Groundstation** Also referred to as a "teleport", Earth Stations, and [Satellite Earth Stations ("SES")](https://en.wikipedia.org/wiki/Ground_station)) - Satellites relay the comms to dedicated ground stations where the data/call rejoins the "normal" terrestrial internet. ***Ground Stations can also refer to any two-way satellite communications terminal on the ground.***
 -   **LEO** - [Low Earth Orbit](https://en.wikipedia.org/wiki/Low_Earth_orbit) - Due to their lower orbit, satellites in LEO offer higher bandwidth and lower latency, but require more satellites to cover a communication area.  Iridium and Starlink are examples of LEO communications satellite systems.
 -   **Radio Frequency (RF)** - for the purspose of this guide, the [signals](https://www.techtarget.com/searchnetworking/definition/radio-frequency) used by satellite communication devices - but also cell phones, radios, and TV -- which can be blocked, intercepted and detected remotely. Specific frequencies are [reserved](https://en.wikipedia.org/wiki/Frequency_allocation) for specific applications, internationally by the ITU and per-country by regulation.
 -   **Satphone** / **handset** - a device in the form factor of a large cell phone with a non-directional antenna.
