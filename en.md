@@ -529,8 +529,8 @@ There are multiple ways where traditional Internet governance and policy issues 
 
 ### Mitigations
 
-- Be aware of policy and governance risks which could shut down official usage of satellite terminals remotely
-- Be aware of where the headquarters, significant officers, and Satellite Earth Stations of your satellite system are geographically located, and if they are close allies of your specific threat actor
+- Be aware of policy and governance risks which could shut down official usage of satellite terminals remotely - companies with significant business, staff, critica partners/suppliers, or assets (even if separate from their satellite business) inside the country will be more immediately vulnerable to pressure to comply.
+- Be aware of where the headquarters, significant officers, and Satellite Earth Stations of your satellite system are geographically located, and if they are close allies of your specific threat actor.
 - If you access space-based mobile connectivity through a telecom provider, note their headquarters and alliances also.
 - Balance the network value of publicity around tools which provide access with the elevated risks and targeting that widespread knowledge brings
 - Avoid registering satellite devices with addresses within territories they are not regulatorily / legally permitted
