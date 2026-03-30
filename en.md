@@ -341,6 +341,10 @@ countries, possession/use alone can be enough to detain someone.
 
 ### Details
 
+"Hundreds of Starlink consoles have been seized by Iranian authorities, according to Fars, Iran’s state-linked news agency[…] “Hundreds of Starlink systems sent by the American-Zionist enemy were discovered across various parts of the country,” the Telegram message stated. “It should be noted that according to the law, the procurement and use of unauthorised Starlink systems is a crime and during wartime it carries the harshest penalties for offenders,” the news alert continued, adding that the most severe penalties would be reserved for individuals using Starlink devices to “act on behalf of the enemy”." <br /> -- *Combs, Cody (March 17 2026) [Iran seizes Starlink devices, but Musk's company continues to gain approval in Middle East](https://www.thenationalnews.com/future/2026/03/17/starlink-iran-seized-approval-kuwait-uae-saudi/) The National.*
+{: .notice}
+
+
 A week after shutting down the internet for the second time in two months, the Senegalese government is arresting people selling Starlink in the country for “illegal provision of internet access and irregular marketing”. <br /> On Monday, the Senegalese government arrested five people for selling Starlink terminals without the required licence or authorisation. The five people arrested by the Department of Urban Security of the National Police face up to five years imprisonment and a fine of 60 million CFA ($100,000). The telecommunications regulatory authority has also issued a warning for any service providers marketing Starlink and any other company with similar activities to immediately cease all service throughout the country." <br /> -- *Oladunmade, Muktar (Aug 08, 2023) [Starlink sellers arrested in Senegal](https://techcabal.com/2023/08/08/starlink-senegal/) TechCabal.*
 {: .notice}
 
