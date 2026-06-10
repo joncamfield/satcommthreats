@@ -360,7 +360,7 @@ international impacts and would be a breach of ITU's [Article
 15](https://www.itu.int/en/ITU-R/terrestrial/tpr/Documents/Article15-RR16.pdf),
 Interference from Radio Stations, and will be quickly noticed internationally.  
 
-GPS signals can also be targeted for jamming, which inhibits satellite devices from connecting and staying connected with satellites. This approach appears to have been used successfully against Starlink terminals in Iran in early 2026.
+GPS signals can also be targeted for jamming, which inhibits satellite devices from connecting and staying connected with satellites. This approach appears to have been used successfully against Starlink terminals in Iran in early 2026. While GPS jamming is often tactical - nearby and ground based, Russia has demonstrated it has significant abilities to jam GPS (and likely the [Chinese BeiDou system](https://en.wikipedia.org/wiki/BeiDou)).
 
 Jamming may not be targeted at you specifically, but could still impact your ability to connect using satellite communications -- you may be a bystander to jamming targeted in the area and/or against the same satellites you are using.
 
@@ -381,6 +381,9 @@ Finally, environmental factors may also cause failed connectivity. Weather and/o
 "Jamming technology tends to be commercially available and relatively inexpensive. **Satellite jamming systems are easy for states and non-state actors to develop given the relative low cost of their procurement and operation.** There is a low threshold of technological competency required to perform jamming, and the technology is available to a plethora of actors across the globe. For example, interference with satellite signals has emanated from Indonesia, Cuba, Ethiopia, Libya, and Syria, among others."<br /> -- *Velkovsky, Pavel; Mohan, Janani; and Simon, Maxwell (April 03 2021) [Satellite Jamming](https://ontheradar.csis.org/issue-briefs/satellite-jamming/) On the radar / CSIS.*
 {: .notice}
 
+
+"Russian satellites have been identified as the cause of mysterious, seconds-long bursts of GPS interference across Europe—a rare example of human-made GPS interference coming from space. But uncertainty still hangs over whether such interference is intentional and if it could be more powerfully weaponized as GPS jamming with continental reach in the future." <br /> -- *Hsu, Jeremy; (June 08 2026) [Tests suggest Russian satellites can jam GPS on a continental scale](https://arstechnica.com/space/2026/06/tests-suggest-russian-satellites-can-jam-gps-on-a-continental-scale/) Ars Technica.*
+{: .notice}
 
 #### Downlink / Ground-based / Terrestrial Jamming
 
