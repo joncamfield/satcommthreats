@@ -9,7 +9,7 @@ main:
 #    url: /es/
 #  - title: "About"
 #    url: /about/
-  - title: "Credits"
+  - title: "About"
     url: /credits/
   - title: "Updates"
     url: /updates/

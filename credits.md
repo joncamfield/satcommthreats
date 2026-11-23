@@ -1,23 +1,26 @@
 ---
-title: References and Credits
+title: About
 permalink: /credits/
 layout: splash
-
+redirect_from: /about/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/anqi-lu-ycrX020cRcU-unsplash.jpg
   caption: "Photo by [Anqi Lu](https://unsplash.com/photos/dBzptpVKNFw)"
-excerpt: "<br/><br/><br />"
-
+excerpt: "This is an adversary-neutral review of known risks when using Satellite communication tools such as satphones, BGANs, and even LEO-orbit (e.g. StarLink) terminals."
 toc: false
 ---
 
-# Author
 
-[Jon Camfield](https://joncamfield.com) is the Director of Global Technology Strategy at [Internews](https://Internews.org). He has over two decades of experience in using technology for social change that spans the public, private, non-profit, and social enterprise sectors. Jon leads tech strategies at Internews to advance an open and resilient Internet and ensure safe access to information through advanced digital safety training, organizational security, threat information sharing, and anti-censorship work. Jon is also a co-author of the [SAFETAG](https://safetag.org) organizational security risk assessment framework.  Prior to Internews, Jon was the technology strategist at Ashoka, where he co-led platform development for the Changemakers platform; and a consultant for a range of NGOs where he supported technology, knowledge management, and business processes. He served in the Peace Corps with the Ministry of Education in Jamaica. Jon has an MA in International Science and Technology Policy from the Elliot School at GWU and a bachelor's' degree from the University of Texas' prestigious Plan II honors program.
 
-#  Thanks To
+# References and Credits
+
+## Author
+
+[Jon Camfield](https://joncamfield.com) is the founder of [Pathbreaking.net LLC](https://pathbreaking.net), a boutique cyber threat consultancy.  He leads the defense team in Meta's Security Policy organization. He has previously served as the Director of Global Technology Strategy at [Internews](https://Internews.org). He has over two decades of experience in using technology for social change that spans the public, private, non-profit, and social enterprise sectors. Jon leads tech strategies at Internews to advance an open and resilient Internet and ensure safe access to information through advanced digital safety training, organizational security, threat information sharing, and anti-censorship work. Jon is also a co-author of the [SAFETAG](https://safetag.org) organizational security risk assessment framework.  Prior to Internews, Jon was the technology strategist at Ashoka, where he co-led platform development for the Changemakers platform; and a consultant for a range of NGOs where he supported technology, knowledge management, and business processes. He served in the Peace Corps with the Ministry of Education in Jamaica. Jon has an MA in International Science and Technology Policy from the Elliot School at GWU and a bachelor's' degree from the University of Texas' prestigious Plan II honors program.
+
+##  Thanks To
 
 -   Carlos Guerra, for writing a clear mitigation summary
 -   Khin, translations and other input
@@ -28,7 +31,7 @@ toc: false
 -   Anonymous Industry Experts, conversations and clarifications at/adjacent to SATELLITE 2022 conference, March 2022
 -   Thom Kaye, Review <!-- (sha1 e316600e38882ca0bfbb9e5ad375271284db3894) -->
 
-# References
+## References
 
 -   Aikins, Matthieu (May 18 2012) [Jamming Tripoli](https://www.wired.com/2012/05/ff-libya/) Wired.
 -   Berger, Brian (February 28 2022) [SpaceX heeds Ukraine’s Starlink SOS](https://spacenews.com/spacex-heeds-ukraines-starlink-sos/) SpaceNews.

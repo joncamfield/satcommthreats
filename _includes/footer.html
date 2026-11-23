@@ -15,10 +15,12 @@
     {% unless site.atom_feed.hide %}
       <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
     {% endunless %}
+
+      <li><a href="/contact"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i>CONTACT</a></li>
   </ul>
 </div>
 
-<div class="page__footer-copyright" style="float: left">CC-BY-SA 4.0 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" alt="CC-BY-NC-SA 4.0" title="CC-BY-NC-SA 4.0" /></a>  {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}   </div>
+<div class="page__footer-copyright" style="float: left">CC-BY-NC-SA 4.0 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" alt="CC-BY-NC-SA 4.0" title="CC-BY-NC-SA 4.0" /></a>  {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}   </div>
 
 
 <div class="page__footer-copyright" style="float: right; opacity: .5">{{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>

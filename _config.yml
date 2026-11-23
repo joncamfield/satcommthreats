@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "default"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Satellite Communiction Threats"
+title                    : "Satellite Communication Threats"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Jon Camfield"
+name                     : "Jon Camfield / Pathbreaking LLC"
 description              : "This is an adversary-neutral review of known risks when using Satellite communication tools such as satphones, BGANs, and even StarLink terminals."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -110,7 +110,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:jon@openinternetproject.org"
+      url: "mailto:jon@pathbreaking.net"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://joncamfield.com"
@@ -228,6 +228,7 @@ plugins:
 #  - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -236,7 +237,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
+  - jekyll-redirect-from
 
 # Archives
 #  Type

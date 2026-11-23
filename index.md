@@ -27,7 +27,7 @@ feature_row:
     image_caption: "[SpaceX](https://unsplash.com/@spacex)"
     alt: "Photo looking down at Earth from space, with a satellite in center"
     title: "Risks and Mitigations"
-    excerpt: "Review the draft document"
+    excerpt: "Review the threat analysis"
     url: "en"
     btn_label: "Risks and Mitigations"
     btn_class: "btn--warning"
@@ -50,7 +50,7 @@ feature_row:
 
 ---
 
-While the author has focused primarily on summarizing existing, known, historical risks of satellite communications, the mitigations suggested may be incomplete. Consider your specific needs, vulnerabilties, and your adversary in applying this document to your situation. **Please offer [feedback](contact) if you have any**. 
+While the author has focused primarily on summarizing existing, known, historical risks of satellite communications, the mitigations suggested may be incomplete. Consider your specific needs, vulnerabilities, and your adversary in applying this document to your situation. **Please offer [feedback](contact) if you have any**. 
 {: .notice--danger}
 
 <!--{% include feature_row id="intro" type="center" %}-->
