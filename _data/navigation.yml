@@ -10,7 +10,7 @@ main:
 #  - title: "About"
 #    url: /about/
   - title: "About"
-    url: /credits/
+    url: /about/
   - title: "Updates"
     url: /updates/
   - title: "Contact"

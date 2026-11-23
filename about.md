@@ -1,8 +1,8 @@
 ---
 title: About
-permalink: /credits/
+permalink: /about/
 layout: splash
-redirect_from: /about/
+redirect_from: /credits/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
